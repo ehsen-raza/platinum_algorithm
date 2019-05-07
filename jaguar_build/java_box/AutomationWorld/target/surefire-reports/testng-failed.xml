@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [AutomationWorld_SmokeTests]">
+  <test name="Sign_In_Verification(failed)">
+    <classes>
+      <class name="myFirstTask">
+        <methods>
+          <include name="Verify_Sign_In_Element_Exist"/>
+          <include name="Tear_Down"/>
+          <include name="Setup_Browser"/>
+        </methods>
+      </class> <!-- myFirstTask -->
+    </classes>
+  </test> <!-- Sign_In_Verification(failed) -->
+</suite> <!-- Failed suite [AutomationWorld_SmokeTests] -->
