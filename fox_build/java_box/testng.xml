@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Default Suite">
+    <test name="AutomationWorld">
+        <parameter name ="browser" value = "firefox"/>
+          <classes>
+            <class name="myFirstTask"/>
+        </classes>
+    </test> <!-- AutomationWorld -->
+</suite> <!-- Default Suite -->
