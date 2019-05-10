@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite thread-count="1" verbose="1" name="Automation Practice Suite" annotations="JDK" parallel="tests">
+
+    <test name="AP_Register_and_Login_Ffx">
+        <parameter name="browser" value="Firefox" />
+        <classes>
+            <class name="AP_Register_Login"/>
+        </classes>
+    </test>
+
+    <test name="AP_Register_and_Login_Chrm">
+        <parameter name="browser" value="Chrome" />
+        <classes>
+            <class name="AP_Register_Login"/>
+        </classes>
+    </test>
+
+</suite>
