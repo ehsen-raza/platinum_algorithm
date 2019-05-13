@@ -121,7 +121,11 @@ public class myFirstTask
         System.out.println("User Created with Email Address : " + Emailaddress);
 
        try {
-           File file = new File("C:\\Users\\w10\\Documents\\hello.txt");
+           File file = new File("Credentials.txt");
+           // if file doesnt exists, then create it
+           if (!file.exists()) {
+               file.createNewFile();
+           }
            FileWriter fileWriter = new FileWriter(file,true);
            BufferedWriter bufferedWriter = new BufferedWriter(fileWriter);
            SimpleDateFormat formatter = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");
