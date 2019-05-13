@@ -3,7 +3,8 @@
 <suite name="Default Suite">
     <test name="AutomationWorld">
         <parameter name ="browser" value = "firefox"/>
-          <classes>
+        <parameter name ="BaseUrl" value = "http://automationpractice.com/index.php?controller=authentication"/>
+        <classes>
             <class name="myFirstTask"/>
         </classes>
     </test> <!-- AutomationWorld -->
