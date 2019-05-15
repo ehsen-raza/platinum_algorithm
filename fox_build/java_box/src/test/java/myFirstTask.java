@@ -11,6 +11,12 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.Random;
 import java.util.concurrent.TimeUnit;
 
@@ -27,7 +33,7 @@ public class myFirstTask
 
     @Parameters("browser")
     @BeforeMethod
-    public void launchBrowser(String browser){
+    public void launchBrowser(String browser) throws Exception{
         if (browser.equalsIgnoreCase("firefox")) {
 
             System.out.println("launching firefox browser");
@@ -37,14 +43,19 @@ public class myFirstTask
             driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
             driver.manage().window().maximize();
         }
-        else if(browser.equalsIgnoreCase("chrome"))
-        {
-            System.out.println("Launching Chrome Browser");
-            WebDriverManager.chromedriver().setup();
+        else if (browser.equalsIgnoreCase("chrome")) {
+
+            System.out.println("launching Chrome browser");
+            WebDriverManager.chromedriver().clearPreferences();
+            //WebDriverManager.chromedriver().setup();
+            WebDriverManager.chromedriver().version("2.46").setup();
             driver = new ChromeDriver();
             driver.get(BaseUrl);
+            driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
             driver.manage().window().maximize();
         }
+        else
+            throw new Exception("\n Browser Not Found : Please Correct Browser Name in XML, it should be chrome or Fixfox");
     }
 
     @AfterMethod
@@ -108,9 +119,32 @@ public class myFirstTask
         WebElement RegisterButton = driver.findElementByXPath("//*[@id=\"submitAccount\"]/span");
         RegisterButton.click();
         System.out.println("User Created with Email Address : " + Emailaddress);
+
+       try {
+           File file = new File("Credentials.txt");
+           // if file doesnt exists, then create it
+           if (!file.exists()) {
+               file.createNewFile();
+           }
+           FileWriter fileWriter = new FileWriter(file,true);
+           BufferedWriter bufferedWriter = new BufferedWriter(fileWriter);
+           SimpleDateFormat formatter = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");
+           Date date = new Date();
+           bufferedWriter.newLine();
+           bufferedWriter.write(formatter.format(date)+ " : ");
+           bufferedWriter.write("\t" + Emailaddress);
+           bufferedWriter.write("\t" + Password);
+           System.out.println("File Successfully Created and Data is Written");
+           bufferedWriter.flush();
+           bufferedWriter.close();
+       } catch (IOException e) {
+           e.printStackTrace();
+       }
         driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
-        Assert.assertEquals(driver.getTitle(),"Login - My Store" );//;driver.getTitle().equalsIgnoreCase("My account - My Store"))
-            System.out.println("Test Case Passed : User successfully Created");
+        WebElement logout = driver.findElement(By.className("logout"));
+        logout.click();
+        Assert.assertEquals(driver.getTitle(), "My account - My Store");
+        System.out.println("User Registeration Completed.");
 
     }
     @Test(priority = 1)
@@ -120,16 +154,18 @@ public class myFirstTask
         WebElement username = driver.findElementByXPath("//*[@id=\"email\"]");
         username.clear();
         username.sendKeys(Emailaddress);
+        System.out.println("Email: " + Emailaddress + "Password : " + Password);
         WebElement Password2 = driver.findElementByXPath("//*[@id=\"passwd\"]");
         Password2.clear();
         Password2.sendKeys(Password);
         WebElement Login_Button = driver.findElementByXPath("//*[@id=\"SubmitLogin\"]");
-        driver.manage().timeouts().implicitlyWait(60,TimeUnit.SECONDS);
-        Login_Button.submit();
-        driver.manage().timeouts().implicitlyWait(60,TimeUnit.SECONDS);
         driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
-         Assert.assertEquals(driver.getTitle(),"Login - My Store");
-            System.out.println("Test Case Passed : User Logged in Successfully");
+        Login_Button.click();
+        driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
+        WebElement logout1 = driver.findElement(By.className("logout"));
+        logout1.click();
+        Assert.assertEquals(driver.getTitle(), "My account - My Store");
+        System.out.println("User Successfully Logged in and Logged Out.");
     }
     @Test(priority = 2)
     public void Invalid_Credentials(){
@@ -148,4 +184,5 @@ public class myFirstTask
         Assert.assertEquals(Actual_Error_Message,Expected_Error_Message);
         System.out.println("Test Case Passed : Error Message Verified");
     }
+
 }
