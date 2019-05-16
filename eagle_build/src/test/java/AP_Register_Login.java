@@ -4,10 +4,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.remote.RemoteWebDriver;
-import org.testng.annotations.AfterClass;
-import org.testng.annotations.BeforeClass;
-import org.testng.annotations.Parameters;
-import org.testng.annotations.Test;
+import org.testng.annotations.*;
 
 public class AP_Register_Login {
 
@@ -40,12 +37,25 @@ public class AP_Register_Login {
         passwd = "Thisisfun...";
     }
 
-    @Test(priority = 0)
+    @Test(priority = 0) //, dataProvider = "getData")
     public void Navigate_Home() {
 
         chrmDriver.get("http://www.automationpractice.com/index.php?");
         assert HelperFnc_Compare_Text(chrmDriver.getTitle(), "My Store");
     }
+
+   /* @DataProvider(name="getData")
+    public Object[][] getData(){
+        Object[][] data = new Object[1][1];
+        data = null;
+
+        firstName = "M";
+        lastName = "D";
+        email = "MyNewEmailAddress@myMail.com";
+        passwd = "Thisisfun...";
+        return data;
+    }
+    */
 
     @Test(priority = 1, dependsOnMethods = "Navigate_Home")
     public void Navigate_Login(){
