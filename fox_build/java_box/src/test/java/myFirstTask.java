@@ -1,3 +1,4 @@
+import PageObjects.Login_MyStore;
 import Service.ReportManager;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;
@@ -163,17 +164,22 @@ public class myFirstTask
     {
         reportManager = new ReportManager();
         reportManager.InitReport("Login Verification ", "Login Verificatoin Started.");
+        //reportManager.TestEnvironment();
+        Login_MyStore login_myStore = new Login_MyStore(driver);
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-        WebElement username = driver.findElementByXPath("//*[@id=\"email\"]");
-        username.clear();
-        username.sendKeys(Emailaddress);
+        //WebElement username = driver.findElementByXPath("//*[@id=\"email\"]");
+        //username.clear();
+        //username.sendKeys(Emailaddress);
+        login_myStore.typeRegisteredAccountEmailAddress(Emailaddress);
         System.out.println("Email: " + Emailaddress + "Password : " + Password);
-        WebElement Password2 = driver.findElementByXPath("//*[@id=\"passwd\"]");
-        Password2.clear();
-        Password2.sendKeys(Password);
-        WebElement Login_Button = driver.findElementByXPath("//*[@id=\"SubmitLogin\"]");
+       // WebElement Password2 = driver.findElementByXPath("//*[@id=\"passwd\"]");
+        //Password2.clear();
+        //Password2.sendKeys(Password);
+        login_myStore.typePassword(Password);
+        //WebElement Login_Button = driver.findElementByXPath("//*[@id=\"SubmitLogin\"]");
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-        Login_Button.click();
+        //Login_Button.click();
+        login_myStore.clickSigninButton();
         driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
         WebElement logout1 = driver.findElement(By.className("logout"));
         Assert.assertEquals(logout1.getText(),"Sign out");
