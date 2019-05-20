@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Automation Practice Suite]" parallel="tests">
+  <test name="AP_Register_and_Login_Chrm(failed)" parallel="tests">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="AP_Register_Login">
+        <methods>
+          <include name="Navigate_Login"/>
+          <include name="User_Login_Failure"/>
+          <include name="Navigate_Home"/>
+          <include name="Setup_Driver"/>
+          <include name="TearDown"/>
+        </methods>
+      </class> <!-- AP_Register_Login -->
+    </classes>
+  </test> <!-- AP_Register_and_Login_Chrm(failed) -->
+  <test name="AP_Register_and_Login_Ffx(failed)" parallel="tests">
+    <parameter name="browser" value="Firefox"/>
+    <classes>
+      <class name="AP_Register_Login">
+        <methods>
+          <include name="Navigate_Login"/>
+          <include name="User_Login_Failure"/>
+          <include name="Navigate_Home"/>
+          <include name="Setup_Driver"/>
+          <include name="TearDown"/>
+        </methods>
+      </class> <!-- AP_Register_Login -->
+    </classes>
+  </test> <!-- AP_Register_and_Login_Ffx(failed) -->
+</suite> <!-- Failed suite [Automation Practice Suite] -->
