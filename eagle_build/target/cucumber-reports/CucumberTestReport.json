@@ -1,0 +1,637 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 7,
+        "name": "User navigates to Company home page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "I am on the \"Company home\" page on URL \"www.mycomany.com\"",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "I should see \"Log In as Employee\" message",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 11,
+        "name": "Successful login",
+        "description": "",
+        "id": "login-profile;successful-login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 12,
+            "name": "I fill in \"Username\" with \"Test\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 13,
+            "name": "I fill in \"Password\" with \"123\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 14,
+            "name": "I click on the \"Log In\" button",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 15,
+            "name": "I am on the \"My profile\" page on URL \"www.mycompany.com/myprofile\"",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 16,
+            "name": "I should see \"Welcome to your profile\" message",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 17,
+            "name": "I should see the \"Log out\" button",
+            "match": {},
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "User navigates to Company home page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "I am on the \"Company home\" page on URL \"www.mycomany.com\"",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "I should see \"Log In as Employee\" message",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 26,
+        "name": "Failed login using wrong credentials",
+        "description": "",
+        "id": "login-profile;failed-login-using-wrong-credentials;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 20,
+            "name": "I fill in \"Username\" with \"Test\"",
+            "match": {},
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 21,
+            "name": "I fill in \"Password\" with \"!23\"",
+            "match": {},
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 22,
+            "name": "I click on the \"Login\" button",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 23,
+            "name": "I should see \"Incorrect credentials. Try again!\" message",
+            "match": {},
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@LoginProfile"
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "User navigates to Company home page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "I am on the \"Company home\" page on URL \"www.mycomany.com\"",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "I should see \"Log In as Employee\" message",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 27,
+        "name": "Failed login using wrong credentials",
+        "description": "",
+        "id": "login-profile;failed-login-using-wrong-credentials;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 20,
+            "name": "I fill in \"Username\" with \"Tset\"",
+            "match": {},
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 21,
+            "name": "I fill in \"Password\" with \"123\"",
+            "match": {},
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 22,
+            "name": "I click on the \"Login\" button",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 23,
+            "name": "I should see \"Incorrect credentials. Try again!\" message",
+            "match": {},
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@LoginProfile"
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "User navigates to Company home page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "I am on the \"Company home\" page on URL \"www.mycomany.com\"",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "I should see \"Log In as Employee\" message",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 28,
+        "name": "Failed login using wrong credentials",
+        "description": "",
+        "id": "login-profile;failed-login-using-wrong-credentials;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 20,
+            "name": "I fill in \"Username\" with \"Tset\"",
+            "match": {},
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 21,
+            "name": "I fill in \"Password\" with \"!23\"",
+            "match": {},
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 22,
+            "name": "I click on the \"Login\" button",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 23,
+            "name": "I should see \"Incorrect credentials. Try again!\" message",
+            "match": {},
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@LoginProfile"
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "User navigates to Company home page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "I am on the \"Company home\" page on URL \"www.mycomany.com\"",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "I should see \"Log In as Employee\" message",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 29,
+        "name": "Failed login using wrong credentials",
+        "description": "",
+        "id": "login-profile;failed-login-using-wrong-credentials;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 20,
+            "name": "I fill in \"Username\" with \"Test\"",
+            "match": {},
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 21,
+            "name": "I fill in \"Password\" with \"\"",
+            "match": {},
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 22,
+            "name": "I click on the \"Login\" button",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 23,
+            "name": "I should see \"Please enter password.\" message",
+            "match": {},
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@LoginProfile"
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "User navigates to Company home page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "I am on the \"Company home\" page on URL \"www.mycomany.com\"",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "I should see \"Log In as Employee\" message",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 30,
+        "name": "Failed login using wrong credentials",
+        "description": "",
+        "id": "login-profile;failed-login-using-wrong-credentials;;6",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 20,
+            "name": "I fill in \"Username\" with \"\"",
+            "match": {},
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 21,
+            "name": "I fill in \"Password\" with \"123\"",
+            "match": {},
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 22,
+            "name": "I click on the \"Login\" button",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 23,
+            "name": "I should see \"Please enter username.\" message",
+            "match": {},
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@LoginProfile"
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "User navigates to Company home page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "I am on the \"Company home\" page on URL \"www.mycomany.com\"",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "I should see \"Log In as Employee\" message",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 31,
+        "name": "Failed login using wrong credentials",
+        "description": "",
+        "id": "login-profile;failed-login-using-wrong-credentials;;7",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 20,
+            "name": "I fill in \"Username\" with \"\"",
+            "match": {},
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 21,
+            "name": "I fill in \"Password\" with \"\"",
+            "match": {},
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 22,
+            "name": "I click on the \"Login\" button",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 23,
+            "name": "I should see \"Please enter your credentials.\" message",
+            "match": {},
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@LoginProfile"
+          }
+        ]
+      }
+    ],
+    "name": "Login Profile",
+    "description": "As an employee of the company\r\nI want to login my employee profile using my credentials\r\nIn order to collaborate with my colleagues",
+    "id": "login-profile",
+    "keyword": "Feature",
+    "uri": "loginProfile.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@LoginProfile"
+      }
+    ]
+  }
+]
