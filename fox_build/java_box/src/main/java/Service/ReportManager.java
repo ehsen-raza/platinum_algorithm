@@ -14,7 +14,7 @@ public class ReportManager {
     {
         extentReports = new ExtentReports();
         ExtentHtmlReporter htmlReporter = new ExtentHtmlReporter("Report1.html");
-        htmlReporter.setAppendExisting(false);
+        htmlReporter.setAppendExisting(true);
         htmlReporter.config().setChartVisibilityOnOpen(false);
         extentReports.attachReporter(htmlReporter);
     }

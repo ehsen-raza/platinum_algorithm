@@ -79,6 +79,7 @@ public void launchBrowser(String browser) throws Exception
         reportManager = new ReportManager();
         reportManager.InitReport("User Registeration", "Page Loaded ");
         reportManager.TestEnvironment();
+        reportManager.LogStepInfo("Registeration Started");
 
         //input email address
         WebElement email = driver.findElement(By.name("email_create"));
@@ -132,6 +133,7 @@ public void launchBrowser(String browser) throws Exception
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         WebElement RegisterButton = driver.findElementByXPath("//*[@id=\"submitAccount\"]/span");
         RegisterButton.click();
+        reportManager.LogStepInfo("User Registered");
         System.out.println("User Created with Email Address : " + Emailaddress);
 
         try {
@@ -154,12 +156,13 @@ public void launchBrowser(String browser) throws Exception
         } catch (IOException e) {
             e.printStackTrace();
         }
-
+        reportManager.LogStepInfo("Credentials added to File");
         driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
         WebElement logout = driver.findElement(By.className("logout"));
         Assert.assertEquals(logout.getText(),"Sign out");
         logout.click();
         System.out.println("User Registeration Completed.");
+        reportManager.LogStepInfo("Successfully Logged out");
 
     }
     @Test(priority = 1, enabled = true, retryAnalyzer = retry_API.class)
@@ -167,7 +170,7 @@ public void launchBrowser(String browser) throws Exception
     {
         reportManager = new ReportManager();
         reportManager.InitReport("Login Verification ", "Login Verificatoin Started.");
-        //reportManager.TestEnvironment();
+        reportManager.TestEnvironment();
         Login_MyStore login_myStore = new Login_MyStore(driver);
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         //WebElement username = driver.findElementByXPath("//*[@id=\"email\"]");
@@ -196,12 +199,15 @@ public void launchBrowser(String browser) throws Exception
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         reportManager = new ReportManager();
         reportManager.InitReport("Invalid Credentials", "Verifying Invalid Credentials Error Message");
+        reportManager.LogStepInfo("Page Loaded");
+        reportManager.TestEnvironment();
         WebElement username = driver.findElementByXPath("//*[@id=\"email\"]");
         username.clear();
         username.sendKeys(Emailaddress);
         WebElement Password3 = driver.findElementByXPath("//*[@id=\"passwd\"]");
         Password3.clear();
         Password3.sendKeys("Random");
+        reportManager.LogStepInfo("Wrong Credentails Added");
         WebElement Login_Button1 = driver.findElementByXPath("//*[@id=\"SubmitLogin\"]");
         Login_Button1.click();
         driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
@@ -209,5 +215,6 @@ public void launchBrowser(String browser) throws Exception
         String Expected_Error_Message = "Authentication failed.";
         Assert.assertEquals(Actual_Error_Message,Expected_Error_Message);
         System.out.println("Test Case Passed : Error Message Verified");
+        reportManager.LogStepInfo("Error Message Verified");
     }
 }
