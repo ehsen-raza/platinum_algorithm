@@ -33,8 +33,11 @@ public class myFirstTask
     ReportManager reportManager = null;
     @Parameters("browser")
     @BeforeMethod
-    public void launchBrowser(String browser) throws Exception
+
+public void launchBrowser(String browser) throws Exception
     {
+
+
         if (browser.equalsIgnoreCase("firefox"))
         {
             System.out.println("launching firefox browser");
@@ -43,8 +46,6 @@ public class myFirstTask
             driver.get(BaseUrl);
             driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
             driver.manage().window().maximize();
-            reportManager = new ReportManager();
-            reportManager.TestEnvironment();
         }
         else if (browser.equalsIgnoreCase("chrome"))
         {
@@ -56,10 +57,11 @@ public class myFirstTask
             driver.get(BaseUrl);
             driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
             driver.manage().window().maximize();
-        }
+
+    }
         else
             throw new Exception("\n Browser Not Found : Please Correct Browser Name in XML, it should be chrome or Fixfox");
-    }
+   }
 
     @AfterMethod
     public void close()
@@ -67,7 +69,7 @@ public class myFirstTask
         driver.close();
         reportManager.EndReport();
     }
-    @Test(priority = 0)
+    @Test(priority = 0, enabled = true, retryAnalyzer = retry_API.class)
     public void Register()
     {
 
@@ -76,6 +78,7 @@ public class myFirstTask
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         reportManager = new ReportManager();
         reportManager.InitReport("User Registeration", "Page Loaded ");
+        reportManager.TestEnvironment();
 
         //input email address
         WebElement email = driver.findElement(By.name("email_create"));
@@ -159,7 +162,7 @@ public class myFirstTask
         System.out.println("User Registeration Completed.");
 
     }
-    @Test(priority = 1)
+    @Test(priority = 1, enabled = true, retryAnalyzer = retry_API.class)
     public void login()
     {
         reportManager = new ReportManager();
@@ -187,7 +190,7 @@ public class myFirstTask
         System.out.println("User Successfully Logged in and Logged Out.");
 
     }
-    @Test(priority = 2)
+    @Test(priority = 2, enabled = true, retryAnalyzer = retry_API.class)
     public void Invalid_Credentials()
     {
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
