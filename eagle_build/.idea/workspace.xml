@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eee60196-ecb2-4f85-aca0-4967f1451899" name="Default Changelist" comment="" />
+    <list default="true" id="eee60196-ecb2-4f85-aca0-4967f1451899" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/AP_Register_Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AP_Register_Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/AP_Register_Login.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/AP_Register_Login.class" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,8 +22,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="31" column="21" selection-start-line="10" selection-start-column="3" selection-end-line="31" selection-end-column="21" />
+            <state relative-caret-position="447">
+              <caret line="39" column="19" lean-forward="true" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -27,7 +31,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/RetryAnalyzer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
+            <state relative-caret-position="323">
               <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -39,14 +43,15 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/AP_Register_Login.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="680">
-              <caret line="44" column="5" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
+            <state relative-caret-position="43">
+              <caret line="91" column="65" lean-forward="true" selection-start-line="91" selection-start-column="65" selection-end-line="91" selection-end-column="65" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="method#Setup_Driver#0;class#AP_Register_Login#0" />
                 <element signature="method#Navigate_Home#0;class#AP_Register_Login#0" />
+                <element signature="e#1437#1732#0" />
                 <element signature="method#Navigate_Login#0;class#AP_Register_Login#0" />
                 <element signature="method#Register_User#0;class#AP_Register_Login#0" />
-                <element signature="method#Register_User_Personal_Info#0;class#AP_Register_Login#0" />
                 <element signature="method#User_Logout#0;class#AP_Register_Login#0" />
                 <element signature="method#User_Login_Success#0;class#AP_Register_Login#0" />
                 <element signature="method#User_Login_Failure#0;class#AP_Register_Login#0" />
@@ -63,13 +68,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/TestNG.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="17" selection-end-line="18" selection-end-column="8" />
+            <state relative-caret-position="272">
+              <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -77,9 +89,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/TestNG.xml" />
         <option value="$PROJECT_DIR$/src/test/java/AP_Register_Login.java" />
+        <option value="$PROJECT_DIR$/src/test/java/loginProfile.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/testRunner.java" />
+        <option value="$PROJECT_DIR$/src/test/cucumber_Report.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -90,7 +105,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="713" />
     <option name="width" value="734" />
     <option name="height" value="867" />
@@ -102,6 +117,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -113,6 +129,12 @@
               <item name="eagle_rc" type="b2602c69:ProjectViewProjectNode" />
               <item name="eagle_build" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eagle_rc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eagle_build" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="eagle_rc" type="b2602c69:ProjectViewProjectNode" />
@@ -131,7 +153,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -140,12 +161,13 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\platinum_algorithm\eagle_build\src\test" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\platinum_algorithm\eagle_build\src\test" />
       <recent name="D:\platinum_algorithm\eagle_build\src\test\java" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\platinum_algorithm\eagle_build\src\test\java\features" />
+      <recent name="D:\platinum_algorithm\eagle_build\src\test" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -160,7 +182,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="TestNG.testRunner">
     <configuration name="D:/platinum_algorithm/eagle_build/src/test/TestNG.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="eagle_build" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/TestNG.xml" />
@@ -179,8 +201,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="testRunner" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="eagle_build" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="testRunner" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.testRunner" />
         <item itemvalue="TestNG.D:/platinum_algorithm/eagle_build/src/test/TestNG.xml" />
       </list>
     </recent_temporary>
@@ -199,9 +233,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="D__platinum_algorithm_eagle_build_src_test_TestNG_xml - 2019.05.16 at 12h 14m 43s.xml">
-      <configuration name="D:/platinum_algorithm/eagle_build/src/test/TestNG.xml" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="D__platinum_algorithm_eagle_build_src_test_TestNG_xml - 2019.05.16 at 12h 15m 57s.xml">
       <configuration name="D:/platinum_algorithm/eagle_build/src/test/TestNG.xml" configurationId="TestNG" />
     </history-entry>
@@ -220,23 +251,36 @@
     <history-entry file="D__platinum_algorithm_eagle_build_src_test_TestNG_xml - 2019.05.16 at 12h 59m 40s.xml">
       <configuration name="D:/platinum_algorithm/eagle_build/src/test/TestNG.xml" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="testRunner - 2019.05.23 at 12h 11m 33s.xml">
+      <configuration name="testRunner" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="testRunner - 2019.05.23 at 12h 12m 39s.xml">
+      <configuration name="testRunner" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="testRunner - 2019.05.23 at 12h 13m 19s.xml">
+      <configuration name="testRunner" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="testRunner - 2019.05.23 at 12h 13m 29s.xml">
+      <configuration name="testRunner" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="UI Designer" order="1" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.35394457" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.16950959" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="2" weight="0.32936078" />
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Find" order="4" />
-      <window_info anchor="bottom" id="Run" order="5" weight="0.45070422" />
+      <window_info anchor="bottom" id="Run" order="5" weight="0.35427952" />
       <window_info anchor="bottom" id="Debug" order="6" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
@@ -263,16 +307,54 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test-output/junitreports/TEST-AP_Register_Login.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1479" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/test-classes/AP_Register_Login.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-816">
+          <folding>
+            <element signature="e#0#7389#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/TestNG.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/loginProfile.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/testRunner.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/cucumber_Report.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="21" selection-start-line="10" selection-start-column="3" selection-end-line="31" selection-end-column="21" />
+        <state relative-caret-position="447">
+          <caret line="39" column="19" lean-forward="true" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/RetryAnalyzer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
+        <state relative-caret-position="323">
           <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -280,23 +362,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/TestNG.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="17" selection-end-line="18" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/AP_Register_Login.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="44" column="5" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
+        <state relative-caret-position="43">
+          <caret line="91" column="65" lean-forward="true" selection-start-line="91" selection-start-column="65" selection-end-line="91" selection-end-column="65" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#Setup_Driver#0;class#AP_Register_Login#0" />
             <element signature="method#Navigate_Home#0;class#AP_Register_Login#0" />
+            <element signature="e#1437#1732#0" />
             <element signature="method#Navigate_Login#0;class#AP_Register_Login#0" />
             <element signature="method#Register_User#0;class#AP_Register_Login#0" />
-            <element signature="method#Register_User_Personal_Info#0;class#AP_Register_Login#0" />
             <element signature="method#User_Logout#0;class#AP_Register_Login#0" />
             <element signature="method#User_Login_Success#0;class#AP_Register_Login#0" />
             <element signature="method#User_Login_Failure#0;class#AP_Register_Login#0" />

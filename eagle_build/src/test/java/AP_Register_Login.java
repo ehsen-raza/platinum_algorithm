@@ -4,6 +4,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.remote.RemoteWebDriver;
+import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.*;
 
 public class AP_Register_Login {
@@ -106,13 +107,22 @@ public class AP_Register_Login {
         //chrmDriver.findElement(By.id("address2")).sendKeys("Apartment, suite, unit, building, floor, etc...");
         //hidden field
 
-        chrmDriver.findElement(By.id("city")).sendKeys("New York");
-        chrmDriver.findElement(By.id("id_state")).sendKeys("New York");
+        //chrmDriver.findElement(By.id("city")).sendKeys("New York");
+        Select dropdownFields = new Select(chrmDriver.findElement(By.id("city")));
+        dropdownFields.selectByVisibleText("New York");
+
+        //chrmDriver.findElement(By.id("id_state")).sendKeys("New York");
+        dropdownFields = new Select(chrmDriver.findElement(By.id("id_state")));
+        dropdownFields.selectByVisibleText("New York");
+
         chrmDriver.findElement(By.id("postcode")).sendKeys("1001");
         chrmDriver.findElement(By.id("id_country")).click();
 
         chrmDriver.findElement(By.id("other")).sendKeys("Additional Information Sample Text");
-        chrmDriver.findElement(By.id("id_state")).sendKeys("New York");
+
+        //chrmDriver.findElement(By.id("id_state")).sendKeys("New York");
+        dropdownFields = new Select(chrmDriver.findElement(By.id("id_state")));
+        dropdownFields.selectByVisibleText("New York");
 
         chrmDriver.findElement(By.id("phone")).sendKeys("165843543");
         chrmDriver.findElement(By.id("phone_mobile")).sendKeys("9941358423512");
@@ -162,8 +172,6 @@ public class AP_Register_Login {
         chrmDriver.close();
         chrmDriver.quit();
     }
-
-
 
 
     public  Boolean HelperFnc_Compare_Text(String value1, String value2){
