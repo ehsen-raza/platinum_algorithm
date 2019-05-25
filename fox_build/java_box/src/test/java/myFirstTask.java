@@ -1,3 +1,4 @@
+import PageObjects.CreateAccountPage;
 import PageObjects.Login_MyStore;
 import Service.ReportManager;
 import io.github.bonigarcia.wdm.WebDriverManager;
@@ -6,7 +7,6 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.remote.RemoteWebDriver;
-import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
@@ -31,6 +31,7 @@ public class myFirstTask
     private String Emailaddress = "irfan"+Number+"@gmail.com";
     private String Password = "12345";
     ReportManager reportManager = null;
+
     @Parameters("browser")
     @BeforeClass
 
@@ -72,67 +73,27 @@ public void launchBrowser(String browser) throws Exception
     @Test(priority = 0, enabled = true, retryAnalyzer = retry_API.class)
     public void Register()
     {
-
-
-
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         reportManager = new ReportManager();
         reportManager.InitReport("User Registeration", "Page Loaded ");
         reportManager.TestEnvironment();
         reportManager.LogStepInfo("Registeration Started");
 
+        CreateAccountPage createAccountPage = new CreateAccountPage(driver);
+        Login_MyStore login_myStore = new Login_MyStore(driver);
         //input email address
-        WebElement email = driver.findElement(By.name("email_create"));
-        email.clear();
-        email.sendKeys(Emailaddress);
+        login_myStore.typeNewAccountEmailAddress(Emailaddress);
         //Click button.
-        WebElement Create_Button = driver.findElement(By.name("SubmitCreate"));
-        Create_Button.submit();
-        //Input First Name
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-        WebElement First_Name = driver.findElementByXPath("//*[@id=\"customer_firstname\"]");
-        First_Name.clear();
-        First_Name.sendKeys("irfan");
-        //Input Last Name
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-        WebElement Last_Name = driver.findElementByXPath("//*[@id=\"customer_lastname\"]");
-        Last_Name.clear();
-        Last_Name.sendKeys("ullah");
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-        //Input password
-        WebElement Password1 = driver.findElementByXPath("//*[@id=\"passwd\"]");
-        Password1.clear();
-        Password1.sendKeys(Password);
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-        //Input Address
-        WebElement Address = driver.findElementByXPath("//*[@id=\"address1\"]");
-        Address.clear();
-        Address.sendKeys("Air Line Society, Lahore");
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-        //Input City.
-        WebElement City = driver.findElementByXPath("//*[@id=\"city\"]");
-        City.clear();
-        City.sendKeys("Lahore");
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-        //Select State
-        Select drpState = new Select(driver.findElementByXPath("//*[@id=\"id_state\"]"));
-        drpState.selectByVisibleText("Alabama");
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        login_myStore.clickCreateAccountButton();
 
-        WebElement Zipcode = driver.findElementByXPath("//*[@id=\"postcode\"]");
-        Zipcode.clear();
-        Zipcode.sendKeys("12345");
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-        WebElement PhoneNumber = driver.findElementByXPath("//*[@id=\"phone_mobile\"]");
-        PhoneNumber.clear();
-        PhoneNumber.sendKeys("03444442935");
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-        WebElement AliasAddress = driver.findElementByXPath("//*[@id=\"alias\"]");
-        AliasAddress.clear();
-        AliasAddress.sendKeys("1122 Office Building");
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-        WebElement RegisterButton = driver.findElementByXPath("//*[@id=\"submitAccount\"]/span");
-        RegisterButton.click();
+        //Input First Name and Last Name and Other Registeration Details
+        createAccountPage.InputName("Irfan", "Ullah");
+        createAccountPage.InputAddresses("1001B City Towers", "Lahore", "Air Line Society");
+        createAccountPage.InputPassword("12345");
+        createAccountPage.InputMobilePhone("03444442935");
+        createAccountPage.SelectState();
+        createAccountPage.ZipCode("12345");
+        createAccountPage.ClickRegisterButton();
         reportManager.LogStepInfo("User Registered");
         System.out.println("User Created with Email Address : " + Emailaddress);
 
@@ -196,15 +157,11 @@ public void launchBrowser(String browser) throws Exception
         reportManager.InitReport("Invalid Credentials", "Verifying Invalid Credentials Error Message");
         reportManager.LogStepInfo("Page Loaded");
         reportManager.TestEnvironment();
-        WebElement username = driver.findElementByXPath("//*[@id=\"email\"]");
-        username.clear();
-        username.sendKeys(Emailaddress);
-        WebElement Password3 = driver.findElementByXPath("//*[@id=\"passwd\"]");
-        Password3.clear();
-        Password3.sendKeys("Random");
+        Login_MyStore login_myStore = new Login_MyStore(driver);
+        login_myStore.typeRegisteredAccountEmailAddress(Emailaddress);
+        login_myStore.typePassword("IncorrectPassword");
         reportManager.LogStepInfo("Wrong Credentails Added");
-        WebElement Login_Button1 = driver.findElementByXPath("//*[@id=\"SubmitLogin\"]");
-        Login_Button1.click();
+        login_myStore.clickSigninButton();
         driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
         String Actual_Error_Message = driver.findElementByXPath("//*[@id=\"center_column\"]/div[1]/ol/li").getText();
         String Expected_Error_Message = "Authentication failed.";

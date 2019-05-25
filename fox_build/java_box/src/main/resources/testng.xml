@@ -8,4 +8,11 @@
             <class name="myFirstTask"/>
         </classes>
     </test> <!-- AutomationWorld -->
+    <test name="ExtentReports_1">
+        <parameter name ="browser" value = "chrome"/>
+        <parameter name ="BaseUrl" value = "http://automationpractice.com/index.php?controller=authentication"/>
+        <classes>
+            <class name="myFirstTask"/>
+        </classes>
+    </test> <!-- AutomationWorld -->
 </suite> <!-- Default Suite -->
