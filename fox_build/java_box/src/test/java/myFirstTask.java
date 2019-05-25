@@ -8,8 +8,8 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
@@ -32,7 +32,7 @@ public class myFirstTask
     private String Password = "12345";
     ReportManager reportManager = null;
     @Parameters("browser")
-    @BeforeMethod
+    @BeforeClass
 
 public void launchBrowser(String browser) throws Exception
     {
@@ -63,11 +63,11 @@ public void launchBrowser(String browser) throws Exception
             throw new Exception("\n Browser Not Found : Please Correct Browser Name in XML, it should be chrome or Fixfox");
    }
 
-    @AfterMethod
+    @AfterClass
     public void close()
     {
         driver.close();
-        reportManager.EndReport();
+
     }
     @Test(priority = 0, enabled = true, retryAnalyzer = retry_API.class)
     public void Register()
@@ -162,10 +162,11 @@ public void launchBrowser(String browser) throws Exception
         Assert.assertEquals(logout.getText(),"Sign out");
         logout.click();
         System.out.println("User Registeration Completed.");
-        reportManager.LogStepInfo("Successfully Logged out");
+        reportManager.LogTestStep(true, "User Successfully Registered");
+        reportManager.EndReport();
 
     }
-    @Test(priority = 1, enabled = true, retryAnalyzer = retry_API.class)
+    @Test(priority = 1, dependsOnMethods = "Register", enabled = true, retryAnalyzer = retry_API.class)
     public void login()
     {
         reportManager = new ReportManager();
@@ -173,27 +174,21 @@ public void launchBrowser(String browser) throws Exception
         reportManager.TestEnvironment();
         Login_MyStore login_myStore = new Login_MyStore(driver);
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-        //WebElement username = driver.findElementByXPath("//*[@id=\"email\"]");
-        //username.clear();
-        //username.sendKeys(Emailaddress);
         login_myStore.typeRegisteredAccountEmailAddress(Emailaddress);
         System.out.println("Email: " + Emailaddress + "Password : " + Password);
-       // WebElement Password2 = driver.findElementByXPath("//*[@id=\"passwd\"]");
-        //Password2.clear();
-        //Password2.sendKeys(Password);
         login_myStore.typePassword(Password);
-        //WebElement Login_Button = driver.findElementByXPath("//*[@id=\"SubmitLogin\"]");
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-        //Login_Button.click();
         login_myStore.clickSigninButton();
         driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
         WebElement logout1 = driver.findElement(By.className("logout"));
         Assert.assertEquals(logout1.getText(),"Sign out");
         logout1.click();
         System.out.println("User Successfully Logged in and Logged Out.");
+        reportManager.LogTestStep(true,"User Successfully Logged in and Logged Out.");
+        reportManager.EndReport();
 
     }
-    @Test(priority = 2, enabled = true, retryAnalyzer = retry_API.class)
+    @Test(priority = 2, dependsOnMethods = "login", enabled = true, retryAnalyzer = retry_API.class)
     public void Invalid_Credentials()
     {
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
@@ -215,6 +210,8 @@ public void launchBrowser(String browser) throws Exception
         String Expected_Error_Message = "Authentication failed.";
         Assert.assertEquals(Actual_Error_Message,Expected_Error_Message);
         System.out.println("Test Case Passed : Error Message Verified");
-        reportManager.LogStepInfo("Error Message Verified");
+        reportManager.LogTestStep(true,"Error Message Verified");
+        reportManager.EndReport();
+
     }
 }
