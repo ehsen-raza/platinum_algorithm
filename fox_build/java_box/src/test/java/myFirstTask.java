@@ -20,6 +20,7 @@ import java.util.Random;
 import java.util.concurrent.TimeUnit;
 
 
+@Listeners(Service.TestNgListerners.class)
 public class myFirstTask
 {
     RemoteWebDriver driver;
