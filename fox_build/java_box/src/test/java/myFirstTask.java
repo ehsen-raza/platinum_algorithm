@@ -8,10 +8,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.Assert;
-import org.testng.annotations.AfterClass;
-import org.testng.annotations.BeforeClass;
-import org.testng.annotations.Parameters;
-import org.testng.annotations.Test;
+import org.testng.annotations.*;
 
 import java.io.BufferedWriter;
 import java.io.File;
@@ -30,7 +27,7 @@ public class myFirstTask
     private int Number = Rand.nextInt(50000);
     private String Emailaddress = "irfan"+Number+"@gmail.com";
     private String Password = "12345";
-    ReportManager reportManager = null;
+
 
     @Parameters("browser")
     @BeforeClass
@@ -74,10 +71,10 @@ public void launchBrowser(String browser) throws Exception
     public void Register()
     {
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-        reportManager = new ReportManager();
-        reportManager.InitReport("User Registeration", "Page Loaded ");
-        reportManager.TestEnvironment();
-        reportManager.LogStepInfo("Registeration Started");
+
+        TestNgListerners.getReportManager().InitReport("User Registeration", "Page Loaded ");
+        TestNgListerners.getReportManager().TestEnvironment();
+        TestNgListerners.getReportManager().LogStepInfo("Registeration Started");
 
         CreateAccountPage createAccountPage = new CreateAccountPage(driver);
         Login_MyStore login_myStore = new Login_MyStore(driver);
@@ -94,7 +91,7 @@ public void launchBrowser(String browser) throws Exception
         createAccountPage.SelectState();
         createAccountPage.ZipCode("12345");
         createAccountPage.ClickRegisterButton();
-        reportManager.LogStepInfo("User Registered");
+        TestNgListerners.getReportManager().LogStepInfo("User Registered");
         System.out.println("User Created with Email Address : " + Emailaddress);
 
         try {
@@ -117,22 +114,22 @@ public void launchBrowser(String browser) throws Exception
         } catch (IOException e) {
             e.printStackTrace();
         }
-        reportManager.LogStepInfo("Credentials added to File");
+        TestNgListerners.getReportManager().LogStepInfo("Credentials added to File");
         driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
         WebElement logout = driver.findElement(By.className("logout"));
         Assert.assertEquals(logout.getText(),"Sign out");
         logout.click();
         System.out.println("User Registeration Completed.");
-        reportManager.LogTestStep(true, "User Successfully Registered");
-        reportManager.EndReport();
+        TestNgListerners.getReportManager().LogTestStep(true, "User Successfully Registered");
+        TestNgListerners.getReportManager().EndReport();
 
     }
     @Test(priority = 1, dependsOnMethods = "Register", enabled = true, retryAnalyzer = retry_API.class)
     public void login()
     {
-        reportManager = new ReportManager();
-        reportManager.InitReport("Login Verification ", "Login Verificatoin Started.");
-        reportManager.TestEnvironment();
+
+        TestNgListerners.getReportManager().InitReport("Login Verification ", "Login Verificatoin Started.");
+        TestNgListerners.getReportManager().TestEnvironment();
         Login_MyStore login_myStore = new Login_MyStore(driver);
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         login_myStore.typeRegisteredAccountEmailAddress(Emailaddress);
@@ -145,30 +142,30 @@ public void launchBrowser(String browser) throws Exception
         Assert.assertEquals(logout1.getText(),"Sign out");
         logout1.click();
         System.out.println("User Successfully Logged in and Logged Out.");
-        reportManager.LogTestStep(true,"User Successfully Logged in and Logged Out.");
-        reportManager.EndReport();
+        TestNgListerners.getReportManager().LogTestStep(true,"User Successfully Logged in and Logged Out.");
+        TestNgListerners.getReportManager().EndReport();
 
     }
     @Test(priority = 2, dependsOnMethods = "login", enabled = true, retryAnalyzer = retry_API.class)
     public void Invalid_Credentials()
     {
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-        reportManager = new ReportManager();
-        reportManager.InitReport("Invalid Credentials", "Verifying Invalid Credentials Error Message");
-        reportManager.LogStepInfo("Page Loaded");
-        reportManager.TestEnvironment();
+
+        TestNgListerners.getReportManager().InitReport("Invalid Credentials", "Verifying Invalid Credentials Error Message");
+        TestNgListerners.getReportManager().LogStepInfo("Page Loaded");
+        TestNgListerners.getReportManager().TestEnvironment();
         Login_MyStore login_myStore = new Login_MyStore(driver);
         login_myStore.typeRegisteredAccountEmailAddress(Emailaddress);
         login_myStore.typePassword("IncorrectPassword");
-        reportManager.LogStepInfo("Wrong Credentails Added");
+        TestNgListerners.getReportManager().LogStepInfo("Wrong Credentails Added");
         login_myStore.clickSigninButton();
         driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
         String Actual_Error_Message = driver.findElementByXPath("//*[@id=\"center_column\"]/div[1]/ol/li").getText();
         String Expected_Error_Message = "Authentication failed.";
         Assert.assertEquals(Actual_Error_Message,Expected_Error_Message);
         System.out.println("Test Case Passed : Error Message Verified");
-        reportManager.LogTestStep(true,"Error Message Verified");
-        reportManager.EndReport();
+        TestNgListerners.getReportManager().LogTestStep(true,"Error Message Verified");
+        TestNgListerners.getReportManager().EndReport();
 
     }
 }

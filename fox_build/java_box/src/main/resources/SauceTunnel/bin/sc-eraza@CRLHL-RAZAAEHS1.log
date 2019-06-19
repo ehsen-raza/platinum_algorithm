@@ -1,0 +1,1433 @@
+2019-06-17 20:21:00.005 [21876] Sauce Connect 4.5.3, build 2589 4b3da11 -dirty
+2019-06-17 20:21:00.008 [21876] Trying to autodetect proxy settings
+2019-06-17 20:21:00.014 [21876] Starting up; pid 21876
+2019-06-17 20:21:00.014 [21876] Command line arguments: sc.exe -u irfanullah -k **** -i eraza@CRLHL-RAZAAEHS1 -X 55001 
+2019-06-17 20:21:00.014 [21876] Log file: D:\fox_build\java_box\src\main\resources\SauceTunnel\bin\sc-eraza@CRLHL-RAZAAEHS1.log
+2019-06-17 20:21:00.014 [21876] Pid file: C:\Users\eraza\AppData\Roaming/sc_client-eraza@CRLHL-RAZAAEHS1.pid
+2019-06-17 20:21:00.014 [21876] Timezone: PKT GMT offset: 5h
+2019-06-17 20:21:00.015 [21876] Using no proxy for connecting to Sauce Labs REST API.
+2019-06-17 20:21:01.350 [21876] Started scproxy on port 55001.
+2019-06-17 20:21:01.351 [21876] Please wait for 'you may start your tests' to start your tests.
+2019-06-17 20:21:01.351 [21876] PROXY *** scproxy started ***
+2019-06-17 20:21:01.383 [21876] PROXY found DNS server 10.31.1.1
+2019-06-17 20:21:01.385 [21876] PROXY found DNS server 10.31.1.2
+2019-06-17 20:21:01.386 [21876] PROXY found DNS server 10.10.4.65
+2019-06-17 20:21:01.387 [21876] PROXY found DNS server 10.10.4.66
+2019-06-17 20:21:17.644 [21876] Secure remote tunnel VM provisioned.
+2019-06-17 20:21:17.645 [21876] Tunnel ID: ab81244715f647aaba89128d5e5172e5
+2019-06-17 20:21:17.646 [21876] Using no proxy for connecting to tunnel VM.
+2019-06-17 20:21:17.648 [21876] Starting Selenium listener...
+2019-06-17 20:21:17.648 [21876] Establishing secure TLS connection to tunnel...
+2019-06-17 20:21:17.679 [21876] [EVDNS] Added nameserver 10.31.1.1:53 as 05EEED08
+2019-06-17 20:21:17.681 [21876] [EVDNS] Added nameserver 10.31.1.2:53 as 05EECFE0
+2019-06-17 20:21:17.683 [21876] [EVDNS] Added nameserver 10.10.4.65:53 as 05EED420
+2019-06-17 20:21:17.686 [21876] [EVDNS] Added nameserver 10.10.4.66:53 as 05EED558
+2019-06-17 20:21:17.688 [21876] MAIN connecting to maki3324.miso.saucelabs.com - maki3324.miso.saucelabs.com:443
+2019-06-17 20:21:17.900 [21876] Selenium listener started on port 4445.
+2019-06-17 20:21:18.314 [21876] MAIN connecting to KGP server maki3324.miso.saucelabs.com took 2380 ms
+2019-06-17 20:21:20.324 [21876] PROXY 127.0.0.1:25067 (127.0.0.1) -> HEAD http://localhost:8888/debug/vars (269 bytes)
+2019-06-17 20:21:20.327 [21876] PROXY resolved 'localhost' to '127.0.0.1:8888'
+2019-06-17 20:21:20.661 [21876] PROXY 127.0.0.1:25067 (127.0.0.1) -> GET http://localhost:8888/debug/vars (268 bytes)
+2019-06-17 20:21:20.905 [21876] [32;1mSauce Connect is up, you may start your tests.
+[0m2019-06-17 20:27:17.058 [21876] MAIN connecting to maki3324.miso.saucelabs.com - maki3324.miso.saucelabs.com:443
+2019-06-17 20:27:18.871 [21876] Remote tunnel VM has been terminated by user request. Shutting down.
+2019-06-17 20:27:18.871 [21876] Cleaning up.
+2019-06-17 20:27:18.871 [21876] Removing tunnel ab81244715f647aaba89128d5e5172e5.
+2019-06-17 20:27:18.871 [21876] Waiting for any active jobs using this tunnel to finish.
+2019-06-17 20:27:18.872 [21876] Press CTRL-C again to shut down immediately.
+2019-06-17 20:27:18.872 [21876] Note: if you do this, tests that are still running will fail.
+2019-06-17 20:27:20.710 [21876] MAIN connecting to KGP server maki3324.miso.saucelabs.com took 3650 ms
+2019-06-17 20:27:20.983 [21876] All jobs using the tunnel have finished.
+2019-06-17 20:27:20.986 [21876] Waiting for the connection to terminate...
+2019-06-17 20:27:20.988 [21876] SC Status: 1 after 1 tries
+2019-06-17 20:27:21.989 [21876] SC Status: 3 after 2 tries
+2019-06-17 20:27:21.989 [21876] Connection closed (8).
+2019-06-17 20:27:21.990 [21876] Goodbye.
+2019-06-17 20:27:30.978 [22076] Sauce Connect 4.5.3, build 2589 4b3da11 -dirty
+2019-06-17 20:27:31.030 [22076] Trying to autodetect proxy settings
+2019-06-17 20:27:31.069 [22076] Starting up; pid 22076
+2019-06-17 20:27:31.069 [22076] Command line arguments: sc.exe -u irfanullah -k **** -i eraza@CRLHL-RAZAAEHS1 -X 55001 
+2019-06-17 20:27:31.070 [22076] Log file: D:\fox_build\java_box\src\main\resources\SauceTunnel\bin\sc-eraza@CRLHL-RAZAAEHS1.log
+2019-06-17 20:27:31.071 [22076] Pid file: C:\Users\eraza\AppData\Roaming/sc_client-eraza@CRLHL-RAZAAEHS1.pid
+2019-06-17 20:27:31.074 [22076] Timezone: PKT GMT offset: 5h
+2019-06-17 20:27:31.075 [22076] Using no proxy for connecting to Sauce Labs REST API.
+2019-06-17 20:27:32.335 [22076] Started scproxy on port 55001.
+2019-06-17 20:27:32.335 [22076] Please wait for 'you may start your tests' to start your tests.
+2019-06-17 20:27:32.335 [22076] PROXY *** scproxy started ***
+2019-06-17 20:27:32.351 [22076] PROXY found DNS server 10.31.1.1
+2019-06-17 20:27:32.352 [22076] PROXY found DNS server 10.31.1.2
+2019-06-17 20:27:32.352 [22076] PROXY found DNS server 10.10.4.65
+2019-06-17 20:27:32.354 [22076] PROXY found DNS server 10.10.4.66
+2019-06-17 20:27:47.764 [22076] Secure remote tunnel VM provisioned.
+2019-06-17 20:27:47.765 [22076] Tunnel ID: ed7518cd8e00424bba30eb34584a2c23
+2019-06-17 20:27:47.765 [22076] Using no proxy for connecting to tunnel VM.
+2019-06-17 20:27:47.767 [22076] Starting Selenium listener...
+2019-06-17 20:27:47.768 [22076] Establishing secure TLS connection to tunnel...
+2019-06-17 20:27:47.797 [22076] [EVDNS] Added nameserver 10.31.1.1:53 as 0405ED08
+2019-06-17 20:27:47.800 [22076] [EVDNS] Added nameserver 10.31.1.2:53 as 0405CFE0
+2019-06-17 20:27:47.803 [22076] [EVDNS] Added nameserver 10.10.4.65:53 as 0405D420
+2019-06-17 20:27:47.805 [22076] [EVDNS] Added nameserver 10.10.4.66:53 as 0405D558
+2019-06-17 20:27:47.807 [22076] MAIN connecting to maki2377.miso.saucelabs.com - maki2377.miso.saucelabs.com:443
+2019-06-17 20:27:48.019 [22076] Selenium listener started on port 4445.
+2019-06-17 20:27:48.478 [22076] MAIN connecting to KGP server maki2377.miso.saucelabs.com took 2331 ms
+2019-06-17 20:27:50.382 [22076] PROXY 127.0.0.1:25616 (127.0.0.1) -> HEAD http://localhost:8888/debug/vars (269 bytes)
+2019-06-17 20:27:50.385 [22076] PROXY resolved 'localhost' to '127.0.0.1:8888'
+2019-06-17 20:27:50.716 [22076] PROXY 127.0.0.1:25616 (127.0.0.1) -> GET http://localhost:8888/debug/vars (268 bytes)
+2019-06-17 20:27:51.022 [22076] [32;1mSauce Connect is up, you may start your tests.
+[0m2019-06-17 20:32:32.529 [20632] Sauce Connect 4.5.3, build 2589 4b3da11 -dirty
+2019-06-17 20:32:32.531 [20632] Trying to autodetect proxy settings
+2019-06-17 20:32:32.553 [20632] Starting up; pid 20632
+2019-06-17 20:32:32.557 [20632] Command line arguments: sc.exe -u irfanullah -k **** -i eraza@CRLHL-RAZAAEHS1 -X 55001 
+2019-06-17 20:32:32.558 [20632] Log file: D:\fox_build\java_box\src\main\resources\SauceTunnel\bin\sc-eraza@CRLHL-RAZAAEHS1.log
+2019-06-17 20:32:32.558 [20632] Pid file: C:\Users\eraza\AppData\Roaming/sc_client-eraza@CRLHL-RAZAAEHS1.pid
+2019-06-17 20:32:32.558 [20632] Timezone: PKT GMT offset: 5h
+2019-06-17 20:32:32.558 [20632] Using no proxy for connecting to Sauce Labs REST API.
+2019-06-17 20:32:32.566 [20632] Unable to serve metrics on localhost:8888, error was: listen tcp 127.0.0.1:8888: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+2019-06-17 20:32:33.873 [20632] Started scproxy on port 55001.
+2019-06-17 20:32:33.873 [20632] Please wait for 'you may start your tests' to start your tests.
+2019-06-17 20:32:33.872 [20632] PROXY *** scproxy started ***
+2019-06-17 20:32:33.913 [20632] PROXY found DNS server 10.31.1.1
+2019-06-17 20:32:33.914 [20632] PROXY found DNS server 10.31.1.2
+2019-06-17 20:32:33.917 [20632] PROXY found DNS server 10.10.4.65
+2019-06-17 20:32:33.918 [20632] PROXY found DNS server 10.10.4.66
+2019-06-17 20:32:33.945 [20632] PROXY could not create listener
+2019-06-17 20:32:38.782 [22076] Remote tunnel VM has been terminated by user request. Shutting down.
+2019-06-17 20:32:38.783 [22076] Cleaning up.
+2019-06-17 20:32:38.783 [22076] Removing tunnel ed7518cd8e00424bba30eb34584a2c23.
+2019-06-17 20:32:38.784 [22076] Waiting for any active jobs using this tunnel to finish.
+2019-06-17 20:32:38.784 [22076] Press CTRL-C again to shut down immediately.
+2019-06-17 20:32:38.785 [22076] Note: if you do this, tests that are still running will fail.
+2019-06-17 20:32:39.983 [22076] MAIN connecting to maki2377.miso.saucelabs.com - maki2377.miso.saucelabs.com:443
+2019-06-17 20:32:40.651 [22076] MAIN connecting to KGP server maki2377.miso.saucelabs.com took 2333 ms
+2019-06-17 20:32:40.873 [22076] All jobs using the tunnel have finished.
+2019-06-17 20:32:40.875 [22076] Waiting for the connection to terminate...
+2019-06-17 20:32:40.875 [22076] SC Status: 1 after 1 tries
+2019-06-17 20:32:41.877 [22076] SC Status: 3 after 2 tries
+2019-06-17 20:32:41.877 [22076] Connection closed (8).
+2019-06-17 20:32:41.880 [22076] Goodbye.
+2019-06-17 20:32:54.502 [20632] Secure remote tunnel VM provisioned.
+2019-06-17 20:32:54.502 [20632] Tunnel ID: 916f806d7fc84dcdb6f1f4d0698e2b6b
+2019-06-17 20:32:54.502 [20632] Using no proxy for connecting to tunnel VM.
+2019-06-17 20:32:54.503 [20632] Starting Selenium listener...
+2019-06-17 20:32:54.503 [20632] Establishing secure TLS connection to tunnel...
+2019-06-17 20:32:54.513 [20632] [EVDNS] Added nameserver 10.31.1.1:53 as 046F9EB0
+2019-06-17 20:32:54.514 [20632] [EVDNS] Added nameserver 10.31.1.2:53 as 046FA0C8
+2019-06-17 20:32:54.515 [20632] [EVDNS] Added nameserver 10.10.4.65:53 as 046FB058
+2019-06-17 20:32:54.515 [20632] [EVDNS] Added nameserver 10.10.4.66:53 as 046FB498
+2019-06-17 20:32:54.516 [20632] MAIN connecting to maki2625.miso.saucelabs.com - maki2625.miso.saucelabs.com:443
+2019-06-17 20:32:54.753 [20632] Selenium listener started on port 4445.
+2019-06-17 20:32:57.864 [20632] MAIN DNS error: non-recoverable failure in name resolution (-904)
+2019-06-17 20:32:57.865 [20632] MAIN DNS error: EVUTIL_EAI_FAIL
+2019-06-17 20:32:57.866 [20632] MAIN failed to connect KGP (socket error: libevent connection error
+)
+2019-06-17 20:32:58.868 [20632] MAIN connecting to maki2625.miso.saucelabs.com - maki2625.miso.saucelabs.com:443
+2019-06-17 20:32:59.544 [20632] MAIN connecting to KGP server maki2625.miso.saucelabs.com took 2329 ms
+2019-06-17 20:33:04.571 [20632] [32;1mSauce Connect is up, you may start your tests.
+[0m2019-06-17 20:33:04.834 [20632] CHANNEL 2147483649 ext socket error: No connection could be made because the target machine actively refused it.
+2019-06-17 20:33:05.143 [20632] CHANNEL 2147483649 tried to free nonexistent connection
+2019-06-17 20:33:07.166 [20632] CHANNEL 2147483649 ext socket error: No connection could be made because the target machine actively refused it.
+2019-06-17 20:33:07.474 [20632] CHANNEL 2147483649 tried to free nonexistent connection
+2019-06-17 20:33:09.489 [20632] CHANNEL 2147483649 ext socket error: No connection could be made because the target machine actively refused it.
+2019-06-17 20:33:09.794 [20632] CHANNEL 2147483649 tried to free nonexistent connection
+2019-06-17 20:33:11.809 [20632] CHANNEL 2147483649 ext socket error: No connection could be made because the target machine actively refused it.
+2019-06-17 20:33:12.120 [20632] CHANNEL 2147483649 tried to free nonexistent connection
+2019-06-17 20:33:14.139 [20632] CHANNEL 2147483649 ext socket error: No connection could be made because the target machine actively refused it.
+2019-06-17 20:33:14.451 [20632] CHANNEL 2147483649 tried to free nonexistent connection
+2019-06-17 20:33:19.824 [20632] Remote tunnel VM has been terminated by user request. Shutting down.
+2019-06-17 20:33:19.825 [20632] Cleaning up.
+2019-06-17 20:33:19.825 [20632] Removing tunnel 916f806d7fc84dcdb6f1f4d0698e2b6b.
+2019-06-17 20:33:19.825 [20632] Waiting for any active jobs using this tunnel to finish.
+2019-06-17 20:33:19.826 [20632] Press CTRL-C again to shut down immediately.
+2019-06-17 20:33:19.826 [20632] Note: if you do this, tests that are still running will fail.
+2019-06-17 20:33:21.480 [20632] MAIN connecting to maki2625.miso.saucelabs.com - maki2625.miso.saucelabs.com:443
+2019-06-17 20:33:22.106 [20632] MAIN connecting to KGP server maki2625.miso.saucelabs.com took 2374 ms
+2019-06-17 20:33:24.032 [20632] All jobs using the tunnel have finished.
+2019-06-17 20:33:24.033 [20632] Waiting for the connection to terminate...
+2019-06-17 20:33:24.034 [20632] SC Status: 1 after 1 tries
+2019-06-17 20:33:25.036 [20632] SC Status: 3 after 2 tries
+2019-06-17 20:33:25.036 [20632] Connection closed (8).
+2019-06-17 20:33:25.037 [20632] Goodbye.
+2019-06-17 20:33:31.780 [2716] Sauce Connect 4.5.3, build 2589 4b3da11 -dirty
+2019-06-17 20:33:31.782 [2716] Trying to autodetect proxy settings
+2019-06-17 20:33:31.787 [2716] Starting up; pid 2716
+2019-06-17 20:33:31.788 [2716] Command line arguments: sc.exe -u irfanullah -k **** -i eraza@CRLHL-RAZAAEHS1 -X 55001 
+2019-06-17 20:33:31.788 [2716] Log file: D:\fox_build\java_box\src\main\resources\SauceTunnel\bin\sc-eraza@CRLHL-RAZAAEHS1.log
+2019-06-17 20:33:31.788 [2716] Pid file: C:\Users\eraza\AppData\Roaming/sc_client-eraza@CRLHL-RAZAAEHS1.pid
+2019-06-17 20:33:31.788 [2716] Timezone: PKT GMT offset: 5h
+2019-06-17 20:33:31.788 [2716] Using no proxy for connecting to Sauce Labs REST API.
+2019-06-17 20:33:33.100 [2716] Started scproxy on port 55001.
+2019-06-17 20:33:33.101 [2716] Please wait for 'you may start your tests' to start your tests.
+2019-06-17 20:33:33.100 [2716] PROXY *** scproxy started ***
+2019-06-17 20:33:33.135 [2716] PROXY found DNS server 10.31.1.1
+2019-06-17 20:33:33.136 [2716] PROXY found DNS server 10.31.1.2
+2019-06-17 20:33:33.137 [2716] PROXY found DNS server 10.10.4.65
+2019-06-17 20:33:33.139 [2716] PROXY found DNS server 10.10.4.66
+2019-06-17 20:33:45.973 [2716] Secure remote tunnel VM provisioned.
+2019-06-17 20:33:45.973 [2716] Tunnel ID: 6e6868642d5f44109fed8e221bfbad8c
+2019-06-17 20:33:45.973 [2716] Using no proxy for connecting to tunnel VM.
+2019-06-17 20:33:45.976 [2716] Starting Selenium listener...
+2019-06-17 20:33:45.977 [2716] Establishing secure TLS connection to tunnel...
+2019-06-17 20:33:46.001 [2716] [EVDNS] Added nameserver 10.31.1.1:53 as 05E8ED08
+2019-06-17 20:33:46.004 [2716] [EVDNS] Added nameserver 10.31.1.2:53 as 05E8CFE0
+2019-06-17 20:33:46.005 [2716] [EVDNS] Added nameserver 10.10.4.65:53 as 05E8D420
+2019-06-17 20:33:46.006 [2716] [EVDNS] Added nameserver 10.10.4.66:53 as 05E8D558
+2019-06-17 20:33:46.006 [2716] MAIN connecting to maki2788.miso.saucelabs.com - maki2788.miso.saucelabs.com:443
+2019-06-17 20:33:46.228 [2716] Selenium listener started on port 4445.
+2019-06-17 20:33:46.682 [2716] MAIN connecting to KGP server maki2788.miso.saucelabs.com took 673 ms
+2019-06-17 20:33:49.234 [2716] [32;1mSauce Connect is up, you may start your tests.
+[0m2019-06-17 20:33:49.709 [2716] PROXY 127.0.0.1:26146 (127.0.0.1) -> HEAD http://localhost:8888/debug/vars (269 bytes)
+2019-06-17 20:33:49.712 [2716] PROXY resolved 'localhost' to '127.0.0.1:8888'
+2019-06-17 20:33:50.054 [2716] PROXY 127.0.0.1:26146 (127.0.0.1) -> GET http://localhost:8888/debug/vars (268 bytes)
+2019-06-17 20:36:39.958 [2716] MAIN connecting to maki2788.miso.saucelabs.com - maki2788.miso.saucelabs.com:443
+2019-06-17 20:36:40.699 [2716] MAIN connecting to KGP server maki2788.miso.saucelabs.com took 2261 ms
+2019-06-17 20:36:42.343 [2716] Remote tunnel VM has been terminated by user request. Shutting down.
+2019-06-17 20:36:42.355 [2716] Cleaning up.
+2019-06-17 20:36:42.355 [2716] Removing tunnel 6e6868642d5f44109fed8e221bfbad8c.
+2019-06-17 20:36:42.356 [2716] Waiting for any active jobs using this tunnel to finish.
+2019-06-17 20:36:42.356 [2716] Press CTRL-C again to shut down immediately.
+2019-06-17 20:36:42.357 [2716] Note: if you do this, tests that are still running will fail.
+2019-06-17 20:36:47.245 [2716] All jobs using the tunnel have finished.
+2019-06-17 20:36:47.245 [2716] Waiting for the connection to terminate...
+2019-06-17 20:36:47.246 [2716] SC Status: 1 after 1 tries
+2019-06-17 20:36:47.462 [24180] Sauce Connect 4.5.3, build 2589 4b3da11 -dirty
+2019-06-17 20:36:47.464 [24180] Trying to autodetect proxy settings
+2019-06-17 20:36:47.473 [24180] Starting up; pid 24180
+2019-06-17 20:36:47.474 [24180] Command line arguments: sc.exe -u irfanullah -k **** -i eraza@CRLHL-RAZAAEHS1 -X 55001 
+2019-06-17 20:36:47.474 [24180] Log file: D:\fox_build\java_box\src\main\resources\SauceTunnel\bin\sc-eraza@CRLHL-RAZAAEHS1.log
+2019-06-17 20:36:47.474 [24180] Pid file: C:\Users\eraza\AppData\Roaming/sc_client-eraza@CRLHL-RAZAAEHS1.pid
+2019-06-17 20:36:47.474 [24180] Timezone: PKT GMT offset: 5h
+2019-06-17 20:36:47.474 [24180] Using no proxy for connecting to Sauce Labs REST API.
+2019-06-17 20:36:47.478 [24180] Unable to serve metrics on localhost:8888, error was: listen tcp 127.0.0.1:8888: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+2019-06-17 20:36:48.248 [2716] SC Status: 3 after 2 tries
+2019-06-17 20:36:48.248 [2716] Connection closed (8).
+2019-06-17 20:36:48.248 [2716] Goodbye.
+2019-06-17 20:36:48.862 [24180] Started scproxy on port 55001.
+2019-06-17 20:36:48.863 [24180] Please wait for 'you may start your tests' to start your tests.
+2019-06-17 20:36:48.863 [24180] PROXY *** scproxy started ***
+2019-06-17 20:36:48.912 [24180] PROXY found DNS server 10.31.1.1
+2019-06-17 20:36:48.912 [24180] PROXY found DNS server 10.31.1.2
+2019-06-17 20:36:48.913 [24180] PROXY found DNS server 10.10.4.65
+2019-06-17 20:36:48.915 [24180] PROXY found DNS server 10.10.4.66
+2019-06-17 20:37:08.032 [24180] Secure remote tunnel VM provisioned.
+2019-06-17 20:37:08.033 [24180] Tunnel ID: da243c13242044da8020599503f94dae
+2019-06-17 20:37:08.033 [24180] Using no proxy for connecting to tunnel VM.
+2019-06-17 20:37:08.038 [24180] Starting Selenium listener...
+2019-06-17 20:37:08.038 [24180] Establishing secure TLS connection to tunnel...
+2019-06-17 20:37:08.075 [24180] [EVDNS] Added nameserver 10.31.1.1:53 as 0604D200
+2019-06-17 20:37:08.078 [24180] [EVDNS] Added nameserver 10.31.1.2:53 as 0604D418
+2019-06-17 20:37:08.080 [24180] [EVDNS] Added nameserver 10.10.4.65:53 as 0604D550
+2019-06-17 20:37:08.082 [24180] [EVDNS] Added nameserver 10.10.4.66:53 as 0604D688
+2019-06-17 20:37:08.084 [24180] MAIN connecting to maki2608.miso.saucelabs.com - maki2608.miso.saucelabs.com:443
+2019-06-17 20:37:08.289 [24180] Selenium listener started on port 4445.
+2019-06-17 20:37:08.745 [24180] MAIN connecting to KGP server maki2608.miso.saucelabs.com took 657 ms
+2019-06-17 20:37:11.292 [24180] [32;1mSauce Connect is up, you may start your tests.
+[0m2019-06-17 20:37:11.846 [24180] PROXY 127.0.0.1:26442 (127.0.0.1) -> HEAD http://localhost:8888/debug/vars (269 bytes)
+2019-06-17 20:37:11.848 [24180] PROXY resolved 'localhost' to '127.0.0.1:8888'
+2019-06-17 20:37:12.849 [24180] PROXY 127.0.0.1:26442 (127.0.0.1) <- localhost:8888 connection error: socket error: No connection could be made because the target machine actively refused it.
+
+2019-06-17 20:37:14.192 [24180] PROXY resolved 'localhost' to '127.0.0.1:8888'
+2019-06-17 20:37:14.193 [24180] PROXY 127.0.0.1:26447 (127.0.0.1) -> HEAD http://localhost:8888/debug/vars (269 bytes)
+2019-06-17 20:37:15.204 [24180] PROXY 127.0.0.1:26447 (127.0.0.1) <- localhost:8888 connection error: socket error: No connection could be made because the target machine actively refused it.
+
+2019-06-17 20:37:16.570 [24180] PROXY resolved 'localhost' to '127.0.0.1:8888'
+2019-06-17 20:37:16.572 [24180] PROXY 127.0.0.1:26453 (127.0.0.1) -> HEAD http://localhost:8888/debug/vars (269 bytes)
+2019-06-17 20:37:17.572 [24180] PROXY 127.0.0.1:26453 (127.0.0.1) <- localhost:8888 connection error: socket error: No connection could be made because the target machine actively refused it.
+
+2019-06-17 20:37:18.950 [24180] PROXY resolved 'localhost' to '127.0.0.1:8888'
+2019-06-17 20:37:18.952 [24180] PROXY 127.0.0.1:26458 (127.0.0.1) -> HEAD http://localhost:8888/debug/vars (269 bytes)
+2019-06-17 20:37:19.954 [24180] PROXY 127.0.0.1:26458 (127.0.0.1) <- localhost:8888 connection error: socket error: No connection could be made because the target machine actively refused it.
+
+2019-06-17 20:37:21.293 [24180] PROXY resolved 'localhost' to '127.0.0.1:8888'
+2019-06-17 20:37:21.294 [24180] PROXY 127.0.0.1:26462 (127.0.0.1) -> HEAD http://localhost:8888/debug/vars (269 bytes)
+2019-06-17 20:37:22.296 [24180] PROXY 127.0.0.1:26462 (127.0.0.1) <- localhost:8888 connection error: socket error: No connection could be made because the target machine actively refused it.
+
+2019-06-17 20:37:22.752 [24180] MAIN connecting to maki2608.miso.saucelabs.com - maki2608.miso.saucelabs.com:443
+2019-06-17 20:37:24.291 [24180] Remote tunnel VM has been terminated by user request. Shutting down.
+2019-06-17 20:37:24.291 [24180] Cleaning up.
+2019-06-17 20:37:24.292 [24180] Removing tunnel da243c13242044da8020599503f94dae.
+2019-06-17 20:37:24.293 [24180] Waiting for any active jobs using this tunnel to finish.
+2019-06-17 20:37:24.294 [24180] Press CTRL-C again to shut down immediately.
+2019-06-17 20:37:24.294 [24180] Note: if you do this, tests that are still running will fail.
+2019-06-17 20:37:26.156 [24180] All jobs using the tunnel have finished.
+2019-06-17 20:37:26.158 [24180] Waiting for the connection to terminate...
+2019-06-17 20:37:26.159 [24180] SC Status: 1 after 1 tries
+2019-06-17 20:37:27.160 [24180] SC Status: 3 after 2 tries
+2019-06-17 20:37:27.160 [24180] Connection closed (8).
+2019-06-17 20:37:27.165 [24180] Goodbye.
+2019-06-17 21:08:16.549 [2180] Sauce Connect 4.5.3, build 2589 4b3da11 -dirty
+2019-06-17 21:08:16.553 [2180] Trying to autodetect proxy settings
+2019-06-17 21:08:16.560 [2180] Starting up; pid 2180
+2019-06-17 21:08:16.561 [2180] Command line arguments: sc.exe -u irfanullah -k **** -i eraza@CRLHL-RAZAAEHS1 -X 55001 
+2019-06-17 21:08:16.563 [2180] Log file: D:\fox_build\java_box\src\main\resources\SauceTunnel\bin\sc-eraza@CRLHL-RAZAAEHS1.log
+2019-06-17 21:08:16.563 [2180] Pid file: C:\Users\eraza\AppData\Roaming/sc_client-eraza@CRLHL-RAZAAEHS1.pid
+2019-06-17 21:08:16.563 [2180] Timezone: PKT GMT offset: 5h
+2019-06-17 21:08:16.563 [2180] Using no proxy for connecting to Sauce Labs REST API.
+2019-06-17 21:08:18.138 [2180] Started scproxy on port 55001.
+2019-06-17 21:08:18.138 [2180] PROXY *** scproxy started ***
+2019-06-17 21:08:18.139 [2180] Please wait for 'you may start your tests' to start your tests.
+2019-06-17 21:08:18.159 [2180] PROXY found DNS server 10.31.1.1
+2019-06-17 21:08:18.159 [2180] PROXY found DNS server 10.31.1.2
+2019-06-17 21:08:18.159 [2180] PROXY found DNS server 10.10.4.65
+2019-06-17 21:08:18.160 [2180] PROXY found DNS server 10.10.4.66
+2019-06-17 21:08:35.682 [2180] Secure remote tunnel VM provisioned.
+2019-06-17 21:08:35.682 [2180] Tunnel ID: e420742bbe1a4c6d984f9ab777c49ce7
+2019-06-17 21:08:35.683 [2180] Using no proxy for connecting to tunnel VM.
+2019-06-17 21:08:35.687 [2180] Starting Selenium listener...
+2019-06-17 21:08:35.688 [2180] Establishing secure TLS connection to tunnel...
+2019-06-17 21:08:35.722 [2180] [EVDNS] Added nameserver 10.31.1.1:53 as 0617EA60
+2019-06-17 21:08:35.724 [2180] [EVDNS] Added nameserver 10.31.1.2:53 as 0617EC78
+2019-06-17 21:08:35.726 [2180] [EVDNS] Added nameserver 10.10.4.65:53 as 0617EDB0
+2019-06-17 21:08:35.729 [2180] [EVDNS] Added nameserver 10.10.4.66:53 as 0617D468
+2019-06-17 21:08:35.732 [2180] MAIN connecting to maki846.miso.saucelabs.com - maki846.miso.saucelabs.com:443
+2019-06-17 21:08:35.940 [2180] Selenium listener started on port 4445.
+2019-06-17 21:08:36.408 [2180] MAIN connecting to KGP server maki846.miso.saucelabs.com took 2328 ms
+2019-06-17 21:08:38.944 [2180] [32;1mSauce Connect is up, you may start your tests.
+[0m2019-06-17 21:08:38.992 [2180] PROXY 127.0.0.1:29141 (127.0.0.1) -> HEAD http://localhost:8888/debug/vars (268 bytes)
+2019-06-17 21:08:38.995 [2180] PROXY resolved 'localhost' to '127.0.0.1:8888'
+2019-06-17 21:08:39.335 [2180] PROXY 127.0.0.1:29141 (127.0.0.1) -> GET http://localhost:8888/debug/vars (267 bytes)
+2019-06-17 21:09:04.491 [2180] PROXY 127.0.0.1:29141 (10.100.44.252) -> GET https://www.gstatic.com/chrome/intelligence/assist/ranker/models/translate/2017/03/translate_ranker_model_20170329.pb.bin (537 bytes)
+2019-06-17 21:09:04.495 [2180] PROXY resolved 'www.gstatic.com' to '172.217.19.163:443'
+2019-06-17 21:09:04.508 [2180] PROXY 127.0.0.1:29189 (10.100.44.252) -> POST https://accounts.google.com/ListAccounts?gpsia=1&source=ChromiumBrowser&json=standard (640 bytes)
+2019-06-17 21:09:04.511 [2180] PROXY resolved 'accounts.google.com' to '172.217.19.173:443'
+2019-06-17 21:09:04.799 [2180] PROXY 127.0.0.1:29141 (10.100.44.252) <- 200 www.gstatic.com:443 (2030 bytes)
+2019-06-17 21:09:04.924 [2180] PROXY 127.0.0.1:29189 (10.100.44.252) <- 200 accounts.google.com:443 (1039 bytes)
+2019-06-17 21:09:09.185 [2180] PROXY 127.0.0.1:29189 (10.100.44.252) -> GET http://automationpractice.com/index.php?controller=authentication (620 bytes)
+2019-06-17 21:09:12.846 [2180] PROXY resolved 'automationpractice.com' to '198.46.81.188:80'
+2019-06-17 21:09:13.680 [2180] PROXY 127.0.0.1:29189 (10.100.44.252) <- 200 automationpractice.com:80 (1460 bytes)
+2019-06-17 21:09:13.684 [2180] PROXY 127.0.0.1:29189 connection upgrade
+2019-06-17 21:09:14.106 [2180] PROXY resolved 'automationpractice.com' to '198.46.81.188:80'
+2019-06-17 21:09:14.106 [2180] PROXY 127.0.0.1:29141 (10.100.44.252) -> GET http://automationpractice.com/themes/default-bootstrap/css/global.css (818 bytes)
+2019-06-17 21:09:14.118 [2180] PROXY resolved 'automationpractice.com' to '198.46.81.188:80'
+2019-06-17 21:09:14.119 [2180] PROXY 127.0.0.1:29209 (10.100.44.252) -> GET http://automationpractice.com/themes/default-bootstrap/css/autoload/responsive-tables.css (838 bytes)
+2019-06-17 21:09:14.129 [2180] PROXY resolved 'automationpractice.com' to '198.46.81.188:80'
+2019-06-17 21:09:14.131 [2180] PROXY 127.0.0.1:29208 (10.100.44.252) -> GET http://automationpractice.com/themes/default-bootstrap/css/autoload/highdpi.css (828 bytes)
+2019-06-17 21:09:14.140 [2180] PROXY resolved 'automationpractice.com' to '198.46.81.188:80'
+2019-06-17 21:09:14.141 [2180] PROXY 127.0.0.1:29211 (10.100.44.252) -> GET http://automationpractice.com/themes/default-bootstrap/css/autoload/uniform.default.css (836 bytes)
+2019-06-17 21:09:14.149 [2180] PROXY resolved 'automationpractice.com' to '198.46.81.188:80'
+2019-06-17 21:09:14.149 [2180] PROXY 127.0.0.1:29213 (10.100.44.252) -> GET http://automationpractice.com/js/jquery/plugins/fancybox/jquery.fancybox.css (825 bytes)
+2019-06-17 21:09:14.326 [2180] PROXY 127.0.0.1:29217 (10.100.44.252) -> GET http://fonts.googleapis.com/css?family=Open+Sans:300,600&subset=latin,latin-ext (578 bytes)
+2019-06-17 21:09:14.572 [2180] PROXY 127.0.0.1:29141 (10.100.44.252) <- 200 automationpractice.com:80 (4096 bytes)
+2019-06-17 21:09:14.574 [2180] PROXY 127.0.0.1:29141 connection upgrade
+2019-06-17 21:09:14.584 [2180] PROXY 127.0.0.1:29209 (10.100.44.252) <- 200 automationpractice.com:80 (1460 bytes)
+2019-06-17 21:09:14.586 [2180] PROXY 127.0.0.1:29209 connection upgrade
+2019-06-17 21:09:14.596 [2180] PROXY 127.0.0.1:29208 (10.100.44.252) <- 200 automationpractice.com:80 (607 bytes)
+2019-06-17 21:09:14.599 [2180] PROXY 127.0.0.1:29208 connection upgrade
+2019-06-17 21:09:14.607 [2180] PROXY 127.0.0.1:29211 (10.100.44.252) <- 200 automationpractice.com:80 (2920 bytes)
+2019-06-17 21:09:14.609 [2180] PROXY 127.0.0.1:29211 connection upgrade
+2019-06-17 21:09:14.628 [2180] PROXY 127.0.0.1:29213 (10.100.44.252) <- 200 automationpractice.com:80 (2920 bytes)
+2019-06-17 21:09:14.631 [2180] PROXY 127.0.0.1:29213 connection upgrade
+2019-06-17 21:09:19.051 [2180] PROXY resolved 'fonts.googleapis.com' to '172.217.19.170:80'
+2019-06-17 21:09:19.246 [2180] PROXY 127.0.0.1:29217 (10.100.44.252) <- 200 fonts.googleapis.com:80 (1096 bytes)
+2019-06-17 21:09:19.659 [2180] PROXY resolved 'automationpractice.com' to '198.46.81.188:80'
+2019-06-17 21:09:19.660 [2180] PROXY 127.0.0.1:29217 (10.100.44.252) -> GET http://automationpractice.com/themes/default-bootstrap/img/bg_bt.gif (842 bytes)
+2019-06-17 21:09:20.127 [2180] PROXY 127.0.0.1:29217 (10.100.44.252) <- 200 automationpractice.com:80 (582 bytes)
+2019-06-17 21:09:20.128 [2180] PROXY 127.0.0.1:29217 connection upgrade
+2019-06-17 21:09:22.651 [2180] PROXY 127.0.0.1:29211 connection upgrade
+2019-06-17 21:09:22.876 [2180] PROXY 127.0.0.1:29209 connection upgrade
+2019-06-17 21:09:22.883 [2180] PROXY 127.0.0.1:29189 connection upgrade
+2019-06-17 21:09:22.924 [2180] PROXY 127.0.0.1:29213 connection upgrade
+2019-06-17 21:09:23.012 [2180] PROXY 127.0.0.1:29141 connection upgrade
+2019-06-17 21:09:23.128 [2180] PROXY 127.0.0.1:29217 connection upgrade
+2019-06-17 21:09:24.943 [2180] PROXY resolved 'automationpractice.com' to '198.46.81.188:80'
+2019-06-17 21:09:24.945 [2180] PROXY 127.0.0.1:29233 (10.100.44.252) -> POST http://automationpractice.com/index.php?controller=authentication (1137 bytes)
+2019-06-17 21:09:25.727 [2180] PROXY 127.0.0.1:29233 (10.100.44.252) <- 200 automationpractice.com:80 (1460 bytes)
+2019-06-17 21:09:25.730 [2180] PROXY 127.0.0.1:29233 connection upgrade
+2019-06-17 21:09:26.167 [2180] PROXY resolved 'automationpractice.com' to '198.46.81.188:80'
+2019-06-17 21:09:26.169 [2180] PROXY 127.0.0.1:29238 (10.100.44.252) -> GET http://automationpractice.com/themes/default-bootstrap/css/authentication.css (826 bytes)
+2019-06-17 21:09:26.196 [2180] PROXY resolved 'automationpractice.com' to '198.46.81.188:80'
+2019-06-17 21:09:26.198 [2180] PROXY 127.0.0.1:29239 (10.100.44.252) -> GET http://automationpractice.com/themes/default-bootstrap/css/modules/blockcurrencies/blockcurrencies.css (851 bytes)
+2019-06-17 21:09:26.215 [2180] PROXY resolved 'automationpractice.com' to '198.46.81.188:80'
+2019-06-17 21:09:26.217 [2180] PROXY 127.0.0.1:29240 (10.100.44.252) -> GET http://automationpractice.com/themes/default-bootstrap/css/modules/blocknewsletter/blocknewsletter.css (851 bytes)
+2019-06-17 21:09:26.234 [2180] PROXY resolved 'automationpractice.com' to '198.46.81.188:80'
+2019-06-17 21:09:26.235 [2180] PROXY 127.0.0.1:29241 (10.100.44.252) -> GET http://automationpractice.com/js/jquery/plugins/autocomplete/jquery.autocomplete.css (833 bytes)
+2019-06-17 21:09:26.253 [2180] PROXY resolved 'automationpractice.com' to '198.46.81.188:80'
+2019-06-17 21:09:26.256 [2180] PROXY 127.0.0.1:29243 (10.100.44.252) -> GET http://automationpractice.com/themes/default-bootstrap/css/modules/blockcontact/blockcontact.css (845 bytes)
+2019-06-17 21:09:26.636 [2180] PROXY 127.0.0.1:29238 (10.100.44.252) <- 200 automationpractice.com:80 (1123 bytes)
+2019-06-17 21:09:26.640 [2180] PROXY 127.0.0.1:29238 connection upgrade
+2019-06-17 21:09:26.669 [2180] PROXY 127.0.0.1:29239 (10.100.44.252) <- 200 automationpractice.com:80 (2143 bytes)
+2019-06-17 21:09:26.672 [2180] PROXY 127.0.0.1:29239 connection upgrade
+2019-06-17 21:09:26.688 [2180] PROXY 127.0.0.1:29240 (10.100.44.252) <- 200 automationpractice.com:80 (3219 bytes)
+2019-06-17 21:09:26.690 [2180] PROXY 127.0.0.1:29240 connection upgrade
+2019-06-17 21:09:26.715 [2180] PROXY 127.0.0.1:29241 (10.100.44.252) <- 200 automationpractice.com:80 (1089 bytes)
+2019-06-17 21:09:26.717 [2180] PROXY 127.0.0.1:29241 connection upgrade
+2019-06-17 21:09:26.722 [2180] PROXY 127.0.0.1:29243 (10.100.44.252) <- 200 automationpractice.com:80 (1591 bytes)
+2019-06-17 21:09:26.725 [2180] PROXY 127.0.0.1:29243 connection upgrade
+2019-06-17 21:09:33.645 [2180] PROXY 127.0.0.1:29238 connection upgrade
+2019-06-17 21:09:33.706 [2180] PROXY 127.0.0.1:29240 connection upgrade
+2019-06-17 21:09:33.728 [2180] PROXY 127.0.0.1:29243 connection upgrade
+2019-06-17 21:09:34.628 [2180] PROXY 127.0.0.1:29233 connection upgrade
+2019-06-17 21:09:34.797 [2180] PROXY 127.0.0.1:29239 connection upgrade
+2019-06-17 21:09:42.929 [2180] PROXY resolved 'automationpractice.com' to '198.46.81.188:80'
+2019-06-17 21:09:42.933 [2180] PROXY 127.0.0.1:29276 (10.100.44.252) -> GET http://automationpractice.com/themes/default-bootstrap/img/footer-bg.png (846 bytes)
+2019-06-17 21:09:42.951 [2180] PROXY 127.0.0.1:29277 (10.100.44.252) -> GET http://fonts.gstatic.com/s/opensans/v16/mem5YaGs126MiZpBA-UNirkOUuhp.woff2 (608 bytes)
+2019-06-17 21:09:42.954 [2180] PROXY resolved 'fonts.gstatic.com' to '216.58.207.3:80'
+2019-06-17 21:09:43.084 [2180] PROXY 127.0.0.1:29277 (10.100.44.252) <- 200 fonts.gstatic.com:80 (15272 bytes)
+2019-06-17 21:09:43.396 [2180] PROXY 127.0.0.1:29276 (10.100.44.252) <- 200 automationpractice.com:80 (351 bytes)
+2019-06-17 21:09:43.397 [2180] PROXY 127.0.0.1:29276 connection upgrade
+2019-06-17 21:09:46.399 [2180] PROXY 127.0.0.1:29276 connection upgrade
+2019-06-17 21:09:47.890 [2180] PROXY 127.0.0.1:29241 connection upgrade
+2019-06-17 21:13:48.963 [2180] PROXY 127.0.0.1:29662 (10.100.21.31) -> GET http://detectportal.firefox.com/success.txt (440 bytes)
+2019-06-17 21:13:49.007 [2180] PROXY 127.0.0.1:29663 (10.100.21.31) -> POST https://location.services.mozilla.com/v1/country?key=7e40f68c-7938-4c5d-9f95-e61647c213eb (587 bytes)
+2019-06-17 21:13:49.153 [2180] PROXY 127.0.0.1:29665 (10.100.21.31) -> GET https://push.services.mozilla.com/ (694 bytes)
+2019-06-17 21:13:49.224 [2180] PROXY resolved 'location.services.mozilla.com' to '34.251.59.153:443'
+2019-06-17 21:13:49.239 [2180] PROXY 127.0.0.1:29666 (10.100.21.31) -> GET https://snippets.cdn.mozilla.net/6/Firefox/67.0/20190516215225/WINNT_x86_64-msvc/en-US/release/Windows_NT%2010.0/default/default/ (568 bytes)
+2019-06-17 21:13:49.369 [2180] PROXY resolved 'push.services.mozilla.com' to '34.209.158.104:443'
+2019-06-17 21:13:49.451 [2180] PROXY resolved 'snippets.cdn.mozilla.net' to '52.84.228.61:443'
+2019-06-17 21:13:49.857 [2180] PROXY 127.0.0.1:29663 (10.100.21.31) <- 200 location.services.mozilla.com:443 (277 bytes)
+2019-06-17 21:13:50.218 [2180] PROXY 127.0.0.1:29666 (10.100.21.31) <- 302 snippets.cdn.mozilla.net:443 (813 bytes)
+2019-06-17 21:13:50.294 [2180] PROXY 127.0.0.1:29672 (10.100.21.31) -> POST https://shavar.services.mozilla.com/downloads?client=navclient-auto-ffox&appver=67.0&pver=2.2 (814 bytes)
+2019-06-17 21:13:50.328 [2180] PROXY 127.0.0.1:29673 (10.100.21.31) -> GET https://search.services.mozilla.com/1/firefox/67.0/release/en-US/PK/default/default (557 bytes)
+2019-06-17 21:13:50.504 [2180] PROXY resolved 'shavar.services.mozilla.com' to '52.40.28.81:443'
+2019-06-17 21:13:50.544 [2180] PROXY resolved 'search.services.mozilla.com' to '54.190.222.97:443'
+2019-06-17 21:13:50.606 [2180] PROXY 127.0.0.1:29666 (10.100.21.31) -> GET https://snippets.cdn.mozilla.net/us-west/bundles/bundle_b581fd01ad9ccf40f6263772962ce94b367724e7.json (540 bytes)
+2019-06-17 21:13:50.733 [2180] PROXY 127.0.0.1:29666 (10.100.21.31) <- 200 snippets.cdn.mozilla.net:443 (14379 bytes)
+2019-06-17 21:13:51.553 [2180] PROXY 127.0.0.1:29666 (10.100.21.31) -> GET http://www.msftncsi.com/ncsi.txt (262 bytes)
+2019-06-17 21:13:51.573 [2180] PROXY 127.0.0.1:29678 (10.100.21.31) -> GET http://ipv6.msftncsi.com/ncsi.txt (264 bytes)
+2019-06-17 21:13:51.779 [2180] PROXY resolved 'www.msftncsi.com' to '58.65.192.82:80'
+2019-06-17 21:13:51.820 [2180] PROXY 127.0.0.1:29666 (10.100.21.31) <- 200 www.msftncsi.com:80 (184 bytes)
+2019-06-17 21:13:51.852 [2180] PROXY 127.0.0.1:29672 (10.100.21.31) <- 200 shavar.services.mozilla.com:443 (1032 bytes)
+2019-06-17 21:13:51.911 [2180] PROXY 127.0.0.1:29673 (10.100.21.31) <- 200 search.services.mozilla.com:443 (330 bytes)
+2019-06-17 21:13:52.004 [2180] PROXY 127.0.0.1:29678 error resolving hostname: ares gave back no address
+2019-06-17 21:13:52.006 [2180] PROXY 127.0.0.1:29678 (10.100.21.31) <- ipv6.msftncsi.com:80 connection error: libevent connection error
+
+2019-06-17 21:13:52.252 [2180] PROXY 127.0.0.1:29673 (10.100.21.31) -> GET https://tracking-protection.cdn.mozilla.net/except-flashallow-digest256/1490633678 (549 bytes)
+2019-06-17 21:13:52.709 [2180] PROXY 127.0.0.1:29672 (10.100.21.31) -> GET http://automationpractice.com/index.php?controller=authentication (533 bytes)
+2019-06-17 21:13:52.713 [2180] PROXY resolved 'automationpractice.com' to '198.46.81.188:80'
+2019-06-17 21:13:52.874 [2180] PROXY resolved 'detectportal.firefox.com' to '58.65.192.73:80'
+2019-06-17 21:13:52.915 [2180] PROXY 127.0.0.1:29662 (10.100.21.31) <- 200 detectportal.firefox.com:80 (384 bytes)
+2019-06-17 21:13:53.517 [2180] PROXY 127.0.0.1:29672 (10.100.21.31) <- 200 automationpractice.com:80 (2920 bytes)
+2019-06-17 21:13:53.518 [2180] PROXY 127.0.0.1:29672 connection upgrade
+2019-06-17 21:13:54.078 [2180] PROXY resolved 'automationpractice.com' to '198.46.81.188:80'
+2019-06-17 21:13:54.081 [2180] PROXY 127.0.0.1:29662 (10.100.21.31) -> GET http://automationpractice.com/themes/default-bootstrap/css/autoload/uniform.default.css (800 bytes)
+2019-06-17 21:13:54.099 [2180] PROXY resolved 'automationpractice.com' to '198.46.81.188:80'
+2019-06-17 21:13:54.100 [2180] PROXY 127.0.0.1:29666 (10.100.21.31) -> GET http://automationpractice.com/themes/default-bootstrap/css/modules/blockbanner/blockbanner.css (807 bytes)
+2019-06-17 21:13:54.110 [2180] PROXY resolved 'automationpractice.com' to '198.46.81.188:80'
+2019-06-17 21:13:54.112 [2180] PROXY 127.0.0.1:29690 (10.100.21.31) -> GET http://automationpractice.com/themes/default-bootstrap/css/modules/blockcontact/blockcontact.css (809 bytes)
+2019-06-17 21:13:54.122 [2180] PROXY resolved 'automationpractice.com' to '198.46.81.188:80'
+2019-06-17 21:13:54.123 [2180] PROXY 127.0.0.1:29691 (10.100.21.31) -> GET http://automationpractice.com/themes/default-bootstrap/css/modules/blocklanguages/blocklanguages.css (813 bytes)
+2019-06-17 21:13:54.131 [2180] PROXY resolved 'automationpractice.com' to '198.46.81.188:80'
+2019-06-17 21:13:54.134 [2180] PROXY 127.0.0.1:29686 (10.100.21.31) -> GET http://automationpractice.com/themes/default-bootstrap/css/authentication.css (790 bytes)
+2019-06-17 21:13:54.142 [2180] PROXY resolved 'automationpractice.com' to '198.46.81.188:80'
+2019-06-17 21:13:54.143 [2180] PROXY 127.0.0.1:29687 (10.100.21.31) -> GET http://automationpractice.com/themes/default-bootstrap/css/modules/blockcategories/blockcategories.css (815 bytes)
+2019-06-17 21:13:54.153 [2180] PROXY resolved 'automationpractice.com' to '198.46.81.188:80'
+2019-06-17 21:13:54.154 [2180] PROXY 127.0.0.1:29688 (10.100.21.31) -> GET http://automationpractice.com/js/jquery/plugins/autocomplete/jquery.autocomplete.css (797 bytes)
+2019-06-17 21:13:54.164 [2180] PROXY resolved 'automationpractice.com' to '198.46.81.188:80'
+2019-06-17 21:13:54.165 [2180] PROXY 127.0.0.1:29689 (10.100.21.31) -> GET http://automationpractice.com/themes/default-bootstrap/css/modules/blocknewsletter/blocknewsletter.css (815 bytes)
+2019-06-17 21:13:54.174 [2180] PROXY resolved 'automationpractice.com' to '198.46.81.188:80'
+2019-06-17 21:13:54.175 [2180] PROXY 127.0.0.1:29693 (10.100.21.31) -> GET http://automationpractice.com/themes/default-bootstrap/css/modules/blockuserinfo/blockuserinfo.css (811 bytes)
+2019-06-17 21:13:54.186 [2180] PROXY resolved 'automationpractice.com' to '198.46.81.188:80'
+2019-06-17 21:13:54.189 [2180] PROXY 127.0.0.1:29694 (10.100.21.31) -> GET http://automationpractice.com/themes/default-bootstrap/css/modules/blockwishlist/blockwishlist.css (811 bytes)
+2019-06-17 21:13:54.309 [2180] PROXY resolved 'automationpractice.com' to '198.46.81.188:80'
+2019-06-17 21:13:54.311 [2180] PROXY 127.0.0.1:29695 (10.100.21.31) -> GET http://automationpractice.com/themes/default-bootstrap/css/modules/blocktopmenu/css/blocktopmenu.css (813 bytes)
+2019-06-17 21:13:54.354 [2180] PROXY resolved 'automationpractice.com' to '198.46.81.188:80'
+2019-06-17 21:13:54.356 [2180] PROXY 127.0.0.1:29706 (10.100.21.31) -> GET http://automationpractice.com/themes/default-bootstrap/css/global.css (782 bytes)
+2019-06-17 21:13:54.368 [2180] PROXY resolved 'automationpractice.com' to '198.46.81.188:80'
+2019-06-17 21:13:54.369 [2180] PROXY 127.0.0.1:29707 (10.100.21.31) -> GET http://automationpractice.com/themes/default-bootstrap/css/autoload/highdpi.css (792 bytes)
+2019-06-17 21:13:54.381 [2180] PROXY resolved 'automationpractice.com' to '198.46.81.188:80'
+2019-06-17 21:13:54.382 [2180] PROXY 127.0.0.1:29710 (10.100.21.31) -> GET http://automationpractice.com/js/jquery/plugins/fancybox/jquery.fancybox.css (789 bytes)
+2019-06-17 21:13:54.393 [2180] PROXY resolved 'automationpractice.com' to '198.46.81.188:80'
+2019-06-17 21:13:54.395 [2180] PROXY 127.0.0.1:29709 (10.100.21.31) -> GET http://automationpractice.com/themes/default-bootstrap/css/autoload/responsive-tables.css (802 bytes)
+2019-06-17 21:13:54.406 [2180] PROXY resolved 'automationpractice.com' to '198.46.81.188:80'
+2019-06-17 21:13:54.407 [2180] PROXY 127.0.0.1:29711 (10.100.21.31) -> GET http://automationpractice.com/themes/default-bootstrap/css/modules/blockcart/blockcart.css (803 bytes)
+2019-06-17 21:13:54.418 [2180] PROXY resolved 'automationpractice.com' to '198.46.81.188:80'
+2019-06-17 21:13:54.418 [2180] PROXY 127.0.0.1:29712 (10.100.21.31) -> GET http://automationpractice.com/themes/default-bootstrap/css/modules/blockcurrencies/blockcurrencies.css (815 bytes)
+2019-06-17 21:13:54.430 [2180] PROXY resolved 'automationpractice.com' to '198.46.81.188:80'
+2019-06-17 21:13:54.432 [2180] PROXY 127.0.0.1:29716 (10.100.21.31) -> GET http://automationpractice.com/themes/default-bootstrap/css/modules/blocksearch/blocksearch.css (807 bytes)
+2019-06-17 21:13:54.442 [2180] PROXY resolved 'automationpractice.com' to '198.46.81.188:80'
+2019-06-17 21:13:54.444 [2180] PROXY 127.0.0.1:29717 (10.100.21.31) -> GET http://automationpractice.com/themes/default-bootstrap/css/product_list.css (788 bytes)
+2019-06-17 21:13:54.455 [2180] PROXY resolved 'automationpractice.com' to '198.46.81.188:80'
+2019-06-17 21:13:54.457 [2180] PROXY 127.0.0.1:29719 (10.100.21.31) -> GET http://automationpractice.com/themes/default-bootstrap/css/modules/blockviewed/blockviewed.css (807 bytes)
+2019-06-17 21:13:54.468 [2180] PROXY resolved 'automationpractice.com' to '198.46.81.188:80'
+2019-06-17 21:13:54.469 [2180] PROXY 127.0.0.1:29720 (10.100.21.31) -> GET http://automationpractice.com/modules/themeconfigurator/css/hooks.css (782 bytes)
+2019-06-17 21:13:54.478 [2180] PROXY resolved 'automationpractice.com' to '198.46.81.188:80'
+2019-06-17 21:13:54.480 [2180] PROXY 127.0.0.1:29721 (10.100.21.31) -> GET http://automationpractice.com/themes/default-bootstrap/css/modules/productcomments/productcomments.css (815 bytes)
+2019-06-17 21:13:54.489 [2180] PROXY resolved 'automationpractice.com' to '198.46.81.188:80'
+2019-06-17 21:13:54.490 [2180] PROXY 127.0.0.1:29722 (10.100.21.31) -> GET http://automationpractice.com/js/jquery/jquery-1.11.0.min.js (758 bytes)
+2019-06-17 21:13:54.501 [2180] PROXY resolved 'automationpractice.com' to '198.46.81.188:80'
+2019-06-17 21:13:54.503 [2180] PROXY 127.0.0.1:29715 (10.100.21.31) -> GET http://automationpractice.com/themes/default-bootstrap/css/modules/blocktags/blocktags.css (803 bytes)
+2019-06-17 21:13:54.513 [2180] PROXY resolved 'automationpractice.com' to '198.46.81.188:80'
+2019-06-17 21:13:54.514 [2180] PROXY 127.0.0.1:29730 (10.100.21.31) -> GET http://automationpractice.com/themes/default-bootstrap/js/autoload/15-jquery.total-storage.min.js (795 bytes)
+2019-06-17 21:13:54.523 [2180] PROXY resolved 'automationpractice.com' to '198.46.81.188:80'
+2019-06-17 21:13:54.525 [2180] PROXY 127.0.0.1:29731 (10.100.21.31) -> GET http://automationpractice.com/js/jquery/plugins/jquery.easing.js (762 bytes)
+2019-06-17 21:13:54.535 [2180] PROXY resolved 'automationpractice.com' to '198.46.81.188:80'
+2019-06-17 21:13:54.536 [2180] PROXY 127.0.0.1:29733 (10.100.21.31) -> GET http://automationpractice.com/js/tools.js (739 bytes)
+2019-06-17 21:13:54.545 [2180] PROXY resolved 'automationpractice.com' to '198.46.81.188:80'
+2019-06-17 21:13:54.546 [2180] PROXY 127.0.0.1:29734 (10.100.21.31) -> GET http://automationpractice.com/themes/default-bootstrap/js/autoload/10-bootstrap.min.js (784 bytes)
+2019-06-17 21:13:54.556 [2180] PROXY resolved 'automationpractice.com' to '198.46.81.188:80'
+2019-06-17 21:13:54.558 [2180] PROXY 127.0.0.1:29724 (10.100.21.31) -> GET http://automationpractice.com/themes/default-bootstrap/css/modules/blocktopmenu/css/superfish-modified.css (819 bytes)
+2019-06-17 21:13:54.567 [2180] PROXY resolved 'automationpractice.com' to '198.46.81.188:80'
+2019-06-17 21:13:54.569 [2180] PROXY 127.0.0.1:29726 (10.100.21.31) -> GET http://automationpractice.com/js/jquery/jquery-migrate-1.2.1.min.js (765 bytes)
+2019-06-17 21:13:54.579 [2180] PROXY resolved 'automationpractice.com' to '198.46.81.188:80'
+2019-06-17 21:13:54.580 [2180] PROXY 127.0.0.1:29728 (10.100.21.31) -> GET http://automationpractice.com/themes/default-bootstrap/js/global.js (765 bytes)
+2019-06-17 21:13:54.583 [2180] PROXY 127.0.0.1:29662 (10.100.21.31) <- 200 automationpractice.com:80 (4096 bytes)
+2019-06-17 21:13:54.584 [2180] PROXY 127.0.0.1:29662 connection upgrade
+2019-06-17 21:13:54.585 [2180] PROXY 127.0.0.1:29666 (10.100.21.31) <- 200 automationpractice.com:80 (465 bytes)
+2019-06-17 21:13:54.586 [2180] PROXY 127.0.0.1:29666 connection upgrade
+2019-06-17 21:13:54.608 [2180] PROXY 127.0.0.1:29691 (10.100.21.31) <- 200 automationpractice.com:80 (1460 bytes)
+2019-06-17 21:13:54.609 [2180] PROXY 127.0.0.1:29691 connection upgrade
+2019-06-17 21:13:54.610 [2180] PROXY 127.0.0.1:29690 (10.100.21.31) <- 200 automationpractice.com:80 (1591 bytes)
+2019-06-17 21:13:54.611 [2180] PROXY 127.0.0.1:29690 connection upgrade
+2019-06-17 21:13:54.637 [2180] PROXY 127.0.0.1:29686 (10.100.21.31) <- 200 automationpractice.com:80 (1123 bytes)
+2019-06-17 21:13:54.638 [2180] PROXY 127.0.0.1:29686 connection upgrade
+2019-06-17 21:13:54.653 [2180] PROXY 127.0.0.1:29688 (10.100.21.31) <- 200 automationpractice.com:80 (1089 bytes)
+2019-06-17 21:13:54.654 [2180] PROXY 127.0.0.1:29688 connection upgrade
+2019-06-17 21:13:54.655 [2180] PROXY 127.0.0.1:29687 (10.100.21.31) <- 200 automationpractice.com:80 (3027 bytes)
+2019-06-17 21:13:54.657 [2180] PROXY 127.0.0.1:29687 connection upgrade
+2019-06-17 21:13:54.739 [2180] PROXY 127.0.0.1:29689 (10.100.21.31) <- 200 automationpractice.com:80 (3219 bytes)
+2019-06-17 21:13:54.740 [2180] PROXY 127.0.0.1:29689 connection upgrade
+2019-06-17 21:13:54.741 [2180] PROXY 127.0.0.1:29693 (10.100.21.31) <- 200 automationpractice.com:80 (714 bytes)
+2019-06-17 21:13:54.742 [2180] PROXY 127.0.0.1:29693 connection upgrade
+2019-06-17 21:13:54.819 [2180] PROXY 127.0.0.1:29694 (10.100.21.31) <- 200 automationpractice.com:80 (4096 bytes)
+2019-06-17 21:13:54.820 [2180] PROXY 127.0.0.1:29694 connection upgrade
+2019-06-17 21:13:54.821 [2180] PROXY 127.0.0.1:29695 (10.100.21.31) <- 200 automationpractice.com:80 (307 bytes)
+2019-06-17 21:13:54.822 [2180] PROXY 127.0.0.1:29695 connection upgrade
+2019-06-17 21:13:54.832 [2180] PROXY 127.0.0.1:29707 (10.100.21.31) <- 200 automationpractice.com:80 (607 bytes)
+2019-06-17 21:13:54.832 [2180] PROXY 127.0.0.1:29707 connection upgrade
+2019-06-17 21:13:54.846 [2180] PROXY 127.0.0.1:29710 (10.100.21.31) <- 200 automationpractice.com:80 (2920 bytes)
+2019-06-17 21:13:54.846 [2180] PROXY 127.0.0.1:29710 connection upgrade
+2019-06-17 21:13:54.872 [2180] PROXY 127.0.0.1:29709 (10.100.21.31) <- 200 automationpractice.com:80 (1701 bytes)
+2019-06-17 21:13:54.873 [2180] PROXY 127.0.0.1:29709 connection upgrade
+2019-06-17 21:13:54.873 [2180] PROXY 127.0.0.1:29711 (10.100.21.31) <- 200 automationpractice.com:80 (4096 bytes)
+2019-06-17 21:13:54.875 [2180] PROXY 127.0.0.1:29711 connection upgrade
+2019-06-17 21:13:54.875 [2180] PROXY 127.0.0.1:29706 (10.100.21.31) <- 200 automationpractice.com:80 (4096 bytes)
+2019-06-17 21:13:54.876 [2180] PROXY 127.0.0.1:29706 connection upgrade
+2019-06-17 21:13:54.884 [2180] PROXY 127.0.0.1:29712 (10.100.21.31) <- 200 automationpractice.com:80 (2143 bytes)
+2019-06-17 21:13:54.886 [2180] PROXY 127.0.0.1:29712 connection upgrade
+2019-06-17 21:13:54.900 [2180] PROXY 127.0.0.1:29716 (10.100.21.31) <- 200 automationpractice.com:80 (1460 bytes)
+2019-06-17 21:13:54.901 [2180] PROXY 127.0.0.1:29716 connection upgrade
+2019-06-17 21:13:54.907 [2180] PROXY 127.0.0.1:29717 (10.100.21.31) <- 200 automationpractice.com:80 (4096 bytes)
+2019-06-17 21:13:54.909 [2180] PROXY 127.0.0.1:29717 connection upgrade
+2019-06-17 21:13:54.922 [2180] PROXY 127.0.0.1:29719 (10.100.21.31) <- 200 automationpractice.com:80 (404 bytes)
+2019-06-17 21:13:54.923 [2180] PROXY 127.0.0.1:29719 connection upgrade
+2019-06-17 21:13:54.933 [2180] PROXY 127.0.0.1:29720 (10.100.21.31) <- 200 automationpractice.com:80 (1460 bytes)
+2019-06-17 21:13:54.933 [2180] PROXY 127.0.0.1:29720 connection upgrade
+2019-06-17 21:13:54.953 [2180] PROXY 127.0.0.1:29722 (10.100.21.31) <- 200 automationpractice.com:80 (1460 bytes)
+2019-06-17 21:13:54.954 [2180] PROXY 127.0.0.1:29722 connection upgrade
+2019-06-17 21:13:54.955 [2180] PROXY 127.0.0.1:29721 (10.100.21.31) <- 200 automationpractice.com:80 (4096 bytes)
+2019-06-17 21:13:54.956 [2180] PROXY 127.0.0.1:29721 connection upgrade
+2019-06-17 21:13:54.963 [2180] PROXY 127.0.0.1:29715 (10.100.21.31) <- 200 automationpractice.com:80 (642 bytes)
+2019-06-17 21:13:54.964 [2180] PROXY 127.0.0.1:29715 connection upgrade
+2019-06-17 21:13:54.987 [2180] PROXY 127.0.0.1:29731 (10.100.21.31) <- 200 automationpractice.com:80 (4096 bytes)
+2019-06-17 21:13:54.989 [2180] PROXY 127.0.0.1:29731 connection upgrade
+2019-06-17 21:13:54.990 [2180] PROXY 127.0.0.1:29730 (10.100.21.31) <- 200 automationpractice.com:80 (2846 bytes)
+2019-06-17 21:13:54.990 [2180] PROXY 127.0.0.1:29730 connection upgrade
+2019-06-17 21:13:55.010 [2180] PROXY 127.0.0.1:29734 (10.100.21.31) <- 200 automationpractice.com:80 (2920 bytes)
+2019-06-17 21:13:55.010 [2180] PROXY 127.0.0.1:29734 connection upgrade
+2019-06-17 21:13:55.013 [2180] PROXY 127.0.0.1:29733 (10.100.21.31) <- 200 automationpractice.com:80 (4096 bytes)
+2019-06-17 21:13:55.014 [2180] PROXY 127.0.0.1:29733 connection upgrade
+2019-06-17 21:13:55.038 [2180] PROXY 127.0.0.1:29726 (10.100.21.31) <- 200 automationpractice.com:80 (2920 bytes)
+2019-06-17 21:13:55.041 [2180] PROXY 127.0.0.1:29726 connection upgrade
+2019-06-17 21:13:55.042 [2180] PROXY 127.0.0.1:29724 (10.100.21.31) <- 200 automationpractice.com:80 (4096 bytes)
+2019-06-17 21:13:55.042 [2180] PROXY 127.0.0.1:29724 connection upgrade
+2019-06-17 21:13:55.042 [2180] PROXY 127.0.0.1:29728 (10.100.21.31) <- 200 automationpractice.com:80 (4096 bytes)
+2019-06-17 21:13:55.043 [2180] PROXY 127.0.0.1:29728 connection upgrade
+2019-06-17 21:13:57.911 [2180] PROXY 127.0.0.1:29717 connection upgrade
+2019-06-17 21:13:57.956 [2180] PROXY 127.0.0.1:29721 connection upgrade
+2019-06-17 21:13:57.971 [2180] PROXY 127.0.0.1:29715 connection upgrade
+2019-06-17 21:13:57.990 [2180] PROXY 127.0.0.1:29731 connection upgrade
+2019-06-17 21:13:57.992 [2180] PROXY 127.0.0.1:29730 connection upgrade
+2019-06-17 21:13:58.015 [2180] PROXY 127.0.0.1:29733 connection upgrade
+2019-06-17 21:13:58.041 [2180] PROXY 127.0.0.1:29726 connection upgrade
+2019-06-17 21:13:58.043 [2180] PROXY 127.0.0.1:29724 connection upgrade
+2019-06-17 21:13:58.044 [2180] PROXY 127.0.0.1:29728 connection upgrade
+2019-06-17 21:13:58.154 [2180] PROXY 127.0.0.1:29666 connection upgrade
+2019-06-17 21:13:58.158 [2180] PROXY 127.0.0.1:29662 connection upgrade
+2019-06-17 21:13:58.184 [2180] PROXY 127.0.0.1:29690 connection upgrade
+2019-06-17 21:13:58.189 [2180] PROXY 127.0.0.1:29691 connection upgrade
+2019-06-17 21:13:58.201 [2180] PROXY 127.0.0.1:29686 connection upgrade
+2019-06-17 21:13:58.227 [2180] PROXY 127.0.0.1:29687 connection upgrade
+2019-06-17 21:13:58.246 [2180] PROXY 127.0.0.1:29734 connection upgrade
+2019-06-17 21:13:58.263 [2180] PROXY 127.0.0.1:29688 connection upgrade
+2019-06-17 21:13:58.312 [2180] PROXY 127.0.0.1:29693 connection upgrade
+2019-06-17 21:13:58.352 [2180] PROXY 127.0.0.1:29689 connection upgrade
+2019-06-17 21:13:58.383 [2180] PROXY 127.0.0.1:29707 connection upgrade
+2019-06-17 21:13:58.390 [2180] PROXY 127.0.0.1:29695 connection upgrade
+2019-06-17 21:13:58.393 [2180] PROXY 127.0.0.1:29694 connection upgrade
+2019-06-17 21:13:58.407 [2180] PROXY 127.0.0.1:29710 connection upgrade
+2019-06-17 21:13:58.421 [2180] PROXY 127.0.0.1:29672 connection upgrade
+2019-06-17 21:13:58.443 [2180] PROXY 127.0.0.1:29712 connection upgrade
+2019-06-17 21:13:59.147 [2180] PROXY 127.0.0.1:29716 connection upgrade
+2019-06-17 21:13:59.312 [2180] PROXY 127.0.0.1:29709 connection upgrade
+2019-06-17 21:13:59.744 [2180] PROXY 127.0.0.1:29722 connection upgrade
+2019-06-17 21:13:59.746 [2180] PROXY 127.0.0.1:29720 connection upgrade
+2019-06-17 21:13:59.748 [2180] PROXY 127.0.0.1:29711 connection upgrade
+2019-06-17 21:13:59.765 [2180] PROXY 127.0.0.1:29706 connection upgrade
+2019-06-17 21:14:00.976 [2180] PROXY resolved 'tracking-protection.cdn.mozilla.net' to '54.192.151.129:443'
+2019-06-17 21:14:01.719 [2180] PROXY 127.0.0.1:29673 (10.100.21.31) <- 200 tracking-protection.cdn.mozilla.net:443 (526 bytes)
+2019-06-17 21:14:02.060 [2180] PROXY 127.0.0.1:29673 (10.100.21.31) -> GET https://tracking-protection.cdn.mozilla.net/allow-flashallow-digest256/1490633678 (548 bytes)
+2019-06-17 21:14:02.181 [2180] PROXY 127.0.0.1:29673 (10.100.21.31) <- 200 tracking-protection.cdn.mozilla.net:443 (527 bytes)
+2019-06-17 21:14:02.520 [2180] PROXY 127.0.0.1:29673 (10.100.21.31) -> GET https://tracking-protection.cdn.mozilla.net/except-flash-digest256/1494877265 (544 bytes)
+2019-06-17 21:14:02.640 [2180] PROXY 127.0.0.1:29673 (10.100.21.31) <- 200 tracking-protection.cdn.mozilla.net:443 (559 bytes)
+2019-06-17 21:14:02.970 [2180] PROXY 127.0.0.1:29673 (10.100.21.31) -> GET https://tracking-protection.cdn.mozilla.net/except-flashsubdoc-digest256/1517935265 (550 bytes)
+2019-06-17 21:14:03.084 [2180] PROXY 127.0.0.1:29673 (10.100.21.31) <- 200 tracking-protection.cdn.mozilla.net:443 (592 bytes)
+2019-06-17 21:14:03.417 [2180] PROXY 127.0.0.1:29673 (10.100.21.31) -> GET https://tracking-protection.cdn.mozilla.net/mozstd-trackwhite-digest256/1559142673 (549 bytes)
+2019-06-17 21:14:04.001 [2180] PROXY 127.0.0.1:29673 (10.100.21.31) <- 200 tracking-protection.cdn.mozilla.net:443 (316182 bytes)
+2019-06-17 21:14:04.348 [2180] PROXY 127.0.0.1:29673 (10.100.21.31) -> GET https://tracking-protection.cdn.mozilla.net/block-flashsubdoc-digest256/1512160865 (549 bytes)
+2019-06-17 21:14:04.485 [2180] PROXY 127.0.0.1:29673 (10.100.21.31) <- 200 tracking-protection.cdn.mozilla.net:443 (73877 bytes)
+2019-06-17 21:14:04.856 [2180] PROXY 127.0.0.1:29673 (10.100.21.31) -> GET https://tracking-protection.cdn.mozilla.net/base-track-digest256/1559142673 (542 bytes)
+2019-06-17 21:14:04.989 [2180] PROXY 127.0.0.1:29673 (10.100.21.31) <- 200 tracking-protection.cdn.mozilla.net:443 (65044 bytes)
+2019-06-17 21:14:05.372 [2180] PROXY 127.0.0.1:29673 (10.100.21.31) -> GET https://tracking-protection.cdn.mozilla.net/block-flash-digest256/1496263270 (543 bytes)
+2019-06-17 21:14:05.514 [2180] PROXY 127.0.0.1:29673 (10.100.21.31) <- 200 tracking-protection.cdn.mozilla.net:443 (7123 bytes)
+2019-06-17 21:14:06.754 [2180] PROXY resolved 'push.services.mozilla.com' to '34.209.158.104:443'
+2019-06-17 21:14:06.757 [2180] PROXY 127.0.0.1:29673 (10.100.21.31) -> GET https://push.services.mozilla.com/ (694 bytes)
+2019-06-17 21:14:08.374 [2180] PROXY resolved 'push.services.mozilla.com' to '34.209.158.104:443'
+2019-06-17 21:14:08.378 [2180] PROXY 127.0.0.1:29776 (10.100.21.31) -> GET https://push.services.mozilla.com/ (694 bytes)
+2019-06-17 21:14:09.040 [2180] PROXY resolved 'automationpractice.com' to '198.46.81.188:80'
+2019-06-17 21:14:09.042 [2180] PROXY 127.0.0.1:29778 (10.100.21.31) -> GET http://automationpractice.com/modules/blockbanner/img/sale70.png (773 bytes)
+2019-06-17 21:14:09.057 [2180] PROXY resolved 'automationpractice.com' to '198.46.81.188:80'
+2019-06-17 21:14:09.059 [2180] PROXY 127.0.0.1:29780 (10.100.21.31) -> GET http://automationpractice.com/img/c/3-0_thumb.jpg (758 bytes)
+2019-06-17 21:14:09.074 [2180] PROXY resolved 'automationpractice.com' to '198.46.81.188:80'
+2019-06-17 21:14:09.078 [2180] PROXY 127.0.0.1:29781 (10.100.21.31) -> GET http://automationpractice.com/img/c/3-1_thumb.jpg (758 bytes)
+2019-06-17 21:14:09.094 [2180] PROXY resolved 'automationpractice.com' to '198.46.81.188:80'
+2019-06-17 21:14:09.094 [2180] PROXY 127.0.0.1:29782 (10.100.21.31) -> GET http://automationpractice.com/themes/default-bootstrap/img/footer-bg.png (785 bytes)
+2019-06-17 21:14:09.108 [2180] PROXY resolved 'automationpractice.com' to '198.46.81.188:80'
+2019-06-17 21:14:09.109 [2180] PROXY 127.0.0.1:29779 (10.100.21.31) -> GET http://automationpractice.com/img/logo.jpg (751 bytes)
+2019-06-17 21:14:09.510 [2180] PROXY 127.0.0.1:29778 (10.100.21.31) <- 200 automationpractice.com:80 (1460 bytes)
+2019-06-17 21:14:09.516 [2180] PROXY 127.0.0.1:29778 connection upgrade
+2019-06-17 21:14:09.527 [2180] PROXY 127.0.0.1:29780 (10.100.21.31) <- 200 automationpractice.com:80 (2920 bytes)
+2019-06-17 21:14:09.529 [2180] PROXY 127.0.0.1:29780 connection upgrade
+2019-06-17 21:14:09.547 [2180] PROXY 127.0.0.1:29781 (10.100.21.31) <- 200 automationpractice.com:80 (2920 bytes)
+2019-06-17 21:14:09.550 [2180] PROXY 127.0.0.1:29781 connection upgrade
+2019-06-17 21:14:09.559 [2180] PROXY 127.0.0.1:29782 (10.100.21.31) <- 200 automationpractice.com:80 (351 bytes)
+2019-06-17 21:14:09.563 [2180] PROXY 127.0.0.1:29782 connection upgrade
+2019-06-17 21:14:09.579 [2180] PROXY 127.0.0.1:29779 (10.100.21.31) <- 200 automationpractice.com:80 (4096 bytes)
+2019-06-17 21:14:09.580 [2180] PROXY 127.0.0.1:29779 connection upgrade
+2019-06-17 21:14:12.513 [2180] PROXY 127.0.0.1:29778 connection upgrade
+2019-06-17 21:14:12.529 [2180] PROXY 127.0.0.1:29780 connection upgrade
+2019-06-17 21:14:12.548 [2180] PROXY 127.0.0.1:29781 connection upgrade
+2019-06-17 21:14:12.560 [2180] PROXY 127.0.0.1:29782 connection upgrade
+2019-06-17 21:14:12.795 [2180] PROXY 127.0.0.1:29719 connection upgrade
+2019-06-17 21:14:14.096 [2180] PROXY 127.0.0.1:29779 connection upgrade
+2019-06-17 21:14:15.427 [2180] PROXY resolved 'automationpractice.com' to '198.46.81.188:80'
+2019-06-17 21:14:15.430 [2180] PROXY 127.0.0.1:29797 (10.100.21.31) -> POST http://automationpractice.com/index.php?controller=authentication (1007 bytes)
+2019-06-17 21:14:16.339 [2180] PROXY 127.0.0.1:29797 (10.100.21.31) <- 200 automationpractice.com:80 (4096 bytes)
+2019-06-17 21:14:16.341 [2180] PROXY 127.0.0.1:29797 connection upgrade
+2019-06-17 21:14:16.815 [2180] PROXY resolved 'automationpractice.com' to '198.46.81.188:80'
+2019-06-17 21:14:16.817 [2180] PROXY 127.0.0.1:29800 (10.100.21.31) -> GET http://automationpractice.com/themes/default-bootstrap/js/autoload/15-jquery.uniform-modified.js (794 bytes)
+2019-06-17 21:14:16.836 [2180] PROXY resolved 'automationpractice.com' to '198.46.81.188:80'
+2019-06-17 21:14:16.838 [2180] PROXY 127.0.0.1:29801 (10.100.21.31) -> GET http://automationpractice.com/themes/default-bootstrap/js/authentication.js (773 bytes)
+2019-06-17 21:14:16.849 [2180] PROXY resolved 'automationpractice.com' to '198.46.81.188:80'
+2019-06-17 21:14:16.850 [2180] PROXY 127.0.0.1:29802 (10.100.21.31) -> GET http://automationpractice.com/js/validate.js (742 bytes)
+2019-06-17 21:14:16.861 [2180] PROXY resolved 'automationpractice.com' to '198.46.81.188:80'
+2019-06-17 21:14:16.862 [2180] PROXY 127.0.0.1:29803 (10.100.21.31) -> GET http://automationpractice.com/js/jquery/plugins/jquery.scrollTo.js (764 bytes)
+2019-06-17 21:14:16.872 [2180] PROXY resolved 'automationpractice.com' to '198.46.81.188:80'
+2019-06-17 21:14:16.873 [2180] PROXY 127.0.0.1:29804 (10.100.21.31) -> GET http://automationpractice.com/js/jquery/plugins/jquery.serialScroll.js (768 bytes)
+2019-06-17 21:14:16.883 [2180] PROXY resolved 'automationpractice.com' to '198.46.81.188:80'
+2019-06-17 21:14:16.884 [2180] PROXY 127.0.0.1:29806 (10.100.21.31) -> GET http://automationpractice.com/js/jquery/plugins/fancybox/jquery.fancybox.js (773 bytes)
+2019-06-17 21:14:16.894 [2180] PROXY resolved 'automationpractice.com' to '198.46.81.188:80'
+2019-06-17 21:14:16.894 [2180] PROXY 127.0.0.1:29808 (10.100.21.31) -> GET http://automationpractice.com/themes/default-bootstrap/js/products-comparison.js (778 bytes)
+2019-06-17 21:14:16.904 [2180] PROXY resolved 'automationpractice.com' to '198.46.81.188:80'
+2019-06-17 21:14:16.906 [2180] PROXY 127.0.0.1:29809 (10.100.21.31) -> GET http://automationpractice.com/themes/default-bootstrap/js/modules/blocknewsletter/blocknewsletter.js (798 bytes)
+2019-06-17 21:14:16.918 [2180] PROXY resolved 'automationpractice.com' to '198.46.81.188:80'
+2019-06-17 21:14:16.920 [2180] PROXY 127.0.0.1:29811 (10.100.21.31) -> GET http://automationpractice.com/js/jquery/plugins/jquery.typewatch.js (765 bytes)
+2019-06-17 21:14:17.139 [2180] PROXY resolved 'automationpractice.com' to '198.46.81.188:80'
+2019-06-17 21:14:17.141 [2180] PROXY 127.0.0.1:29813 (10.100.21.31) -> GET http://automationpractice.com/js/jquery/plugins/autocomplete/jquery.autocomplete.js (781 bytes)
+2019-06-17 21:14:17.157 [2180] PROXY resolved 'automationpractice.com' to '198.46.81.188:80'
+2019-06-17 21:14:17.158 [2180] PROXY 127.0.0.1:29821 (10.100.21.31) -> GET http://automationpractice.com/themes/default-bootstrap/js/tools/statesManagement.js (781 bytes)
+2019-06-17 21:14:17.171 [2180] PROXY resolved 'automationpractice.com' to '198.46.81.188:80'
+2019-06-17 21:14:17.172 [2180] PROXY 127.0.0.1:29815 (10.100.21.31) -> GET http://automationpractice.com/themes/default-bootstrap/js/tools/vatManagement.js (778 bytes)
+2019-06-17 21:14:17.182 [2180] PROXY resolved 'automationpractice.com' to '198.46.81.188:80'
+2019-06-17 21:14:17.183 [2180] PROXY 127.0.0.1:29820 (10.100.21.31) -> GET http://automationpractice.com/themes/default-bootstrap/js/modules/blocksearch/blocksearch.js (790 bytes)
+2019-06-17 21:14:17.193 [2180] PROXY resolved 'automationpractice.com' to '198.46.81.188:80'
+2019-06-17 21:14:17.195 [2180] PROXY 127.0.0.1:29827 (10.100.21.31) -> GET http://automationpractice.com/themes/default-bootstrap/js/modules/blockwishlist/js/ajax-wishlist.js (797 bytes)
+2019-06-17 21:14:17.204 [2180] PROXY resolved 'automationpractice.com' to '198.46.81.188:80'
+2019-06-17 21:14:17.206 [2180] PROXY 127.0.0.1:29828 (10.100.21.31) -> GET http://automationpractice.com/themes/default-bootstrap/js/modules/blocktopmenu/js/superfish-modified.js (801 bytes)
+2019-06-17 21:14:17.217 [2180] PROXY resolved 'automationpractice.com' to '198.46.81.188:80'
+2019-06-17 21:14:17.219 [2180] PROXY 127.0.0.1:29822 (10.100.21.31) -> GET http://automationpractice.com/themes/default-bootstrap/js/modules/blockcart/ajax-cart.js (786 bytes)
+2019-06-17 21:14:17.227 [2180] PROXY resolved 'automationpractice.com' to '198.46.81.188:80'
+2019-06-17 21:14:17.229 [2180] PROXY 127.0.0.1:29823 (10.100.21.31) -> GET http://automationpractice.com/js/jquery/plugins/bxslider/jquery.bxslider.js (773 bytes)
+2019-06-17 21:14:17.237 [2180] PROXY resolved 'automationpractice.com' to '198.46.81.188:80'
+2019-06-17 21:14:17.237 [2180] PROXY 127.0.0.1:29825 (10.100.21.31) -> GET http://automationpractice.com/themes/default-bootstrap/js/tools/treeManagement.js (779 bytes)
+2019-06-17 21:14:17.247 [2180] PROXY resolved 'automationpractice.com' to '198.46.81.188:80'
+2019-06-17 21:14:17.248 [2180] PROXY 127.0.0.1:29831 (10.100.21.31) -> GET http://automationpractice.com/themes/default-bootstrap/js/modules/blocktopmenu/js/blocktopmenu.js (795 bytes)
+2019-06-17 21:14:17.257 [2180] PROXY 127.0.0.1:29833 (10.100.21.31) -> GET http://fonts.googleapis.com/css?family=Open+Sans:300,600&subset=latin,latin-ext (546 bytes)
+2019-06-17 21:14:17.266 [2180] PROXY resolved 'automationpractice.com' to '198.46.81.188:80'
+2019-06-17 21:14:17.267 [2180] PROXY 127.0.0.1:29829 (10.100.21.31) -> GET http://automationpractice.com/themes/default-bootstrap/js/modules/blocktopmenu/js/hoverIntent.js (794 bytes)
+2019-06-17 21:14:17.284 [2180] PROXY 127.0.0.1:29800 (10.100.21.31) <- 200 automationpractice.com:80 (1460 bytes)
+2019-06-17 21:14:17.285 [2180] PROXY 127.0.0.1:29800 connection upgrade
+2019-06-17 21:14:17.309 [2180] PROXY 127.0.0.1:29801 (10.100.21.31) <- 200 automationpractice.com:80 (2920 bytes)
+2019-06-17 21:14:17.310 [2180] PROXY 127.0.0.1:29801 connection upgrade
+2019-06-17 21:14:17.316 [2180] PROXY 127.0.0.1:29802 (10.100.21.31) <- 200 automationpractice.com:80 (1460 bytes)
+2019-06-17 21:14:17.317 [2180] PROXY 127.0.0.1:29802 connection upgrade
+2019-06-17 21:14:17.343 [2180] PROXY 127.0.0.1:29804 (10.100.21.31) <- 200 automationpractice.com:80 (1460 bytes)
+2019-06-17 21:14:17.344 [2180] PROXY 127.0.0.1:29804 connection upgrade
+2019-06-17 21:14:17.426 [2180] PROXY 127.0.0.1:29806 (10.100.21.31) <- 200 automationpractice.com:80 (4096 bytes)
+2019-06-17 21:14:17.426 [2180] PROXY 127.0.0.1:29806 connection upgrade
+2019-06-17 21:14:17.426 [2180] PROXY 127.0.0.1:29808 (10.100.21.31) <- 200 automationpractice.com:80 (4096 bytes)
+2019-06-17 21:14:17.428 [2180] PROXY 127.0.0.1:29808 connection upgrade
+2019-06-17 21:14:17.429 [2180] PROXY 127.0.0.1:29809 (10.100.21.31) <- 200 automationpractice.com:80 (2012 bytes)
+2019-06-17 21:14:17.430 [2180] PROXY 127.0.0.1:29809 connection upgrade
+2019-06-17 21:14:17.445 [2180] PROXY 127.0.0.1:29803 (10.100.21.31) <- 200 automationpractice.com:80 (1460 bytes)
+2019-06-17 21:14:17.445 [2180] PROXY 127.0.0.1:29803 connection upgrade
+2019-06-17 21:14:17.471 [2180] PROXY 127.0.0.1:29811 (10.100.21.31) <- 200 automationpractice.com:80 (1460 bytes)
+2019-06-17 21:14:17.472 [2180] PROXY 127.0.0.1:29811 connection upgrade
+2019-06-17 21:14:17.481 [2180] PROXY resolved 'fonts.googleapis.com' to '172.217.19.170:80'
+2019-06-17 21:14:17.604 [2180] PROXY 127.0.0.1:29813 (10.100.21.31) <- 200 automationpractice.com:80 (4096 bytes)
+2019-06-17 21:14:17.604 [2180] PROXY 127.0.0.1:29813 connection upgrade
+2019-06-17 21:14:17.625 [2180] PROXY 127.0.0.1:29821 (10.100.21.31) <- 200 automationpractice.com:80 (4096 bytes)
+2019-06-17 21:14:17.625 [2180] PROXY 127.0.0.1:29821 connection upgrade
+2019-06-17 21:14:17.645 [2180] PROXY 127.0.0.1:29815 (10.100.21.31) <- 200 automationpractice.com:80 (1460 bytes)
+2019-06-17 21:14:17.646 [2180] PROXY 127.0.0.1:29815 connection upgrade
+2019-06-17 21:14:17.661 [2180] PROXY 127.0.0.1:29820 (10.100.21.31) <- 200 automationpractice.com:80 (1460 bytes)
+2019-06-17 21:14:17.662 [2180] PROXY 127.0.0.1:29820 connection upgrade
+2019-06-17 21:14:17.664 [2180] PROXY 127.0.0.1:29827 (10.100.21.31) <- 200 automationpractice.com:80 (4096 bytes)
+2019-06-17 21:14:17.665 [2180] PROXY 127.0.0.1:29827 connection upgrade
+2019-06-17 21:14:17.670 [2180] PROXY 127.0.0.1:29828 (10.100.21.31) <- 200 automationpractice.com:80 (2920 bytes)
+2019-06-17 21:14:17.670 [2180] PROXY 127.0.0.1:29828 connection upgrade
+2019-06-17 21:14:17.674 [2180] PROXY 127.0.0.1:29833 (10.100.21.31) <- 200 fonts.googleapis.com:80 (1019 bytes)
+2019-06-17 21:14:17.683 [2180] PROXY 127.0.0.1:29822 (10.100.21.31) <- 200 automationpractice.com:80 (2920 bytes)
+2019-06-17 21:14:17.683 [2180] PROXY 127.0.0.1:29822 connection upgrade
+2019-06-17 21:14:17.699 [2180] PROXY 127.0.0.1:29823 (10.100.21.31) <- 200 automationpractice.com:80 (4096 bytes)
+2019-06-17 21:14:17.700 [2180] PROXY 127.0.0.1:29823 connection upgrade
+2019-06-17 21:14:17.703 [2180] PROXY 127.0.0.1:29825 (10.100.21.31) <- 200 automationpractice.com:80 (2920 bytes)
+2019-06-17 21:14:17.704 [2180] PROXY 127.0.0.1:29825 connection upgrade
+2019-06-17 21:14:17.713 [2180] PROXY 127.0.0.1:29831 (10.100.21.31) <- 200 automationpractice.com:80 (2920 bytes)
+2019-06-17 21:14:17.713 [2180] PROXY 127.0.0.1:29831 connection upgrade
+2019-06-17 21:14:17.733 [2180] PROXY 127.0.0.1:29829 (10.100.21.31) <- 200 automationpractice.com:80 (2920 bytes)
+2019-06-17 21:14:17.734 [2180] PROXY 127.0.0.1:29829 connection upgrade
+2019-06-17 21:14:19.584 [2180] PROXY 127.0.0.1:29797 connection upgrade
+2019-06-17 21:14:20.313 [2180] PROXY 127.0.0.1:29801 connection upgrade
+2019-06-17 21:14:20.345 [2180] PROXY 127.0.0.1:29804 connection upgrade
+2019-06-17 21:14:20.419 [2180] PROXY 127.0.0.1:29808 connection upgrade
+2019-06-17 21:14:20.422 [2180] PROXY 127.0.0.1:29809 connection upgrade
+2019-06-17 21:14:20.446 [2180] PROXY 127.0.0.1:29803 connection upgrade
+2019-06-17 21:14:20.475 [2180] PROXY 127.0.0.1:29811 connection upgrade
+2019-06-17 21:14:20.520 [2180] PROXY 127.0.0.1:29800 connection upgrade
+2019-06-17 21:14:20.553 [2180] PROXY 127.0.0.1:29802 connection upgrade
+2019-06-17 21:14:20.626 [2180] PROXY 127.0.0.1:29821 connection upgrade
+2019-06-17 21:14:20.646 [2180] PROXY 127.0.0.1:29815 connection upgrade
+2019-06-17 21:14:20.654 [2180] PROXY 127.0.0.1:29806 connection upgrade
+2019-06-17 21:14:20.663 [2180] PROXY 127.0.0.1:29820 connection upgrade
+2019-06-17 21:14:20.666 [2180] PROXY 127.0.0.1:29827 connection upgrade
+2019-06-17 21:14:20.672 [2180] PROXY 127.0.0.1:29828 connection upgrade
+2019-06-17 21:14:20.706 [2180] PROXY 127.0.0.1:29825 connection upgrade
+2019-06-17 21:14:20.715 [2180] PROXY 127.0.0.1:29831 connection upgrade
+2019-06-17 21:14:20.736 [2180] PROXY 127.0.0.1:29829 connection upgrade
+2019-06-17 21:14:21.841 [2180] PROXY 127.0.0.1:29823 connection upgrade
+2019-06-17 21:14:21.846 [2180] PROXY 127.0.0.1:29822 connection upgrade
+2019-06-17 21:14:22.422 [2180] PROXY 127.0.0.1:29813 connection upgrade
+2019-06-17 21:14:25.777 [2180] PROXY resolved 'automationpractice.com' to '198.46.81.188:80'
+2019-06-17 21:14:25.779 [2180] PROXY 127.0.0.1:29833 (10.100.21.31) -> GET http://automationpractice.com/themes/default-bootstrap/img/icon/form-ok.png (788 bytes)
+2019-06-17 21:14:26.248 [2180] PROXY 127.0.0.1:29833 (10.100.21.31) <- 200 automationpractice.com:80 (451 bytes)
+2019-06-17 21:14:26.249 [2180] PROXY 127.0.0.1:29833 connection upgrade
+2019-06-17 21:14:29.251 [2180] PROXY 127.0.0.1:29833 connection upgrade
+2019-06-17 21:14:46.819 [2180] PROXY resolved 'automationpractice.com' to '198.46.81.188:80'
+2019-06-17 21:14:46.821 [2180] PROXY 127.0.0.1:29880 (10.100.21.31) -> POST http://automationpractice.com/index.php?controller=authentication (1283 bytes)
+2019-06-17 21:14:47.645 [2180] PROXY 127.0.0.1:29880 (10.100.21.31) <- 302 automationpractice.com:80 (892 bytes)
+2019-06-17 21:14:47.647 [2180] PROXY 127.0.0.1:29880 connection upgrade
+2019-06-17 21:14:48.477 [2180] PROXY resolved 'detectportal.firefox.com' to '58.65.192.73:80'
+2019-06-17 21:14:48.478 [2180] PROXY 127.0.0.1:29884 (10.100.21.31) -> GET http://detectportal.firefox.com/success.txt (440 bytes)
+2019-06-17 21:14:48.526 [2180] PROXY 127.0.0.1:29884 (10.100.21.31) <- 200 detectportal.firefox.com:80 (384 bytes)
+2019-06-17 21:14:54.736 [2180] PROXY 127.0.0.1:29880 connection upgrade
+2019-06-17 21:18:39.699 [2180] PROXY 127.0.0.1:30213 (127.0.0.1) -> GET http://localhost:8888/debug/vars (267 bytes)
+2019-06-17 21:18:39.702 [2180] PROXY resolved 'localhost' to '127.0.0.1:8888'
+2019-06-17 21:18:39.716 [2180] PROXY 127.0.0.1:30213 (127.0.0.1) <- 200 localhost:8888 (4460 bytes)
+2019-06-17 21:19:05.701 [2180] MAIN connecting to maki846.miso.saucelabs.com - maki846.miso.saucelabs.com:443
+2019-06-17 21:19:06.353 [2180] MAIN connecting to KGP server maki846.miso.saucelabs.com took 2352 ms
+2019-06-17 21:19:06.946 [2180] Remote tunnel VM has been terminated by user request. Shutting down.
+2019-06-17 21:19:06.947 [2180] Cleaning up.
+2019-06-17 21:19:06.947 [2180] Removing tunnel e420742bbe1a4c6d984f9ab777c49ce7.
+2019-06-17 21:19:06.948 [2180] Waiting for any active jobs using this tunnel to finish.
+2019-06-17 21:19:06.949 [2180] Press CTRL-C again to shut down immediately.
+2019-06-17 21:19:06.950 [2180] Note: if you do this, tests that are still running will fail.
+2019-06-17 21:19:08.988 [2180] All jobs using the tunnel have finished.
+2019-06-17 21:19:08.988 [2180] Waiting for the connection to terminate...
+2019-06-17 21:19:08.989 [2180] SC Status: 1 after 1 tries
+2019-06-17 21:19:09.990 [2180] SC Status: 3 after 2 tries
+2019-06-17 21:19:09.990 [2180] Connection closed (8).
+2019-06-17 21:19:09.990 [2180] Goodbye.
+2019-06-17 21:22:57.181 [15296] Sauce Connect 4.5.3, build 2589 4b3da11 -dirty
+2019-06-17 21:22:57.182 [15296] Trying to autodetect proxy settings
+2019-06-17 21:22:57.191 [15296] Starting up; pid 15296
+2019-06-17 21:22:57.192 [15296] Command line arguments: sc.exe -u irfanullah -k **** -i eraza@CRLHL-RAZAAEHS1 -X 55001 
+2019-06-17 21:22:57.192 [15296] Log file: D:\fox_build\java_box\src\main\resources\SauceTunnel\bin\sc-eraza@CRLHL-RAZAAEHS1.log
+2019-06-17 21:22:57.192 [15296] Pid file: C:\Users\eraza\AppData\Roaming/sc_client-eraza@CRLHL-RAZAAEHS1.pid
+2019-06-17 21:22:57.192 [15296] Timezone: PKT GMT offset: 5h
+2019-06-17 21:22:57.192 [15296] Using no proxy for connecting to Sauce Labs REST API.
+2019-06-17 21:22:58.465 [15296] Started scproxy on port 55001.
+2019-06-17 21:22:58.465 [15296] Please wait for 'you may start your tests' to start your tests.
+2019-06-17 21:22:58.466 [15296] PROXY *** scproxy started ***
+2019-06-17 21:22:58.479 [15296] PROXY found DNS server 10.31.1.1
+2019-06-17 21:22:58.480 [15296] PROXY found DNS server 10.31.1.2
+2019-06-17 21:22:58.480 [15296] PROXY found DNS server 10.10.4.65
+2019-06-17 21:22:58.480 [15296] PROXY found DNS server 10.10.4.66
+2019-06-17 21:23:17.404 [15296] Secure remote tunnel VM provisioned.
+2019-06-17 21:23:17.404 [15296] Tunnel ID: 6920ef3d73684cf88e050d243167e540
+2019-06-17 21:23:17.405 [15296] Using no proxy for connecting to tunnel VM.
+2019-06-17 21:23:17.407 [15296] Starting Selenium listener...
+2019-06-17 21:23:17.407 [15296] Establishing secure TLS connection to tunnel...
+2019-06-17 21:23:17.432 [15296] [EVDNS] Added nameserver 10.31.1.1:53 as 03F8ED08
+2019-06-17 21:23:17.434 [15296] [EVDNS] Added nameserver 10.31.1.2:53 as 03F8CFE0
+2019-06-17 21:23:17.436 [15296] [EVDNS] Added nameserver 10.10.4.65:53 as 03F8D420
+2019-06-17 21:23:17.438 [15296] [EVDNS] Added nameserver 10.10.4.66:53 as 03F8D558
+2019-06-17 21:23:17.439 [15296] MAIN connecting to maki1246.miso.saucelabs.com - maki1246.miso.saucelabs.com:443
+2019-06-17 21:23:17.658 [15296] Selenium listener started on port 4445.
+2019-06-17 21:23:18.110 [15296] MAIN connecting to KGP server maki1246.miso.saucelabs.com took 2333 ms
+2019-06-17 21:23:20.664 [15296] [32;1mSauce Connect is up, you may start your tests.
+[0m2019-06-17 21:23:21.132 [15296] PROXY 127.0.0.1:30637 (127.0.0.1) -> HEAD http://localhost:8888/debug/vars (269 bytes)
+2019-06-17 21:23:21.135 [15296] PROXY resolved 'localhost' to '127.0.0.1:8888'
+2019-06-17 21:23:21.471 [15296] PROXY 127.0.0.1:30637 (127.0.0.1) -> GET http://localhost:8888/debug/vars (268 bytes)
+2019-06-17 21:23:33.718 [15296] PROXY 127.0.0.1:30659 (10.100.52.81) -> POST https://accounts.google.com/ListAccounts?gpsia=1&source=ChromiumBrowser&json=standard (642 bytes)
+2019-06-17 21:23:33.722 [15296] PROXY resolved 'accounts.google.com' to '172.217.19.173:443'
+2019-06-17 21:23:33.736 [15296] PROXY 127.0.0.1:30660 (10.100.52.81) -> GET https://www.gstatic.com/chrome/intelligence/assist/ranker/models/translate/2017/03/translate_ranker_model_20170329.pb.bin (539 bytes)
+2019-06-17 21:23:33.738 [15296] PROXY resolved 'www.gstatic.com' to '172.217.19.163:443'
+2019-06-17 21:23:34.041 [15296] PROXY 127.0.0.1:30660 (10.100.52.81) <- 200 www.gstatic.com:443 (2030 bytes)
+2019-06-17 21:23:34.139 [15296] PROXY 127.0.0.1:30659 (10.100.52.81) <- 200 accounts.google.com:443 (1250 bytes)
+2019-06-17 21:23:38.464 [15296] PROXY 127.0.0.1:30659 (10.100.52.81) -> GET http://automationpractice.com/index.php?controller=authentication (621 bytes)
+2019-06-17 21:23:38.467 [15296] PROXY resolved 'automationpractice.com' to '198.46.81.188:80'
+2019-06-17 21:23:39.416 [15296] PROXY 127.0.0.1:30659 (10.100.52.81) <- 200 automationpractice.com:80 (1460 bytes)
+2019-06-17 21:23:39.418 [15296] PROXY 127.0.0.1:30659 connection upgrade
+2019-06-17 21:23:39.834 [15296] PROXY resolved 'automationpractice.com' to '198.46.81.188:80'
+2019-06-17 21:23:39.837 [15296] PROXY 127.0.0.1:30660 (10.100.52.81) -> GET http://automationpractice.com/themes/default-bootstrap/css/global.css (819 bytes)
+2019-06-17 21:23:39.851 [15296] PROXY resolved 'automationpractice.com' to '198.46.81.188:80'
+2019-06-17 21:23:39.853 [15296] PROXY 127.0.0.1:30675 (10.100.52.81) -> GET http://automationpractice.com/themes/default-bootstrap/css/autoload/highdpi.css (829 bytes)
+2019-06-17 21:23:39.866 [15296] PROXY resolved 'automationpractice.com' to '198.46.81.188:80'
+2019-06-17 21:23:39.868 [15296] PROXY 127.0.0.1:30676 (10.100.52.81) -> GET http://automationpractice.com/themes/default-bootstrap/css/autoload/responsive-tables.css (839 bytes)
+2019-06-17 21:23:39.876 [15296] PROXY resolved 'automationpractice.com' to '198.46.81.188:80'
+2019-06-17 21:23:39.877 [15296] PROXY 127.0.0.1:30679 (10.100.52.81) -> GET http://automationpractice.com/js/jquery/plugins/fancybox/jquery.fancybox.css (826 bytes)
+2019-06-17 21:23:39.888 [15296] PROXY resolved 'automationpractice.com' to '198.46.81.188:80'
+2019-06-17 21:23:39.889 [15296] PROXY 127.0.0.1:30678 (10.100.52.81) -> GET http://automationpractice.com/themes/default-bootstrap/css/autoload/uniform.default.css (837 bytes)
+2019-06-17 21:23:40.041 [15296] PROXY 127.0.0.1:30684 (10.100.52.81) -> GET http://fonts.googleapis.com/css?family=Open+Sans:300,600&subset=latin,latin-ext (579 bytes)
+2019-06-17 21:23:40.045 [15296] PROXY resolved 'fonts.googleapis.com' to '172.217.19.170:80'
+2019-06-17 21:23:40.243 [15296] PROXY 127.0.0.1:30684 (10.100.52.81) <- 200 fonts.googleapis.com:80 (1096 bytes)
+2019-06-17 21:23:40.314 [15296] PROXY 127.0.0.1:30660 (10.100.52.81) <- 200 automationpractice.com:80 (1460 bytes)
+2019-06-17 21:23:40.316 [15296] PROXY 127.0.0.1:30660 connection upgrade
+2019-06-17 21:23:40.320 [15296] PROXY 127.0.0.1:30675 (10.100.52.81) <- 200 automationpractice.com:80 (607 bytes)
+2019-06-17 21:23:40.322 [15296] PROXY 127.0.0.1:30675 connection upgrade
+2019-06-17 21:23:40.350 [15296] PROXY 127.0.0.1:30679 (10.100.52.81) <- 200 automationpractice.com:80 (2920 bytes)
+2019-06-17 21:23:40.354 [15296] PROXY 127.0.0.1:30679 connection upgrade
+2019-06-17 21:23:40.372 [15296] PROXY 127.0.0.1:30678 (10.100.52.81) <- 200 automationpractice.com:80 (4096 bytes)
+2019-06-17 21:23:40.375 [15296] PROXY 127.0.0.1:30678 connection upgrade
+2019-06-17 21:23:40.386 [15296] PROXY 127.0.0.1:30676 (10.100.52.81) <- 200 automationpractice.com:80 (1460 bytes)
+2019-06-17 21:23:40.388 [15296] PROXY 127.0.0.1:30676 connection upgrade
+2019-06-17 21:23:45.676 [15296] PROXY 127.0.0.1:30684 (10.100.52.81) -> GET http://fonts.gstatic.com/s/opensans/v16/mem5YaGs126MiZpBA-UNirkOUuhp.woff2 (609 bytes)
+2019-06-17 21:23:45.681 [15296] PROXY resolved 'fonts.gstatic.com' to '216.58.207.3:80'
+2019-06-17 21:23:45.809 [15296] PROXY 127.0.0.1:30684 (10.100.52.81) <- 200 fonts.gstatic.com:80 (15272 bytes)
+2019-06-17 21:23:48.442 [15296] PROXY 127.0.0.1:30675 connection upgrade
+2019-06-17 21:23:48.726 [15296] PROXY 127.0.0.1:30660 connection upgrade
+2019-06-17 21:23:48.748 [15296] PROXY 127.0.0.1:30659 connection upgrade
+2019-06-17 21:23:48.754 [15296] PROXY 127.0.0.1:30678 connection upgrade
+2019-06-17 21:23:48.773 [15296] PROXY 127.0.0.1:30676 connection upgrade
+2019-06-17 21:23:50.634 [15296] PROXY 127.0.0.1:30679 connection upgrade
+2019-06-17 21:23:51.024 [15296] PROXY 127.0.0.1:30684 (10.100.52.81) -> GET https://redirector.gvt1.com/edgedl/chrome/dict/en-us-8-0.bdic (516 bytes)
+2019-06-17 21:23:51.204 [15296] PROXY resolved 'automationpractice.com' to '198.46.81.188:80'
+2019-06-17 21:23:51.208 [15296] PROXY 127.0.0.1:30703 (10.100.52.81) -> POST http://automationpractice.com/index.php?controller=authentication (1138 bytes)
+2019-06-17 21:23:52.009 [15296] PROXY 127.0.0.1:30703 (10.100.52.81) <- 200 automationpractice.com:80 (2920 bytes)
+2019-06-17 21:23:52.012 [15296] PROXY 127.0.0.1:30703 connection upgrade
+2019-06-17 21:23:52.447 [15296] PROXY resolved 'automationpractice.com' to '198.46.81.188:80'
+2019-06-17 21:23:52.449 [15296] PROXY 127.0.0.1:30706 (10.100.52.81) -> GET http://automationpractice.com/themes/default-bootstrap/css/modules/blockcart/blockcart.css (840 bytes)
+2019-06-17 21:23:52.476 [15296] PROXY resolved 'automationpractice.com' to '198.46.81.188:80'
+2019-06-17 21:23:52.479 [15296] PROXY 127.0.0.1:30707 (10.100.52.81) -> GET http://automationpractice.com/themes/default-bootstrap/css/modules/blockbanner/blockbanner.css (844 bytes)
+2019-06-17 21:23:52.504 [15296] PROXY resolved 'automationpractice.com' to '198.46.81.188:80'
+2019-06-17 21:23:52.505 [15296] PROXY 127.0.0.1:30709 (10.100.52.81) -> GET http://automationpractice.com/themes/default-bootstrap/css/authentication.css (827 bytes)
+2019-06-17 21:23:52.523 [15296] PROXY resolved 'automationpractice.com' to '198.46.81.188:80'
+2019-06-17 21:23:52.525 [15296] PROXY 127.0.0.1:30710 (10.100.52.81) -> GET http://automationpractice.com/themes/default-bootstrap/css/modules/blockcategories/blockcategories.css (852 bytes)
+2019-06-17 21:23:52.541 [15296] PROXY resolved 'automationpractice.com' to '198.46.81.188:80'
+2019-06-17 21:23:52.543 [15296] PROXY 127.0.0.1:30708 (10.100.52.81) -> GET http://automationpractice.com/themes/default-bootstrap/css/modules/blockcurrencies/blockcurrencies.css (852 bytes)
+2019-06-17 21:23:52.921 [15296] PROXY 127.0.0.1:30706 (10.100.52.81) <- 200 automationpractice.com:80 (1460 bytes)
+2019-06-17 21:23:52.926 [15296] PROXY 127.0.0.1:30706 connection upgrade
+2019-06-17 21:23:52.948 [15296] PROXY 127.0.0.1:30707 (10.100.52.81) <- 200 automationpractice.com:80 (465 bytes)
+2019-06-17 21:23:52.952 [15296] PROXY 127.0.0.1:30707 connection upgrade
+2019-06-17 21:23:52.968 [15296] PROXY 127.0.0.1:30709 (10.100.52.81) <- 200 automationpractice.com:80 (1123 bytes)
+2019-06-17 21:23:52.973 [15296] PROXY 127.0.0.1:30709 connection upgrade
+2019-06-17 21:23:52.995 [15296] PROXY 127.0.0.1:30710 (10.100.52.81) <- 200 automationpractice.com:80 (3027 bytes)
+2019-06-17 21:23:52.999 [15296] PROXY 127.0.0.1:30710 connection upgrade
+2019-06-17 21:23:53.014 [15296] PROXY 127.0.0.1:30708 (10.100.52.81) <- 200 automationpractice.com:80 (1460 bytes)
+2019-06-17 21:23:53.018 [15296] PROXY 127.0.0.1:30708 connection upgrade
+2019-06-17 21:23:58.173 [15296] PROXY resolved 'redirector.gvt1.com' to '172.217.19.14:443'
+2019-06-17 21:23:58.562 [15296] PROXY 127.0.0.1:30684 (10.100.52.81) <- 302 redirector.gvt1.com:443 (941 bytes)
+2019-06-17 21:23:58.995 [15296] PROXY 127.0.0.1:30684 (10.100.52.81) -> GET https://r3---sn-jtcxg-aixe.gvt1.com/edgedl/chrome/dict/en-us-8-0.bdic?cms_redirect=yes&mip=202.163.126.254&mm=28&mn=sn-jtcxg-aixe&ms=nvh&mt=1560787844&mv=u&pl=24&shardbypass=yes (640 bytes)
+2019-06-17 21:23:58.996 [15296] PROXY resolved 'r3---sn-jtcxg-aixe.gvt1.com' to '202.163.122.110:443'
+2019-06-17 21:23:59.106 [15296] PROXY 127.0.0.1:30684 (10.100.52.81) <- 200 r3---sn-jtcxg-aixe.gvt1.com:443 (447095 bytes)
+2019-06-17 21:23:59.907 [15296] PROXY 127.0.0.1:30706 connection upgrade
+2019-06-17 21:24:00.004 [15296] PROXY 127.0.0.1:30708 connection upgrade
+2019-06-17 21:24:00.004 [15296] PROXY 127.0.0.1:30710 connection upgrade
+2019-06-17 21:24:00.655 [15296] PROXY 127.0.0.1:30703 connection upgrade
+2019-06-17 21:24:01.039 [15296] PROXY 127.0.0.1:30707 connection upgrade
+2019-06-17 21:24:08.815 [15296] PROXY resolved 'automationpractice.com' to '198.46.81.188:80'
+2019-06-17 21:24:08.819 [15296] PROXY 127.0.0.1:30684 (10.100.52.81) -> GET http://automationpractice.com/themes/default-bootstrap/font/fontawesome-webfont.woff?v=3.2.1 (868 bytes)
+2019-06-17 21:24:09.291 [15296] PROXY 127.0.0.1:30684 (10.100.52.81) <- 200 automationpractice.com:80 (4096 bytes)
+2019-06-17 21:24:09.292 [15296] PROXY 127.0.0.1:30684 connection upgrade
+2019-06-17 21:24:11.962 [15296] PROXY 127.0.0.1:30709 connection upgrade
+2019-06-17 21:24:13.924 [15296] PROXY 127.0.0.1:30684 connection upgrade
+2019-06-17 21:24:47.714 [15296] Remote tunnel VM has been terminated by user request. Shutting down.
+2019-06-17 21:24:47.714 [15296] Cleaning up.
+2019-06-17 21:24:47.714 [15296] Removing tunnel 6920ef3d73684cf88e050d243167e540.
+2019-06-17 21:24:47.715 [15296] Waiting for any active jobs using this tunnel to finish.
+2019-06-17 21:24:47.716 [15296] Press CTRL-C again to shut down immediately.
+2019-06-17 21:24:47.717 [15296] Note: if you do this, tests that are still running will fail.
+2019-06-17 21:24:48.672 [15296] Number of jobs using tunnel: 1.
+2019-06-17 21:24:55.395 [15296] Number of jobs using tunnel: 1.
+2019-06-17 21:25:02.078 [15296] Number of jobs using tunnel: 1.
+2019-06-17 21:25:08.776 [15296] Number of jobs using tunnel: 1.
+2019-06-17 21:25:15.400 [15296] Number of jobs using tunnel: 1.
+2019-06-17 21:25:22.047 [15296] Number of jobs using tunnel: 1.
+2019-06-17 21:25:28.518 [15296] MAIN connecting to maki1246.miso.saucelabs.com - maki1246.miso.saucelabs.com:443
+2019-06-17 21:25:29.563 [15296] All jobs using the tunnel have finished.
+2019-06-17 21:25:29.564 [15296] Waiting for the connection to terminate...
+2019-06-17 21:25:29.565 [15296] SC Status: 1 after 1 tries
+2019-06-17 21:25:30.565 [15296] SC Status: 3 after 2 tries
+2019-06-17 21:25:30.565 [15296] Connection closed (8).
+2019-06-17 21:25:30.567 [15296] Goodbye.
+2019-06-17 21:26:01.573 [20248] Sauce Connect 4.5.3, build 2589 4b3da11 -dirty
+2019-06-17 21:26:01.576 [20248] Trying to autodetect proxy settings
+2019-06-17 21:26:01.583 [20248] Starting up; pid 20248
+2019-06-17 21:26:01.583 [20248] Command line arguments: sc.exe -u irfanullah -k **** -i eraza@CRLHL-RAZAAEHS1 -X 55001 
+2019-06-17 21:26:01.584 [20248] Log file: D:\fox_build\java_box\src\main\resources\SauceTunnel\bin\sc-eraza@CRLHL-RAZAAEHS1.log
+2019-06-17 21:26:01.584 [20248] Pid file: C:\Users\eraza\AppData\Roaming/sc_client-eraza@CRLHL-RAZAAEHS1.pid
+2019-06-17 21:26:01.584 [20248] Timezone: PKT GMT offset: 5h
+2019-06-17 21:26:01.585 [20248] Using no proxy for connecting to Sauce Labs REST API.
+2019-06-17 21:26:02.944 [20248] Started scproxy on port 55001.
+2019-06-17 21:26:02.946 [20248] Please wait for 'you may start your tests' to start your tests.
+2019-06-17 21:26:02.944 [20248] PROXY *** scproxy started ***
+2019-06-17 21:26:02.995 [20248] PROXY found DNS server 10.31.1.1
+2019-06-17 21:26:02.997 [20248] PROXY found DNS server 10.31.1.2
+2019-06-17 21:26:02.998 [20248] PROXY found DNS server 10.10.4.65
+2019-06-17 21:26:03.000 [20248] PROXY found DNS server 10.10.4.66
+2019-06-17 21:26:20.782 [20248] Secure remote tunnel VM provisioned.
+2019-06-17 21:26:20.782 [20248] Tunnel ID: 1946a5c2cb3046a28248b726d74a272a
+2019-06-17 21:26:20.782 [20248] Using no proxy for connecting to tunnel VM.
+2019-06-17 21:26:20.784 [20248] Starting Selenium listener...
+2019-06-17 21:26:20.784 [20248] Establishing secure TLS connection to tunnel...
+2019-06-17 21:26:20.806 [20248] [EVDNS] Added nameserver 10.31.1.1:53 as 0610ED08
+2019-06-17 21:26:20.807 [20248] [EVDNS] Added nameserver 10.31.1.2:53 as 0610CFE0
+2019-06-17 21:26:20.808 [20248] [EVDNS] Added nameserver 10.10.4.65:53 as 0610D420
+2019-06-17 21:26:20.809 [20248] [EVDNS] Added nameserver 10.10.4.66:53 as 0610D558
+2019-06-17 21:26:20.810 [20248] MAIN connecting to maki3058.miso.saucelabs.com - maki3058.miso.saucelabs.com:443
+2019-06-17 21:26:21.035 [20248] Selenium listener started on port 4445.
+2019-06-17 21:26:24.124 [20248] MAIN DNS error: non-recoverable failure in name resolution (-904)
+2019-06-17 21:26:24.125 [20248] MAIN DNS error: EVUTIL_EAI_FAIL
+2019-06-17 21:26:24.126 [20248] MAIN failed to connect KGP (socket error: libevent connection error
+)
+2019-06-17 21:26:25.128 [20248] MAIN connecting to maki3058.miso.saucelabs.com - maki3058.miso.saucelabs.com:443
+2019-06-17 21:26:25.747 [20248] MAIN connecting to KGP server maki3058.miso.saucelabs.com took 618 ms
+2019-06-17 21:26:27.048 [20248] PROXY 127.0.0.1:30943 (127.0.0.1) -> HEAD http://localhost:8888/debug/vars (269 bytes)
+2019-06-17 21:26:27.050 [20248] PROXY resolved 'localhost' to '127.0.0.1:8888'
+2019-06-17 21:26:27.390 [20248] PROXY 127.0.0.1:30943 (127.0.0.1) -> GET http://localhost:8888/debug/vars (268 bytes)
+2019-06-17 21:26:28.074 [20248] [32;1mSauce Connect is up, you may start your tests.
+[0m2019-06-17 21:26:51.528 [20248] MAIN connecting to maki3058.miso.saucelabs.com - maki3058.miso.saucelabs.com:443
+2019-06-17 21:26:52.031 [20248] Remote tunnel VM has been terminated by user request. Shutting down.
+2019-06-17 21:26:52.031 [20248] Cleaning up.
+2019-06-17 21:26:52.031 [20248] Removing tunnel 1946a5c2cb3046a28248b726d74a272a.
+2019-06-17 21:26:52.031 [20248] Waiting for any active jobs using this tunnel to finish.
+2019-06-17 21:26:52.031 [20248] Press CTRL-C again to shut down immediately.
+2019-06-17 21:26:52.031 [20248] Note: if you do this, tests that are still running will fail.
+2019-06-17 21:26:52.144 [20248] MAIN connecting to KGP server maki3058.miso.saucelabs.com took 2384 ms
+2019-06-17 21:26:54.746 [20248] All jobs using the tunnel have finished.
+2019-06-17 21:26:54.746 [20248] Waiting for the connection to terminate...
+2019-06-17 21:26:54.746 [20248] SC Status: 1 after 1 tries
+2019-06-17 21:26:55.748 [20248] SC Status: 3 after 2 tries
+2019-06-17 21:26:55.748 [20248] Connection closed (8).
+2019-06-17 21:26:55.748 [20248] Goodbye.
+2019-06-17 21:28:25.597 [15728] Sauce Connect 4.5.3, build 2589 4b3da11 -dirty
+2019-06-17 21:28:25.599 [15728] Trying to autodetect proxy settings
+2019-06-17 21:28:25.617 [15728] Starting up; pid 15728
+2019-06-17 21:28:25.618 [15728] Command line arguments: sc.exe -u irfanullah -k **** -i eraza@CRLHL-RAZAAEHS1 -X 55001 
+2019-06-17 21:28:25.618 [15728] Log file: D:\fox_build\java_box\src\main\resources\SauceTunnel\bin\sc-eraza@CRLHL-RAZAAEHS1.log
+2019-06-17 21:28:25.618 [15728] Pid file: C:\Users\eraza\AppData\Roaming/sc_client-eraza@CRLHL-RAZAAEHS1.pid
+2019-06-17 21:28:25.618 [15728] Timezone: PKT GMT offset: 5h
+2019-06-17 21:28:25.618 [15728] Using no proxy for connecting to Sauce Labs REST API.
+2019-06-17 21:28:26.974 [15728] Started scproxy on port 55001.
+2019-06-17 21:28:26.975 [15728] Please wait for 'you may start your tests' to start your tests.
+2019-06-17 21:28:26.975 [15728] PROXY *** scproxy started ***
+2019-06-17 21:28:27.018 [15728] PROXY found DNS server 10.31.1.1
+2019-06-17 21:28:27.019 [15728] PROXY found DNS server 10.31.1.2
+2019-06-17 21:28:27.021 [15728] PROXY found DNS server 10.10.4.65
+2019-06-17 21:28:27.021 [15728] PROXY found DNS server 10.10.4.66
+2019-06-17 21:28:40.604 [15728] Secure remote tunnel VM provisioned.
+2019-06-17 21:28:40.605 [15728] Tunnel ID: 353e0770cfdd4429a42da935aee9c339
+2019-06-17 21:28:40.606 [15728] Using no proxy for connecting to tunnel VM.
+2019-06-17 21:28:40.610 [15728] Starting Selenium listener...
+2019-06-17 21:28:40.610 [15728] Establishing secure TLS connection to tunnel...
+2019-06-17 21:28:40.657 [15728] [EVDNS] Added nameserver 10.31.1.1:53 as 0612EB30
+2019-06-17 21:28:40.659 [15728] [EVDNS] Added nameserver 10.31.1.2:53 as 0612ED48
+2019-06-17 21:28:40.661 [15728] [EVDNS] Added nameserver 10.10.4.65:53 as 0612EE80
+2019-06-17 21:28:40.664 [15728] [EVDNS] Added nameserver 10.10.4.66:53 as 0612CF98
+2019-06-17 21:28:40.665 [15728] MAIN connecting to maki554.miso.saucelabs.com - maki554.miso.saucelabs.com:443
+2019-06-17 21:28:40.861 [15728] Selenium listener started on port 4445.
+2019-06-17 21:28:41.299 [15728] MAIN connecting to KGP server maki554.miso.saucelabs.com took 2370 ms
+2019-06-17 21:28:42.794 [15728] PROXY 127.0.0.1:31152 (127.0.0.1) -> HEAD http://localhost:8888/debug/vars (268 bytes)
+2019-06-17 21:28:42.797 [15728] PROXY resolved 'localhost' to '127.0.0.1:8888'
+2019-06-17 21:28:43.133 [15728] PROXY 127.0.0.1:31152 (127.0.0.1) -> GET http://localhost:8888/debug/vars (267 bytes)
+2019-06-17 21:28:43.869 [15728] [32;1mSauce Connect is up, you may start your tests.
+[0m2019-06-17 21:29:06.372 [15728] PROXY 127.0.0.1:31152 (10.125.19.5) -> GET https://configuration.apple.com/configurations/internetservices/cloudkit/history/history-1.0.plist (552 bytes)
+2019-06-17 21:29:06.401 [15728] PROXY 127.0.0.1:31191 (10.125.19.5) -> GET https://configuration.apple.com/configurations/internetservices/safari/KnownExtensions-1.plist (548 bytes)
+2019-06-17 21:29:06.424 [15728] PROXY 127.0.0.1:31192 (10.125.19.5) -> GET https://configuration.apple.com/configurations/internetservices/safari/AutoFillQuirks-1.plist (497 bytes)
+2019-06-17 21:29:06.440 [15728] PROXY 127.0.0.1:31193 (10.125.19.5) -> GET https://configuration.apple.com/configurations/internetservices/safari/KnownSitesUsingPlugIns-1.plist (555 bytes)
+2019-06-17 21:29:06.737 [15728] PROXY resolved 'configuration.apple.com' to '23.43.113.87:443'
+2019-06-17 21:29:06.739 [15728] PROXY resolved 'configuration.apple.com' to '23.43.113.87:443'
+2019-06-17 21:29:06.740 [15728] PROXY resolved 'configuration.apple.com' to '23.43.113.87:443'
+2019-06-17 21:29:06.742 [15728] PROXY resolved 'configuration.apple.com' to '23.43.113.87:443'
+2019-06-17 21:29:07.395 [15728] PROXY 127.0.0.1:31191 (10.125.19.5) <- 200 configuration.apple.com:443 (10621 bytes)
+2019-06-17 21:29:07.396 [15728] PROXY 127.0.0.1:31193 (10.125.19.5) <- 304 configuration.apple.com:443 (254 bytes)
+2019-06-17 21:29:07.403 [15728] PROXY 127.0.0.1:31152 (10.125.19.5) <- 304 configuration.apple.com:443 (254 bytes)
+2019-06-17 21:29:07.420 [15728] PROXY 127.0.0.1:31192 (10.125.19.5) <- 404 configuration.apple.com:443 (495 bytes)
+2019-06-17 21:29:09.646 [15728] PROXY 127.0.0.1:31192 (10.125.19.5) -> GET https://configuration.apple.com/configurations/internetservices/safari/SitesAllowedToAutoplay-1.plist (505 bytes)
+2019-06-17 21:29:09.699 [15728] PROXY 127.0.0.1:31152 (10.125.19.5) -> GET https://configuration.apple.com/configurations/internetservices/safari/SitesAllowedToUseAutoplayQuirks-1.plist (514 bytes)
+2019-06-17 21:29:09.735 [15728] PROXY 127.0.0.1:31193 (10.125.19.5) -> GET http://automationpractice.com/index.php?controller=authentication (568 bytes)
+2019-06-17 21:29:09.760 [15728] PROXY 127.0.0.1:31191 (10.125.19.5) -> GET https://configuration.apple.com/configurations/internetservices/safari/SafeBrowsingRemoteConfiguration-0.plist (524 bytes)
+2019-06-17 21:29:09.824 [15728] PROXY 127.0.0.1:31192 (10.125.19.5) <- 200 configuration.apple.com:443 (3712 bytes)
+2019-06-17 21:29:09.925 [15728] PROXY 127.0.0.1:31191 (10.125.19.5) <- 404 configuration.apple.com:443 (500 bytes)
+2019-06-17 21:29:10.160 [15728] PROXY 127.0.0.1:31152 (10.125.19.5) <- 404 configuration.apple.com:443 (506 bytes)
+2019-06-17 21:29:10.247 [15728] PROXY resolved 'automationpractice.com' to '198.46.81.188:80'
+2019-06-17 21:29:11.241 [15728] PROXY 127.0.0.1:31193 (10.125.19.5) <- 200 automationpractice.com:80 (1460 bytes)
+2019-06-17 21:29:11.243 [15728] PROXY 127.0.0.1:31193 connection upgrade
+2019-06-17 21:29:11.618 [15728] PROXY resolved 'automationpractice.com' to '198.46.81.188:80'
+2019-06-17 21:29:11.620 [15728] PROXY 127.0.0.1:31152 (10.125.19.5) -> GET http://automationpractice.com/themes/default-bootstrap/css/autoload/highdpi.css (831 bytes)
+2019-06-17 21:29:11.641 [15728] PROXY resolved 'automationpractice.com' to '198.46.81.188:80'
+2019-06-17 21:29:11.642 [15728] PROXY 127.0.0.1:31191 (10.125.19.5) -> GET http://automationpractice.com/themes/default-bootstrap/css/global.css (821 bytes)
+2019-06-17 21:29:11.653 [15728] PROXY resolved 'automationpractice.com' to '198.46.81.188:80'
+2019-06-17 21:29:11.654 [15728] PROXY 127.0.0.1:31192 (10.125.19.5) -> GET http://automationpractice.com/themes/default-bootstrap/css/autoload/responsive-tables.css (841 bytes)
+2019-06-17 21:29:11.665 [15728] PROXY resolved 'automationpractice.com' to '198.46.81.188:80'
+2019-06-17 21:29:11.666 [15728] PROXY 127.0.0.1:31208 (10.125.19.5) -> GET http://automationpractice.com/themes/default-bootstrap/css/autoload/uniform.default.css (839 bytes)
+2019-06-17 21:29:11.675 [15728] PROXY resolved 'automationpractice.com' to '198.46.81.188:80'
+2019-06-17 21:29:11.676 [15728] PROXY 127.0.0.1:31209 (10.125.19.5) -> GET http://automationpractice.com/js/jquery/plugins/fancybox/jquery.fancybox.css (828 bytes)
+2019-06-17 21:29:11.818 [15728] PROXY 127.0.0.1:31215 (10.125.19.5) -> GET http://fonts.googleapis.com/css?family=Open+Sans:300,600&subset=latin,latin-ext (546 bytes)
+2019-06-17 21:29:11.820 [15728] PROXY resolved 'fonts.googleapis.com' to '172.217.19.170:80'
+2019-06-17 21:29:12.017 [15728] PROXY 127.0.0.1:31215 (10.125.19.5) <- 200 fonts.googleapis.com:80 (964 bytes)
+2019-06-17 21:29:12.080 [15728] PROXY 127.0.0.1:31152 (10.125.19.5) <- 200 automationpractice.com:80 (607 bytes)
+2019-06-17 21:29:12.082 [15728] PROXY 127.0.0.1:31152 connection upgrade
+2019-06-17 21:29:12.108 [15728] PROXY 127.0.0.1:31191 (10.125.19.5) <- 200 automationpractice.com:80 (4096 bytes)
+2019-06-17 21:29:12.111 [15728] PROXY 127.0.0.1:31191 connection upgrade
+2019-06-17 21:29:12.118 [15728] PROXY 127.0.0.1:31192 (10.125.19.5) <- 200 automationpractice.com:80 (1460 bytes)
+2019-06-17 21:29:12.121 [15728] PROXY 127.0.0.1:31192 connection upgrade
+2019-06-17 21:29:12.142 [15728] PROXY 127.0.0.1:31209 (10.125.19.5) <- 200 automationpractice.com:80 (4096 bytes)
+2019-06-17 21:29:12.144 [15728] PROXY 127.0.0.1:31209 connection upgrade
+2019-06-17 21:29:12.146 [15728] PROXY 127.0.0.1:31208 (10.125.19.5) <- 200 automationpractice.com:80 (4096 bytes)
+2019-06-17 21:29:12.148 [15728] PROXY 127.0.0.1:31208 connection upgrade
+2019-06-17 21:29:17.251 [15728] PROXY 127.0.0.1:31215 (10.125.19.5) -> GET http://fonts.gstatic.com/s/opensans/v16/mem5YaGs126MiZpBA-UNirkOUuhpKKSTjw.woff2 (529 bytes)
+2019-06-17 21:29:17.253 [15728] PROXY resolved 'fonts.gstatic.com' to '216.58.207.3:80'
+2019-06-17 21:29:17.341 [15728] PROXY 127.0.0.1:31215 (10.125.19.5) <- 200 fonts.gstatic.com:80 (9570 bytes)
+2019-06-17 21:29:17.821 [15728] PROXY resolved 'automationpractice.com' to '198.46.81.188:80'
+2019-06-17 21:29:17.823 [15728] PROXY 127.0.0.1:31215 (10.125.19.5) -> GET http://automationpractice.com/img/favicon.ico?1461205423 (793 bytes)
+2019-06-17 21:29:18.285 [15728] PROXY 127.0.0.1:31215 (10.125.19.5) <- 200 automationpractice.com:80 (3275 bytes)
+2019-06-17 21:29:18.290 [15728] PROXY 127.0.0.1:31215 connection upgrade
+2019-06-17 21:29:19.984 [15728] PROXY 127.0.0.1:31152 connection upgrade
+2019-06-17 21:29:20.038 [15728] PROXY 127.0.0.1:31192 connection upgrade
+2019-06-17 21:29:20.098 [15728] PROXY 127.0.0.1:31208 connection upgrade
+2019-06-17 21:29:20.227 [15728] PROXY 127.0.0.1:31193 connection upgrade
+2019-06-17 21:29:20.269 [15728] PROXY 127.0.0.1:31209 connection upgrade
+2019-06-17 21:29:21.287 [15728] PROXY 127.0.0.1:31215 connection upgrade
+2019-06-17 21:29:21.625 [15728] PROXY 127.0.0.1:31191 connection upgrade
+2019-06-17 21:29:25.927 [15728] Remote tunnel VM has been terminated by user request. Shutting down.
+2019-06-17 21:29:25.927 [15728] Cleaning up.
+2019-06-17 21:29:25.928 [15728] Removing tunnel 353e0770cfdd4429a42da935aee9c339.
+2019-06-17 21:29:25.928 [15728] Waiting for any active jobs using this tunnel to finish.
+2019-06-17 21:29:25.928 [15728] Press CTRL-C again to shut down immediately.
+2019-06-17 21:29:25.928 [15728] Note: if you do this, tests that are still running will fail.
+2019-06-17 21:29:26.269 [15728] Number of jobs using tunnel: 1.
+2019-06-17 21:29:34.150 [15728] Number of jobs using tunnel: 1.
+2019-06-17 21:29:39.291 [15728] PROXY 127.0.0.1:31259 (10.125.19.5) -> GET http://ocsp.apple.com/ocsp04-devid01/ME4wTKADAgEAMEUwQzBBMAkGBSsOAwIaBQAEFDOB0e/baLCFIU0u76+MSmlkPCpsBBRXF+2iz9x8mKEQ4Py+hy0s8uMXVAIIP0dWm6FDuog= (447 bytes)
+2019-06-17 21:29:39.512 [15728] PROXY resolved 'ocsp.apple.com' to '17.253.123.203:80'
+2019-06-17 21:29:40.182 [15728] PROXY 127.0.0.1:31259 (10.125.19.5) <- 200 ocsp.apple.com:80 (4310 bytes)
+2019-06-17 21:29:42.041 [15728] Number of jobs using tunnel: 1.
+2019-06-17 21:29:48.907 [15728] Number of jobs using tunnel: 1.
+2019-06-17 21:29:55.788 [15728] Number of jobs using tunnel: 1.
+2019-06-17 21:29:57.382 [15728] MAIN connecting to maki554.miso.saucelabs.com - maki554.miso.saucelabs.com:443
+2019-06-17 21:29:58.001 [15728] MAIN connecting to KGP server maki554.miso.saucelabs.com took 2390 ms
+2019-06-17 21:30:04.232 [15728] All jobs using the tunnel have finished.
+2019-06-17 21:30:04.233 [15728] Waiting for the connection to terminate...
+2019-06-17 21:30:04.233 [15728] SC Status: 1 after 1 tries
+2019-06-17 21:30:05.235 [15728] SC Status: 3 after 2 tries
+2019-06-17 21:30:05.236 [15728] Connection closed (8).
+2019-06-17 21:30:05.237 [15728] Goodbye.
+2019-06-17 21:30:08.224 [22636] Sauce Connect 4.5.3, build 2589 4b3da11 -dirty
+2019-06-17 21:30:08.228 [22636] Trying to autodetect proxy settings
+2019-06-17 21:30:08.249 [22636] Starting up; pid 22636
+2019-06-17 21:30:08.250 [22636] Command line arguments: sc.exe -u irfanullah -k **** -i eraza@CRLHL-RAZAAEHS1 -X 55001 
+2019-06-17 21:30:08.255 [22636] Log file: D:\fox_build\java_box\src\main\resources\SauceTunnel\bin\sc-eraza@CRLHL-RAZAAEHS1.log
+2019-06-17 21:30:08.256 [22636] Pid file: C:\Users\eraza\AppData\Roaming/sc_client-eraza@CRLHL-RAZAAEHS1.pid
+2019-06-17 21:30:08.257 [22636] Timezone: PKT GMT offset: 5h
+2019-06-17 21:30:08.258 [22636] Using no proxy for connecting to Sauce Labs REST API.
+2019-06-17 21:30:09.679 [22636] Started scproxy on port 55001.
+2019-06-17 21:30:09.680 [22636] Please wait for 'you may start your tests' to start your tests.
+2019-06-17 21:30:09.679 [22636] PROXY *** scproxy started ***
+2019-06-17 21:30:09.723 [22636] PROXY found DNS server 10.31.1.1
+2019-06-17 21:30:09.724 [22636] PROXY found DNS server 10.31.1.2
+2019-06-17 21:30:09.726 [22636] PROXY found DNS server 10.10.4.65
+2019-06-17 21:30:09.728 [22636] PROXY found DNS server 10.10.4.66
+2019-06-17 21:30:32.454 [22636] Secure remote tunnel VM provisioned.
+2019-06-17 21:30:32.454 [22636] Tunnel ID: 8d05e89d8f004587a72fa0d603a010f7
+2019-06-17 21:30:32.454 [22636] Using no proxy for connecting to tunnel VM.
+2019-06-17 21:30:32.456 [22636] Starting Selenium listener...
+2019-06-17 21:30:32.456 [22636] Establishing secure TLS connection to tunnel...
+2019-06-17 21:30:32.471 [22636] [EVDNS] Added nameserver 10.31.1.1:53 as 0404EB30
+2019-06-17 21:30:32.473 [22636] [EVDNS] Added nameserver 10.31.1.2:53 as 0404ED48
+2019-06-17 21:30:32.474 [22636] [EVDNS] Added nameserver 10.10.4.65:53 as 0404EE80
+2019-06-17 21:30:32.474 [22636] [EVDNS] Added nameserver 10.10.4.66:53 as 0404CF98
+2019-06-17 21:30:32.475 [22636] MAIN connecting to maki2647.miso.saucelabs.com - maki2647.miso.saucelabs.com:443
+2019-06-17 21:30:32.706 [22636] Selenium listener started on port 4445.
+2019-06-17 21:30:33.096 [22636] MAIN connecting to KGP server maki2647.miso.saucelabs.com took 2381 ms
+2019-06-17 21:30:34.973 [22636] PROXY 127.0.0.1:31354 (127.0.0.1) -> HEAD http://localhost:8888/debug/vars (269 bytes)
+2019-06-17 21:30:34.975 [22636] PROXY resolved 'localhost' to '127.0.0.1:8888'
+2019-06-17 21:30:35.301 [22636] PROXY 127.0.0.1:31354 (127.0.0.1) -> GET http://localhost:8888/debug/vars (268 bytes)
+2019-06-17 21:30:35.710 [22636] [32;1mSauce Connect is up, you may start your tests.
+[0m2019-06-17 21:30:48.860 [22636] PROXY 127.0.0.1:31354 (10.100.11.144) -> GET https://configuration.apple.com/configurations/internetservices/safari/KnownExtensions-1.plist (552 bytes)
+2019-06-17 21:30:48.916 [22636] PROXY 127.0.0.1:31376 (10.100.11.144) -> GET https://configuration.apple.com/configurations/internetservices/safari/AutoFillQuirks-1.plist (501 bytes)
+2019-06-17 21:30:48.928 [22636] PROXY 127.0.0.1:31377 (10.100.11.144) -> GET https://configuration.apple.com/configurations/internetservices/cloudkit/history/history-1.0.plist (556 bytes)
+2019-06-17 21:30:48.939 [22636] PROXY 127.0.0.1:31378 (10.100.11.144) -> GET https://configuration.apple.com/configurations/internetservices/safari/KnownSitesUsingPlugIns-1.plist (559 bytes)
+2019-06-17 21:30:49.153 [22636] PROXY resolved 'configuration.apple.com' to '23.43.113.87:443'
+2019-06-17 21:30:49.155 [22636] PROXY resolved 'configuration.apple.com' to '23.43.113.87:443'
+2019-06-17 21:30:49.157 [22636] PROXY resolved 'configuration.apple.com' to '23.43.113.87:443'
+2019-06-17 21:30:49.159 [22636] PROXY resolved 'configuration.apple.com' to '23.43.113.87:443'
+2019-06-17 21:30:49.821 [22636] PROXY 127.0.0.1:31354 (10.100.11.144) <- 200 configuration.apple.com:443 (10621 bytes)
+2019-06-17 21:30:49.831 [22636] PROXY 127.0.0.1:31378 (10.100.11.144) <- 304 configuration.apple.com:443 (255 bytes)
+2019-06-17 21:30:49.847 [22636] PROXY 127.0.0.1:31377 (10.100.11.144) <- 304 configuration.apple.com:443 (254 bytes)
+2019-06-17 21:30:49.866 [22636] PROXY 127.0.0.1:31376 (10.100.11.144) <- 404 configuration.apple.com:443 (495 bytes)
+2019-06-17 21:30:51.836 [22636] PROXY 127.0.0.1:31376 (10.100.11.144) -> GET https://configuration.apple.com/configurations/internetservices/safari/SitesAllowedToAutoplay-1.plist (509 bytes)
+2019-06-17 21:30:51.880 [22636] PROXY 127.0.0.1:31377 (10.100.11.144) -> GET https://configuration.apple.com/configurations/internetservices/safari/SitesAllowedToUseAutoplayQuirks-1.plist (518 bytes)
+2019-06-17 21:30:51.946 [22636] PROXY 127.0.0.1:31378 (10.100.11.144) -> GET http://automationpractice.com/index.php?controller=authentication (571 bytes)
+2019-06-17 21:30:51.949 [22636] PROXY resolved 'automationpractice.com' to '198.46.81.188:80'
+2019-06-17 21:30:51.975 [22636] PROXY 127.0.0.1:31376 (10.100.11.144) <- 200 configuration.apple.com:443 (3712 bytes)
+2019-06-17 21:30:51.992 [22636] PROXY 127.0.0.1:31354 (10.100.11.144) -> GET https://configuration.apple.com/configurations/internetservices/safari/SafeBrowsingRemoteConfiguration-0.plist (528 bytes)
+2019-06-17 21:30:52.028 [22636] PROXY 127.0.0.1:31377 (10.100.11.144) <- 404 configuration.apple.com:443 (506 bytes)
+2019-06-17 21:30:52.132 [22636] PROXY 127.0.0.1:31354 (10.100.11.144) <- 404 configuration.apple.com:443 (500 bytes)
+2019-06-17 21:30:52.757 [22636] PROXY 127.0.0.1:31378 (10.100.11.144) <- 200 automationpractice.com:80 (4096 bytes)
+2019-06-17 21:30:52.760 [22636] PROXY 127.0.0.1:31378 connection upgrade
+2019-06-17 21:30:53.161 [22636] PROXY resolved 'automationpractice.com' to '198.46.81.188:80'
+2019-06-17 21:30:53.162 [22636] PROXY 127.0.0.1:31354 (10.100.11.144) -> GET http://automationpractice.com/themes/default-bootstrap/css/global.css (830 bytes)
+2019-06-17 21:30:53.171 [22636] PROXY resolved 'automationpractice.com' to '198.46.81.188:80'
+2019-06-17 21:30:53.172 [22636] PROXY 127.0.0.1:31376 (10.100.11.144) -> GET http://automationpractice.com/themes/default-bootstrap/css/autoload/highdpi.css (840 bytes)
+2019-06-17 21:30:53.182 [22636] PROXY resolved 'automationpractice.com' to '198.46.81.188:80'
+2019-06-17 21:30:53.184 [22636] PROXY 127.0.0.1:31377 (10.100.11.144) -> GET http://automationpractice.com/themes/default-bootstrap/css/autoload/responsive-tables.css (850 bytes)
+2019-06-17 21:30:53.194 [22636] PROXY resolved 'automationpractice.com' to '198.46.81.188:80'
+2019-06-17 21:30:53.195 [22636] PROXY 127.0.0.1:31392 (10.100.11.144) -> GET http://automationpractice.com/js/jquery/plugins/fancybox/jquery.fancybox.css (837 bytes)
+2019-06-17 21:30:53.204 [22636] PROXY resolved 'automationpractice.com' to '198.46.81.188:80'
+2019-06-17 21:30:53.204 [22636] PROXY 127.0.0.1:31394 (10.100.11.144) -> GET http://automationpractice.com/themes/default-bootstrap/css/autoload/uniform.default.css (848 bytes)
+2019-06-17 21:30:53.373 [22636] PROXY 127.0.0.1:31399 (10.100.11.144) -> GET http://fonts.googleapis.com/css?family=Open+Sans:300,600&subset=latin,latin-ext (549 bytes)
+2019-06-17 21:30:53.375 [22636] PROXY resolved 'fonts.googleapis.com' to '172.217.19.170:80'
+2019-06-17 21:30:53.612 [22636] PROXY 127.0.0.1:31399 (10.100.11.144) <- 200 fonts.googleapis.com:80 (964 bytes)
+2019-06-17 21:30:53.637 [22636] PROXY 127.0.0.1:31376 (10.100.11.144) <- 200 automationpractice.com:80 (607 bytes)
+2019-06-17 21:30:53.637 [22636] PROXY 127.0.0.1:31376 connection upgrade
+2019-06-17 21:30:53.639 [22636] PROXY 127.0.0.1:31354 (10.100.11.144) <- 200 automationpractice.com:80 (1460 bytes)
+2019-06-17 21:30:53.640 [22636] PROXY 127.0.0.1:31354 connection upgrade
+2019-06-17 21:30:53.648 [22636] PROXY 127.0.0.1:31377 (10.100.11.144) <- 200 automationpractice.com:80 (1460 bytes)
+2019-06-17 21:30:53.649 [22636] PROXY 127.0.0.1:31377 connection upgrade
+2019-06-17 21:30:53.658 [22636] PROXY 127.0.0.1:31392 (10.100.11.144) <- 200 automationpractice.com:80 (2920 bytes)
+2019-06-17 21:30:53.659 [22636] PROXY 127.0.0.1:31392 connection upgrade
+2019-06-17 21:30:53.665 [22636] PROXY 127.0.0.1:31394 (10.100.11.144) <- 200 automationpractice.com:80 (2920 bytes)
+2019-06-17 21:30:53.665 [22636] PROXY 127.0.0.1:31394 connection upgrade
+2019-06-17 21:31:01.359 [22636] PROXY 127.0.0.1:31377 connection upgrade
+2019-06-17 21:31:01.730 [22636] PROXY 127.0.0.1:31394 connection upgrade
+2019-06-17 21:31:01.788 [22636] PROXY 127.0.0.1:31376 connection upgrade
+2019-06-17 21:31:01.836 [22636] PROXY 127.0.0.1:31354 connection upgrade
+2019-06-17 21:31:01.921 [22636] PROXY 127.0.0.1:31392 connection upgrade
+2019-06-17 21:31:06.908 [22636] PROXY resolved 'automationpractice.com' to '198.46.81.188:80'
+2019-06-17 21:31:06.911 [22636] PROXY 127.0.0.1:31399 (10.100.11.144) -> GET http://automationpractice.com/img/c/3-0_thumb.jpg (853 bytes)
+2019-06-17 21:31:06.933 [22636] PROXY resolved 'automationpractice.com' to '198.46.81.188:80'
+2019-06-17 21:31:06.935 [22636] PROXY 127.0.0.1:31422 (10.100.11.144) -> GET http://automationpractice.com/img/c/3-1_thumb.jpg (853 bytes)
+2019-06-17 21:31:06.948 [22636] PROXY resolved 'automationpractice.com' to '198.46.81.188:80'
+2019-06-17 21:31:06.950 [22636] PROXY 127.0.0.1:31421 (10.100.11.144) -> GET http://automationpractice.com/modules/blockbanner/img/sale70.png (868 bytes)
+2019-06-17 21:31:06.963 [22636] PROXY resolved 'automationpractice.com' to '198.46.81.188:80'
+2019-06-17 21:31:06.964 [22636] PROXY 127.0.0.1:31423 (10.100.11.144) -> GET http://automationpractice.com/themes/default-bootstrap/img/bg_bt.gif (872 bytes)
+2019-06-17 21:31:06.977 [22636] PROXY resolved 'automationpractice.com' to '198.46.81.188:80'
+2019-06-17 21:31:06.978 [22636] PROXY 127.0.0.1:31425 (10.100.11.144) -> GET http://automationpractice.com/themes/default-bootstrap/img/footer-bg.png (876 bytes)
+2019-06-17 21:31:07.116 [22636] PROXY 127.0.0.1:31430 (10.100.11.144) -> GET http://fonts.gstatic.com/s/opensans/v16/mem5YaGs126MiZpBA-UNirkOUuhpKKSTjw.woff2 (532 bytes)
+2019-06-17 21:31:07.118 [22636] PROXY resolved 'fonts.gstatic.com' to '216.58.207.3:80'
+2019-06-17 21:31:07.209 [22636] PROXY 127.0.0.1:31430 (10.100.11.144) <- 200 fonts.gstatic.com:80 (9570 bytes)
+2019-06-17 21:31:07.379 [22636] PROXY 127.0.0.1:31399 (10.100.11.144) <- 200 automationpractice.com:80 (2920 bytes)
+2019-06-17 21:31:07.379 [22636] PROXY 127.0.0.1:31399 connection upgrade
+2019-06-17 21:31:07.398 [22636] PROXY 127.0.0.1:31422 (10.100.11.144) <- 200 automationpractice.com:80 (2920 bytes)
+2019-06-17 21:31:07.398 [22636] PROXY 127.0.0.1:31422 connection upgrade
+2019-06-17 21:31:07.421 [22636] PROXY 127.0.0.1:31421 (10.100.11.144) <- 200 automationpractice.com:80 (2920 bytes)
+2019-06-17 21:31:07.422 [22636] PROXY 127.0.0.1:31421 connection upgrade
+2019-06-17 21:31:07.438 [22636] PROXY 127.0.0.1:31423 (10.100.11.144) <- 200 automationpractice.com:80 (582 bytes)
+2019-06-17 21:31:07.439 [22636] PROXY 127.0.0.1:31423 connection upgrade
+2019-06-17 21:31:07.447 [22636] PROXY 127.0.0.1:31425 (10.100.11.144) <- 200 automationpractice.com:80 (351 bytes)
+2019-06-17 21:31:07.447 [22636] PROXY 127.0.0.1:31425 connection upgrade
+2019-06-17 21:31:10.382 [22636] PROXY 127.0.0.1:31399 connection upgrade
+2019-06-17 21:31:10.410 [22636] PROXY 127.0.0.1:31422 connection upgrade
+2019-06-17 21:31:10.425 [22636] PROXY 127.0.0.1:31421 connection upgrade
+2019-06-17 21:31:10.442 [22636] PROXY 127.0.0.1:31423 connection upgrade
+2019-06-17 21:31:11.255 [22636] PROXY 127.0.0.1:31378 connection upgrade
+2019-06-17 21:31:11.865 [22636] PROXY 127.0.0.1:31425 connection upgrade
+2019-06-17 21:31:15.437 [22636] PROXY resolved 'automationpractice.com' to '198.46.81.188:80'
+2019-06-17 21:31:15.441 [22636] PROXY 127.0.0.1:31443 (10.100.11.144) -> POST http://automationpractice.com/index.php?controller=authentication (1094 bytes)
+2019-06-17 21:31:16.410 [22636] PROXY 127.0.0.1:31443 (10.100.11.144) <- 200 automationpractice.com:80 (2920 bytes)
+2019-06-17 21:31:16.411 [22636] PROXY 127.0.0.1:31443 connection upgrade
+2019-06-17 21:31:16.822 [22636] PROXY resolved 'automationpractice.com' to '198.46.81.188:80'
+2019-06-17 21:31:16.824 [22636] PROXY 127.0.0.1:31446 (10.100.11.144) -> GET http://automationpractice.com/themes/default-bootstrap/css/authentication.css (838 bytes)
+2019-06-17 21:31:16.837 [22636] PROXY resolved 'automationpractice.com' to '198.46.81.188:80'
+2019-06-17 21:31:16.838 [22636] PROXY 127.0.0.1:31447 (10.100.11.144) -> GET http://automationpractice.com/themes/default-bootstrap/css/modules/blockbanner/blockbanner.css (855 bytes)
+2019-06-17 21:31:16.849 [22636] PROXY resolved 'automationpractice.com' to '198.46.81.188:80'
+2019-06-17 21:31:16.851 [22636] PROXY 127.0.0.1:31449 (10.100.11.144) -> GET http://automationpractice.com/themes/default-bootstrap/css/modules/blockcategories/blockcategories.css (863 bytes)
+2019-06-17 21:31:16.861 [22636] PROXY resolved 'automationpractice.com' to '198.46.81.188:80'
+2019-06-17 21:31:16.862 [22636] PROXY 127.0.0.1:31450 (10.100.11.144) -> GET http://automationpractice.com/themes/default-bootstrap/css/modules/blockcurrencies/blockcurrencies.css (863 bytes)
+2019-06-17 21:31:16.876 [22636] PROXY resolved 'automationpractice.com' to '198.46.81.188:80'
+2019-06-17 21:31:16.877 [22636] PROXY 127.0.0.1:31448 (10.100.11.144) -> GET http://automationpractice.com/themes/default-bootstrap/css/modules/blockcart/blockcart.css (851 bytes)
+2019-06-17 21:31:16.906 [22636] PROXY 127.0.0.1:31446 (10.100.11.144) -> failed to send half-close
+2019-06-17 21:31:16.907 [22636] PROXY 127.0.0.1:31447 (10.100.11.144) -> failed to send half-close
+2019-06-17 21:31:16.911 [22636] PROXY 127.0.0.1:31448 (10.100.11.144) -> failed to send half-close
+2019-06-17 21:31:16.912 [22636] PROXY 127.0.0.1:31449 (10.100.11.144) -> failed to send half-close
+2019-06-17 21:31:17.079 [22636] PROXY 127.0.0.1:31450 (10.100.11.144) -> failed to send half-close
+2019-06-17 21:31:22.771 [22636] Remote tunnel VM has been terminated by user request. Shutting down.
+2019-06-17 21:31:22.771 [22636] Cleaning up.
+2019-06-17 21:31:22.771 [22636] Removing tunnel 8d05e89d8f004587a72fa0d603a010f7.
+2019-06-17 21:31:22.771 [22636] Waiting for any active jobs using this tunnel to finish.
+2019-06-17 21:31:22.772 [22636] Press CTRL-C again to shut down immediately.
+2019-06-17 21:31:22.772 [22636] Note: if you do this, tests that are still running will fail.
+2019-06-17 21:31:23.094 [22636] Number of jobs using tunnel: 1.
+2019-06-17 21:31:29.729 [22636] Number of jobs using tunnel: 1.
+2019-06-17 21:31:38.095 [22636] Number of jobs using tunnel: 1.
+2019-06-17 21:31:44.725 [22636] Number of jobs using tunnel: 1.
+2019-06-17 21:31:47.107 [22636] PROXY 127.0.0.1:31497 (10.100.11.144) -> GET https://safebrowsing.googleapis.com/v4/threatListUpdates:fetch?$ct=application%2Fx-protobuf&$req=ChIKBlNhZmFyaRIINjA2LjEuMzIaDAgBEAQiBCABIAIoARoMCAIQBCIEIAEgAigBGgwIAxAEIgQgASACKAE=&key=AIzaSyANT-dOXDTNxZS4flEImFNycnoeDh4ehQI (677 bytes)
+2019-06-17 21:31:47.114 [22636] PROXY resolved 'safebrowsing.googleapis.com' to '172.217.19.10:443'
+2019-06-17 21:31:49.374 [22636] PROXY 127.0.0.1:31497 (10.100.11.144) <- 200 safebrowsing.googleapis.com:443 (4630651 bytes)
+2019-06-17 21:31:51.398 [22636] Number of jobs using tunnel: 1.
+2019-06-17 21:32:01.723 [22636] MAIN connecting to maki2647.miso.saucelabs.com - maki2647.miso.saucelabs.com:443
+2019-06-17 21:32:02.347 [22636] MAIN connecting to KGP server maki2647.miso.saucelabs.com took 2383 ms
+2019-06-17 21:32:02.877 [22636] All jobs using the tunnel have finished.
+2019-06-17 21:32:02.880 [22636] Waiting for the connection to terminate...
+2019-06-17 21:32:02.881 [22636] SC Status: 1 after 1 tries
+2019-06-17 21:32:03.882 [22636] SC Status: 3 after 2 tries
+2019-06-17 21:32:03.882 [22636] Connection closed (8).
+2019-06-17 21:32:03.882 [22636] Goodbye.
+2019-06-18 16:36:22.284 [20148] Sauce Connect 4.5.3, build 2589 4b3da11 -dirty
+2019-06-18 16:36:22.286 [20148] Trying to autodetect proxy settings
+2019-06-18 16:36:22.300 [20148] Starting up; pid 20148
+2019-06-18 16:36:22.300 [20148] Command line arguments: sc.exe -u irfanullah -k **** -i eraza@CRLHL-RAZAAEHS1 -X 55001 
+2019-06-18 16:36:22.300 [20148] Log file: D:\fox_build\java_box\src\main\resources\SauceTunnel\bin\sc-eraza@CRLHL-RAZAAEHS1.log
+2019-06-18 16:36:22.300 [20148] Pid file: C:\Users\eraza\AppData\Roaming/sc_client-eraza@CRLHL-RAZAAEHS1.pid
+2019-06-18 16:36:22.302 [20148] Timezone: PKT GMT offset: 5h
+2019-06-18 16:36:22.302 [20148] Using no proxy for connecting to Sauce Labs REST API.
+2019-06-18 16:36:23.637 [20148] Started scproxy on port 55001.
+2019-06-18 16:36:23.637 [20148] Please wait for 'you may start your tests' to start your tests.
+2019-06-18 16:36:23.637 [20148] PROXY *** scproxy started ***
+2019-06-18 16:36:23.666 [20148] PROXY found DNS server 10.31.1.1
+2019-06-18 16:36:23.667 [20148] PROXY found DNS server 10.31.1.2
+2019-06-18 16:36:23.667 [20148] PROXY found DNS server 10.10.4.65
+2019-06-18 16:36:23.667 [20148] PROXY found DNS server 10.10.4.66
+2019-06-18 16:36:37.248 [20148] Secure remote tunnel VM provisioned.
+2019-06-18 16:36:37.249 [20148] Tunnel ID: 28171f9acae8470e9ff403fde30c3be5
+2019-06-18 16:36:37.249 [20148] Using no proxy for connecting to tunnel VM.
+2019-06-18 16:36:37.250 [20148] Starting Selenium listener...
+2019-06-18 16:36:37.250 [20148] Establishing secure TLS connection to tunnel...
+2019-06-18 16:36:37.261 [20148] [EVDNS] Added nameserver 10.31.1.1:53 as 061BED08
+2019-06-18 16:36:37.262 [20148] [EVDNS] Added nameserver 10.31.1.2:53 as 061BCFE0
+2019-06-18 16:36:37.262 [20148] [EVDNS] Added nameserver 10.10.4.65:53 as 061BD420
+2019-06-18 16:36:37.263 [20148] [EVDNS] Added nameserver 10.10.4.66:53 as 061BD558
+2019-06-18 16:36:37.263 [20148] MAIN connecting to maki458.miso.saucelabs.com - maki458.miso.saucelabs.com:443
+2019-06-18 16:36:37.501 [20148] Selenium listener started on port 4445.
+2019-06-18 16:36:37.955 [20148] MAIN connecting to KGP server maki458.miso.saucelabs.com took 690 ms
+2019-06-18 16:36:39.602 [20148] PROXY 127.0.0.1:1208 (127.0.0.1) -> HEAD http://localhost:8888/debug/vars (268 bytes)
+2019-06-18 16:36:39.606 [20148] PROXY resolved 'localhost' to '127.0.0.1:8888'
+2019-06-18 16:36:39.941 [20148] PROXY 127.0.0.1:1208 (127.0.0.1) -> GET http://localhost:8888/debug/vars (267 bytes)
+2019-06-18 16:36:40.506 [20148] [32;1mSauce Connect is up, you may start your tests.
+[0m2019-06-18 16:36:59.800 [20148] PROXY 127.0.0.1:1240 (172.20.42.54) -> POST https://accounts.google.com/ListAccounts?gpsia=1&source=ChromiumBrowser&json=standard (640 bytes)
+2019-06-18 16:36:59.813 [20148] PROXY 127.0.0.1:1241 (172.20.42.54) -> GET https://www.gstatic.com/chrome/intelligence/assist/ranker/models/translate/2017/03/translate_ranker_model_20170329.pb.bin (537 bytes)
+2019-06-18 16:36:59.815 [20148] PROXY resolved 'accounts.google.com' to '172.217.19.173:443'
+2019-06-18 16:37:00.052 [20148] PROXY resolved 'www.gstatic.com' to '172.217.19.163:443'
+2019-06-18 16:37:00.227 [20148] PROXY 127.0.0.1:1240 (172.20.42.54) <- 200 accounts.google.com:443 (1293 bytes)
+2019-06-18 16:37:00.345 [20148] PROXY 127.0.0.1:1241 (172.20.42.54) <- 200 www.gstatic.com:443 (2030 bytes)
+2019-06-18 16:37:04.286 [20148] PROXY 127.0.0.1:1241 (172.20.42.54) -> GET http://automationpractice.com/index.php?controller=authentication (620 bytes)
+2019-06-18 16:37:04.640 [20148] PROXY resolved 'automationpractice.com' to '198.46.81.188:80'
+2019-06-18 16:37:05.422 [20148] PROXY 127.0.0.1:1241 (172.20.42.54) <- 200 automationpractice.com:80 (2920 bytes)
+2019-06-18 16:37:05.423 [20148] PROXY 127.0.0.1:1241 connection upgrade
+2019-06-18 16:37:05.899 [20148] PROXY resolved 'automationpractice.com' to '198.46.81.188:80'
+2019-06-18 16:37:05.901 [20148] PROXY 127.0.0.1:1240 (172.20.42.54) -> GET http://automationpractice.com/themes/default-bootstrap/css/global.css (824 bytes)
+2019-06-18 16:37:05.916 [20148] PROXY resolved 'automationpractice.com' to '198.46.81.188:80'
+2019-06-18 16:37:05.917 [20148] PROXY 127.0.0.1:1255 (172.20.42.54) -> GET http://automationpractice.com/themes/default-bootstrap/css/autoload/highdpi.css (834 bytes)
+2019-06-18 16:37:05.927 [20148] PROXY resolved 'automationpractice.com' to '198.46.81.188:80'
+2019-06-18 16:37:05.928 [20148] PROXY 127.0.0.1:1256 (172.20.42.54) -> GET http://automationpractice.com/js/jquery/plugins/fancybox/jquery.fancybox.css (831 bytes)
+2019-06-18 16:37:05.937 [20148] PROXY resolved 'automationpractice.com' to '198.46.81.188:80'
+2019-06-18 16:37:05.938 [20148] PROXY 127.0.0.1:1259 (172.20.42.54) -> GET http://automationpractice.com/themes/default-bootstrap/css/autoload/uniform.default.css (842 bytes)
+2019-06-18 16:37:05.948 [20148] PROXY resolved 'automationpractice.com' to '198.46.81.188:80'
+2019-06-18 16:37:05.950 [20148] PROXY 127.0.0.1:1258 (172.20.42.54) -> GET http://automationpractice.com/themes/default-bootstrap/css/autoload/responsive-tables.css (844 bytes)
+2019-06-18 16:37:06.080 [20148] PROXY 127.0.0.1:1264 (172.20.42.54) -> GET http://fonts.googleapis.com/css?family=Open+Sans:300,600&subset=latin,latin-ext (578 bytes)
+2019-06-18 16:37:06.082 [20148] PROXY resolved 'fonts.googleapis.com' to '172.217.19.170:80'
+2019-06-18 16:37:06.289 [20148] PROXY 127.0.0.1:1264 (172.20.42.54) <- 200 fonts.googleapis.com:80 (1096 bytes)
+2019-06-18 16:37:06.360 [20148] PROXY 127.0.0.1:1240 (172.20.42.54) <- 200 automationpractice.com:80 (2920 bytes)
+2019-06-18 16:37:06.363 [20148] PROXY 127.0.0.1:1240 connection upgrade
+2019-06-18 16:37:06.367 [20148] PROXY 127.0.0.1:1255 (172.20.42.54) <- 200 automationpractice.com:80 (607 bytes)
+2019-06-18 16:37:06.371 [20148] PROXY 127.0.0.1:1255 connection upgrade
+2019-06-18 16:37:06.383 [20148] PROXY 127.0.0.1:1256 (172.20.42.54) <- 200 automationpractice.com:80 (2920 bytes)
+2019-06-18 16:37:06.387 [20148] PROXY 127.0.0.1:1256 connection upgrade
+2019-06-18 16:37:06.399 [20148] PROXY 127.0.0.1:1259 (172.20.42.54) <- 200 automationpractice.com:80 (2920 bytes)
+2019-06-18 16:37:06.402 [20148] PROXY 127.0.0.1:1259 connection upgrade
+2019-06-18 16:37:06.419 [20148] PROXY 127.0.0.1:1258 (172.20.42.54) <- 200 automationpractice.com:80 (1460 bytes)
+2019-06-18 16:37:06.420 [20148] PROXY 127.0.0.1:1258 connection upgrade
+2019-06-18 16:37:11.722 [20148] PROXY 127.0.0.1:1264 (172.20.42.54) -> GET http://fonts.gstatic.com/s/opensans/v16/mem5YaGs126MiZpBA-UNirkOUuhp.woff2 (608 bytes)
+2019-06-18 16:37:11.726 [20148] PROXY resolved 'fonts.gstatic.com' to '216.58.207.3:80'
+2019-06-18 16:37:11.865 [20148] PROXY 127.0.0.1:1264 (172.20.42.54) <- 200 fonts.gstatic.com:80 (15272 bytes)
+2019-06-18 16:37:14.229 [20148] PROXY 127.0.0.1:1240 connection upgrade
+2019-06-18 16:37:14.779 [20148] PROXY 127.0.0.1:1241 connection upgrade
+2019-06-18 16:37:14.780 [20148] PROXY 127.0.0.1:1255 connection upgrade
+2019-06-18 16:37:14.787 [20148] PROXY 127.0.0.1:1259 connection upgrade
+2019-06-18 16:37:14.823 [20148] PROXY 127.0.0.1:1258 connection upgrade
+2019-06-18 16:37:17.171 [20148] PROXY resolved 'automationpractice.com' to '198.46.81.188:80'
+2019-06-18 16:37:17.174 [20148] PROXY 127.0.0.1:1294 (172.20.42.54) -> POST http://automationpractice.com/index.php?controller=authentication (1143 bytes)
+2019-06-18 16:37:18.227 [20148] PROXY 127.0.0.1:1294 (172.20.42.54) <- 200 automationpractice.com:80 (2920 bytes)
+2019-06-18 16:37:18.227 [20148] PROXY 127.0.0.1:1294 connection upgrade
+2019-06-18 16:37:18.678 [20148] PROXY resolved 'automationpractice.com' to '198.46.81.188:80'
+2019-06-18 16:37:18.679 [20148] PROXY 127.0.0.1:1264 (172.20.42.54) -> GET http://automationpractice.com/themes/default-bootstrap/css/modules/blockcart/blockcart.css (845 bytes)
+2019-06-18 16:37:18.692 [20148] PROXY resolved 'automationpractice.com' to '198.46.81.188:80'
+2019-06-18 16:37:18.693 [20148] PROXY 127.0.0.1:1303 (172.20.42.54) -> GET http://automationpractice.com/themes/default-bootstrap/css/authentication.css (832 bytes)
+2019-06-18 16:37:18.704 [20148] PROXY resolved 'automationpractice.com' to '198.46.81.188:80'
+2019-06-18 16:37:18.705 [20148] PROXY 127.0.0.1:1305 (172.20.42.54) -> GET http://automationpractice.com/themes/default-bootstrap/css/modules/blockbanner/blockbanner.css (849 bytes)
+2019-06-18 16:37:18.716 [20148] PROXY resolved 'automationpractice.com' to '198.46.81.188:80'
+2019-06-18 16:37:18.717 [20148] PROXY 127.0.0.1:1307 (172.20.42.54) -> GET http://automationpractice.com/themes/default-bootstrap/css/modules/blockcategories/blockcategories.css (857 bytes)
+2019-06-18 16:37:18.727 [20148] PROXY resolved 'automationpractice.com' to '198.46.81.188:80'
+2019-06-18 16:37:18.728 [20148] PROXY 127.0.0.1:1309 (172.20.42.54) -> GET http://automationpractice.com/themes/default-bootstrap/css/modules/blockcurrencies/blockcurrencies.css (857 bytes)
+2019-06-18 16:37:19.142 [20148] PROXY 127.0.0.1:1264 (172.20.42.54) <- 200 automationpractice.com:80 (2920 bytes)
+2019-06-18 16:37:19.144 [20148] PROXY 127.0.0.1:1264 connection upgrade
+2019-06-18 16:37:19.149 [20148] PROXY 127.0.0.1:1303 (172.20.42.54) <- 200 automationpractice.com:80 (1123 bytes)
+2019-06-18 16:37:19.150 [20148] PROXY 127.0.0.1:1303 connection upgrade
+2019-06-18 16:37:19.158 [20148] PROXY 127.0.0.1:1305 (172.20.42.54) <- 200 automationpractice.com:80 (465 bytes)
+2019-06-18 16:37:19.158 [20148] PROXY 127.0.0.1:1305 connection upgrade
+2019-06-18 16:37:19.180 [20148] PROXY 127.0.0.1:1309 (172.20.42.54) <- 200 automationpractice.com:80 (1460 bytes)
+2019-06-18 16:37:19.181 [20148] PROXY 127.0.0.1:1309 connection upgrade
+2019-06-18 16:37:19.182 [20148] PROXY 127.0.0.1:1307 (172.20.42.54) <- 200 automationpractice.com:80 (3027 bytes)
+2019-06-18 16:37:19.183 [20148] PROXY 127.0.0.1:1307 connection upgrade
+2019-06-18 16:37:26.154 [20148] PROXY 127.0.0.1:1309 connection upgrade
+2019-06-18 16:37:26.220 [20148] PROXY 127.0.0.1:1303 connection upgrade
+2019-06-18 16:37:26.257 [20148] PROXY 127.0.0.1:1294 connection upgrade
+2019-06-18 16:37:26.928 [20148] PROXY 127.0.0.1:1305 connection upgrade
+2019-06-18 16:37:27.299 [20148] PROXY 127.0.0.1:1307 connection upgrade
+2019-06-18 16:37:34.373 [20148] PROXY resolved 'automationpractice.com' to '198.46.81.188:80'
+2019-06-18 16:37:34.375 [20148] PROXY 127.0.0.1:1330 (172.20.42.54) -> GET http://automationpractice.com/themes/default-bootstrap/font/fontawesome-webfont.woff?v=3.2.1 (873 bytes)
+2019-06-18 16:37:34.846 [20148] PROXY 127.0.0.1:1330 (172.20.42.54) <- 200 automationpractice.com:80 (2920 bytes)
+2019-06-18 16:37:34.847 [20148] PROXY 127.0.0.1:1330 connection upgrade
+2019-06-18 16:37:37.489 [20148] PROXY 127.0.0.1:1264 connection upgrade
+2019-06-18 16:37:39.508 [20148] PROXY 127.0.0.1:1330 connection upgrade
+2019-06-18 16:38:12.576 [20148] Remote tunnel VM has been terminated by user request. Shutting down.
+2019-06-18 16:38:12.577 [20148] Cleaning up.
+2019-06-18 16:38:12.577 [20148] Removing tunnel 28171f9acae8470e9ff403fde30c3be5.
+2019-06-18 16:38:12.577 [20148] Waiting for any active jobs using this tunnel to finish.
+2019-06-18 16:38:12.578 [20148] Press CTRL-C again to shut down immediately.
+2019-06-18 16:38:12.579 [20148] Note: if you do this, tests that are still running will fail.
+2019-06-18 16:38:12.904 [20148] Number of jobs using tunnel: 1.
+2019-06-18 16:38:21.949 [20148] Number of jobs using tunnel: 1.
+2019-06-18 16:38:28.816 [20148] Number of jobs using tunnel: 1.
+2019-06-18 16:38:35.551 [20148] Number of jobs using tunnel: 1.
+2019-06-18 16:38:44.873 [20148] Number of jobs using tunnel: 1.
+2019-06-18 16:38:51.946 [20148] Number of jobs using tunnel: 1.
+2019-06-18 16:38:59.843 [20148] MAIN connecting to maki458.miso.saucelabs.com - maki458.miso.saucelabs.com:443
+2019-06-18 16:39:00.498 [20148] MAIN connecting to KGP server maki458.miso.saucelabs.com took 2348 ms
+2019-06-18 16:39:01.204 [20148] All jobs using the tunnel have finished.
+2019-06-18 16:39:01.207 [20148] Waiting for the connection to terminate...
+2019-06-18 16:39:01.208 [20148] SC Status: 1 after 1 tries
+2019-06-18 16:39:02.208 [20148] SC Status: 3 after 2 tries
+2019-06-18 16:39:02.208 [20148] Connection closed (8).
+2019-06-18 16:39:02.210 [20148] Goodbye.
+2019-06-18 16:41:26.567 [5772] Sauce Connect 4.5.3, build 2589 4b3da11 -dirty
+2019-06-18 16:41:26.569 [5772] Trying to autodetect proxy settings
+2019-06-18 16:41:26.579 [5772] Starting up; pid 5772
+2019-06-18 16:41:26.582 [5772] Command line arguments: sc.exe -u irfanullah -k **** -i eraza@CRLHL-RAZAAEHS1 -X 55001 
+2019-06-18 16:41:26.583 [5772] Log file: D:\fox_build\java_box\src\main\resources\SauceTunnel\bin\sc-eraza@CRLHL-RAZAAEHS1.log
+2019-06-18 16:41:26.584 [5772] Pid file: C:\Users\eraza\AppData\Roaming/sc_client-eraza@CRLHL-RAZAAEHS1.pid
+2019-06-18 16:41:26.584 [5772] Timezone: PKT GMT offset: 5h
+2019-06-18 16:41:26.584 [5772] Using no proxy for connecting to Sauce Labs REST API.
+2019-06-18 16:41:27.946 [5772] Started scproxy on port 55001.
+2019-06-18 16:41:27.947 [5772] Please wait for 'you may start your tests' to start your tests.
+2019-06-18 16:41:27.947 [5772] PROXY *** scproxy started ***
+2019-06-18 16:41:27.980 [5772] PROXY found DNS server 10.31.1.1
+2019-06-18 16:41:27.980 [5772] PROXY found DNS server 10.31.1.2
+2019-06-18 16:41:27.981 [5772] PROXY found DNS server 10.10.4.65
+2019-06-18 16:41:27.981 [5772] PROXY found DNS server 10.10.4.66
+2019-06-18 16:41:48.287 [5772] Secure remote tunnel VM provisioned.
+2019-06-18 16:41:48.289 [5772] Tunnel ID: b017678a1b0c49d99434c320a1da24ee
+2019-06-18 16:41:48.289 [5772] Using no proxy for connecting to tunnel VM.
+2019-06-18 16:41:48.291 [5772] Starting Selenium listener...
+2019-06-18 16:41:48.291 [5772] Establishing secure TLS connection to tunnel...
+2019-06-18 16:41:48.301 [5772] [EVDNS] Added nameserver 10.31.1.1:53 as 0617D208
+2019-06-18 16:41:48.302 [5772] [EVDNS] Added nameserver 10.31.1.2:53 as 0617D420
+2019-06-18 16:41:48.303 [5772] [EVDNS] Added nameserver 10.10.4.65:53 as 0617D558
+2019-06-18 16:41:48.303 [5772] [EVDNS] Added nameserver 10.10.4.66:53 as 0617D690
+2019-06-18 16:41:48.304 [5772] MAIN connecting to maki2072.miso.saucelabs.com - maki2072.miso.saucelabs.com:443
+2019-06-18 16:41:48.541 [5772] Selenium listener started on port 4445.
+2019-06-18 16:41:51.647 [5772] MAIN DNS error: non-recoverable failure in name resolution (-904)
+2019-06-18 16:41:51.648 [5772] MAIN DNS error: EVUTIL_EAI_FAIL
+2019-06-18 16:41:51.649 [5772] MAIN failed to connect KGP (socket error: libevent connection error
+)
+2019-06-18 16:41:52.651 [5772] MAIN connecting to maki2072.miso.saucelabs.com - maki2072.miso.saucelabs.com:443
+2019-06-18 16:41:53.257 [5772] MAIN connecting to KGP server maki2072.miso.saucelabs.com took 2399 ms
+2019-06-18 16:41:57.973 [5772] PROXY 127.0.0.1:1717 (127.0.0.1) -> HEAD http://localhost:8888/debug/vars (269 bytes)
+2019-06-18 16:41:57.976 [5772] PROXY resolved 'localhost' to '127.0.0.1:8888'
+2019-06-18 16:41:58.209 [5772] [32;1mSauce Connect is up, you may start your tests.
+[0m2019-06-18 16:41:58.293 [5772] PROXY 127.0.0.1:1717 (127.0.0.1) -> GET http://localhost:8888/debug/vars (268 bytes)
+2019-06-18 16:42:49.921 [23088] Sauce Connect 4.5.3, build 2589 4b3da11 -dirty
+2019-06-18 16:42:49.922 [23088] Trying to autodetect proxy settings
+2019-06-18 16:42:49.929 [23088] Starting up; pid 23088
+2019-06-18 16:42:49.929 [23088] Command line arguments: sc.exe -u irfanullah -k **** -i eraza@CRLHL-RAZAAEHS1 -X 55001 
+2019-06-18 16:42:49.929 [23088] Log file: D:\fox_build\java_box\src\main\resources\SauceTunnel\bin\sc-eraza@CRLHL-RAZAAEHS1.log
+2019-06-18 16:42:49.929 [23088] Pid file: C:\Users\eraza\AppData\Roaming/sc_client-eraza@CRLHL-RAZAAEHS1.pid
+2019-06-18 16:42:49.929 [23088] Timezone: PKT GMT offset: 5h
+2019-06-18 16:42:49.930 [23088] Using no proxy for connecting to Sauce Labs REST API.
+2019-06-18 16:42:49.936 [23088] Unable to serve metrics on localhost:8888, error was: listen tcp 127.0.0.1:8888: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+2019-06-18 16:42:51.225 [23088] Started scproxy on port 55001.
+2019-06-18 16:42:51.225 [23088] Please wait for 'you may start your tests' to start your tests.
+2019-06-18 16:42:51.225 [23088] PROXY *** scproxy started ***
+2019-06-18 16:42:51.241 [23088] PROXY found DNS server 10.31.1.1
+2019-06-18 16:42:51.242 [23088] PROXY found DNS server 10.31.1.2
+2019-06-18 16:42:51.242 [23088] PROXY found DNS server 10.10.4.65
+2019-06-18 16:42:51.243 [23088] PROXY found DNS server 10.10.4.66
+2019-06-18 16:42:51.252 [23088] PROXY could not create listener
+2019-06-18 16:42:57.120 [5772] MAIN connecting to maki2072.miso.saucelabs.com - maki2072.miso.saucelabs.com:443
+2019-06-18 16:42:57.718 [5772] MAIN connecting to KGP server maki2072.miso.saucelabs.com took 596 ms
+2019-06-18 16:42:59.536 [5772] Remote tunnel VM has been terminated by user request. Shutting down.
+2019-06-18 16:42:59.537 [5772] Cleaning up.
+2019-06-18 16:42:59.537 [5772] Removing tunnel b017678a1b0c49d99434c320a1da24ee.
+2019-06-18 16:42:59.537 [5772] Waiting for any active jobs using this tunnel to finish.
+2019-06-18 16:42:59.538 [5772] Press CTRL-C again to shut down immediately.
+2019-06-18 16:42:59.539 [5772] Note: if you do this, tests that are still running will fail.
+2019-06-18 16:43:01.567 [5772] All jobs using the tunnel have finished.
+2019-06-18 16:43:01.568 [5772] Waiting for the connection to terminate...
+2019-06-18 16:43:01.568 [5772] SC Status: 1 after 1 tries
+2019-06-18 16:43:02.569 [5772] SC Status: 3 after 2 tries
+2019-06-18 16:43:02.569 [5772] Connection closed (8).
+2019-06-18 16:43:02.570 [5772] Goodbye.
+2019-06-18 16:43:12.352 [23088] Secure remote tunnel VM provisioned.
+2019-06-18 16:43:12.352 [23088] Tunnel ID: 896bbe014f4347d8a3794153a10bdd6c
+2019-06-18 16:43:12.353 [23088] Using no proxy for connecting to tunnel VM.
+2019-06-18 16:43:12.355 [23088] Starting Selenium listener...
+2019-06-18 16:43:12.355 [23088] Establishing secure TLS connection to tunnel...
+2019-06-18 16:43:12.383 [23088] [EVDNS] Added nameserver 10.31.1.1:53 as 04729A60
+2019-06-18 16:43:12.386 [23088] [EVDNS] Added nameserver 10.31.1.2:53 as 04729C78
+2019-06-18 16:43:12.388 [23088] [EVDNS] Added nameserver 10.10.4.65:53 as 04729DB0
+2019-06-18 16:43:12.389 [23088] [EVDNS] Added nameserver 10.10.4.66:53 as 04729EE8
+2019-06-18 16:43:12.390 [23088] MAIN connecting to maki2243.miso.saucelabs.com - maki2243.miso.saucelabs.com:443
+2019-06-18 16:43:12.606 [23088] Selenium listener started on port 4445.
+2019-06-18 16:43:15.692 [23088] MAIN DNS error: non-recoverable failure in name resolution (-904)
+2019-06-18 16:43:15.693 [23088] MAIN DNS error: EVUTIL_EAI_FAIL
+2019-06-18 16:43:15.693 [23088] MAIN failed to connect KGP (socket error: libevent connection error
+)
+2019-06-18 16:43:16.695 [23088] MAIN connecting to maki2243.miso.saucelabs.com - maki2243.miso.saucelabs.com:443
+2019-06-18 16:43:17.298 [23088] MAIN connecting to KGP server maki2243.miso.saucelabs.com took 2398 ms
+2019-06-18 16:43:19.614 [23088] [32;1mSauce Connect is up, you may start your tests.
+[0m2019-06-18 16:43:21.661 [23088] CHANNEL 1 ext socket error: No connection could be made because the target machine actively refused it.
+2019-06-18 16:43:21.964 [23088] CHANNEL 1 tried to free nonexistent connection
+2019-06-18 16:43:23.978 [23088] CHANNEL 1 ext socket error: No connection could be made because the target machine actively refused it.
+2019-06-18 16:43:24.282 [23088] CHANNEL 1 tried to free nonexistent connection
+2019-06-18 16:43:26.296 [23088] CHANNEL 1 ext socket error: No connection could be made because the target machine actively refused it.
+2019-06-18 16:43:26.598 [23088] CHANNEL 1 tried to free nonexistent connection
+2019-06-18 16:43:28.611 [23088] CHANNEL 1 ext socket error: No connection could be made because the target machine actively refused it.
+2019-06-18 16:43:28.915 [23088] CHANNEL 1 tried to free nonexistent connection
+2019-06-18 16:43:30.926 [23088] CHANNEL 1 ext socket error: No connection could be made because the target machine actively refused it.
+2019-06-18 16:43:31.230 [23088] CHANNEL 1 tried to free nonexistent connection
+2019-06-18 16:43:31.995 [23088] CHANNEL 2 ext socket error: No connection could be made because the target machine actively refused it.
+2019-06-18 16:43:32.298 [23088] CHANNEL 2 tried to free nonexistent connection
+2019-06-18 16:43:33.099 [23088] CHANNEL 1 ext socket error: No connection could be made because the target machine actively refused it.
+2019-06-18 16:43:33.253 [23088] CHANNEL 3 ext socket error: No connection could be made because the target machine actively refused it.
+2019-06-18 16:43:33.402 [23088] CHANNEL 1 tried to free nonexistent connection
+2019-06-18 16:43:33.557 [23088] CHANNEL 3 tried to free nonexistent connection
+2019-06-18 16:43:34.539 [23088] CHANNEL 1 ext socket error: No connection could be made because the target machine actively refused it.
+2019-06-18 16:43:34.843 [23088] CHANNEL 1 tried to free nonexistent connection
+2019-06-18 16:43:37.683 [23088] Remote tunnel VM has been terminated by user request. Shutting down.
+2019-06-18 16:43:37.684 [23088] Cleaning up.
+2019-06-18 16:43:37.684 [23088] Removing tunnel 896bbe014f4347d8a3794153a10bdd6c.
+2019-06-18 16:43:37.684 [23088] Waiting for any active jobs using this tunnel to finish.
+2019-06-18 16:43:37.688 [23088] Press CTRL-C again to shut down immediately.
+2019-06-18 16:43:37.689 [23088] Note: if you do this, tests that are still running will fail.
+2019-06-18 16:43:38.062 [23088] Number of jobs using tunnel: 1.
+2019-06-18 16:43:46.593 [23088] Number of jobs using tunnel: 1.
+2019-06-18 16:43:53.271 [23088] Number of jobs using tunnel: 1.
+2019-06-18 16:44:01.442 [23088] Number of jobs using tunnel: 1.
+2019-06-18 16:44:08.123 [23088] Number of jobs using tunnel: 1.
+2019-06-18 16:44:14.670 [23088] MAIN connecting to maki2243.miso.saucelabs.com - maki2243.miso.saucelabs.com:443
+2019-06-18 16:44:15.270 [23088] MAIN connecting to KGP server maki2243.miso.saucelabs.com took 2403 ms
+2019-06-18 16:44:15.855 [23088] All jobs using the tunnel have finished.
+2019-06-18 16:44:15.859 [23088] Waiting for the connection to terminate...
+2019-06-18 16:44:15.861 [23088] SC Status: 1 after 1 tries
+2019-06-18 16:44:16.862 [23088] SC Status: 3 after 2 tries
+2019-06-18 16:44:16.863 [23088] Connection closed (8).
+2019-06-18 16:44:16.866 [23088] Goodbye.

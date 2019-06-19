@@ -1,0 +1,89 @@
+2019-06-17 20:11:27.473 [3756] Sauce Connect 4.5.3, build 2589 4b3da11 -dirty
+2019-06-17 20:11:27.475 [3756] Trying to autodetect proxy settings
+2019-06-17 20:11:27.481 [3756] Starting up; pid 3756
+2019-06-17 20:11:27.481 [3756] Command line arguments: sc.exe -u irfanullah -k **** 
+2019-06-17 20:11:27.482 [3756] Log file: D:\fox_build\java_box\src\main\resources\SauceTunnel\bin\sc.log
+2019-06-17 20:11:27.482 [3756] Pid file: C:\Users\eraza\AppData\Roaming/sc_client.pid
+2019-06-17 20:11:27.482 [3756] Timezone: PKT GMT offset: 5h
+2019-06-17 20:11:27.482 [3756] Using no proxy for connecting to Sauce Labs REST API.
+2019-06-17 20:11:28.818 [3756] PROXY *** scproxy started ***
+2019-06-17 20:11:28.856 [3756] PROXY found DNS server 10.31.1.1
+2019-06-17 20:11:28.857 [3756] PROXY found DNS server 10.31.1.2
+2019-06-17 20:11:28.858 [3756] PROXY found DNS server 10.10.4.65
+2019-06-17 20:11:28.858 [3756] PROXY found DNS server 10.10.4.66
+2019-06-17 20:11:28.919 [3756] Started scproxy on port 24215.
+2019-06-17 20:11:28.920 [3756] Please wait for 'you may start your tests' to start your tests.
+2019-06-17 20:11:49.530 [3756] Secure remote tunnel VM provisioned.
+2019-06-17 20:11:49.531 [3756] Tunnel ID: 76d172e9f52b4295abda56e2625740dd
+2019-06-17 20:11:49.532 [3756] Using no proxy for connecting to tunnel VM.
+2019-06-17 20:11:49.538 [3756] Starting Selenium listener...
+2019-06-17 20:11:49.539 [3756] Establishing secure TLS connection to tunnel...
+2019-06-17 20:11:49.578 [3756] [EVDNS] Added nameserver 10.31.1.1:53 as 0473ED00
+2019-06-17 20:11:49.580 [3756] [EVDNS] Added nameserver 10.31.1.2:53 as 0473D758
+2019-06-17 20:11:49.581 [3756] [EVDNS] Added nameserver 10.10.4.65:53 as 0473D890
+2019-06-17 20:11:49.582 [3756] [EVDNS] Added nameserver 10.10.4.66:53 as 0473DCD0
+2019-06-17 20:11:49.584 [3756] MAIN connecting to maki3280.miso.saucelabs.com - maki3280.miso.saucelabs.com:443
+2019-06-17 20:11:49.790 [3756] Selenium listener started on port 4445.
+2019-06-17 20:11:50.210 [3756] MAIN connecting to KGP server maki3280.miso.saucelabs.com took 2376 ms
+2019-06-17 20:11:52.795 [3756] [32;1mSauce Connect is up, you may start your tests.
+[0m2019-06-17 20:11:53.031 [3756] PROXY 127.0.0.1:24257 (127.0.0.1) -> HEAD http://localhost:8888/debug/vars (269 bytes)
+2019-06-17 20:11:53.033 [3756] PROXY resolved 'localhost' to '127.0.0.1:8888'
+2019-06-17 20:11:53.365 [3756] PROXY 127.0.0.1:24257 (127.0.0.1) -> GET http://localhost:8888/debug/vars (268 bytes)
+2019-06-17 20:12:20.128 [3756] Got signal interrupt
+2019-06-17 20:12:20.848 [3756] Cleaning up.
+2019-06-17 20:12:20.848 [3756] Removing tunnel 76d172e9f52b4295abda56e2625740dd.
+2019-06-17 20:12:20.849 [3756] Waiting for any active jobs using this tunnel to finish.
+2019-06-17 20:12:20.849 [3756] Press CTRL-C again to shut down immediately.
+2019-06-17 20:12:20.850 [3756] Note: if you do this, tests that are still running will fail.
+2019-06-17 20:12:24.982 [3756] MAIN connecting to maki3280.miso.saucelabs.com - maki3280.miso.saucelabs.com:443
+2019-06-17 20:12:26.093 [3756] All jobs using the tunnel have finished.
+2019-06-17 20:12:26.095 [3756] Waiting for the connection to terminate...
+2019-06-17 20:12:26.095 [3756] SC Status: 1 after 1 tries
+2019-06-17 20:12:27.096 [3756] SC Status: 3 after 2 tries
+2019-06-17 20:12:27.098 [3756] Connection closed (8).
+2019-06-17 20:12:27.100 [3756] Goodbye.
+2019-06-17 20:15:39.730 [16320] Sauce Connect 4.5.3, build 2589 4b3da11 -dirty
+2019-06-17 20:15:39.731 [16320] Trying to autodetect proxy settings
+2019-06-17 20:15:39.736 [16320] Starting up; pid 16320
+2019-06-17 20:15:39.737 [16320] Command line arguments: sc.exe -u irfanullah -k **** 
+2019-06-17 20:15:39.737 [16320] Log file: D:\fox_build\java_box\src\main\resources\SauceTunnel\bin\sc.log
+2019-06-17 20:15:39.737 [16320] Pid file: C:\Users\eraza\AppData\Roaming/sc_client.pid
+2019-06-17 20:15:39.737 [16320] Timezone: PKT GMT offset: 5h
+2019-06-17 20:15:39.737 [16320] Using no proxy for connecting to Sauce Labs REST API.
+2019-06-17 20:15:41.074 [16320] PROXY *** scproxy started ***
+2019-06-17 20:15:41.090 [16320] PROXY found DNS server 10.31.1.1
+2019-06-17 20:15:41.091 [16320] PROXY found DNS server 10.31.1.2
+2019-06-17 20:15:41.091 [16320] PROXY found DNS server 10.10.4.65
+2019-06-17 20:15:41.091 [16320] PROXY found DNS server 10.10.4.66
+2019-06-17 20:15:41.124 [16320] Started scproxy on port 24588.
+2019-06-17 20:15:41.124 [16320] Please wait for 'you may start your tests' to start your tests.
+2019-06-17 20:15:59.907 [16320] Secure remote tunnel VM provisioned.
+2019-06-17 20:15:59.909 [16320] Tunnel ID: a530635126e24de399ee8105867a1dc9
+2019-06-17 20:15:59.909 [16320] Using no proxy for connecting to tunnel VM.
+2019-06-17 20:15:59.914 [16320] Starting Selenium listener...
+2019-06-17 20:15:59.915 [16320] Establishing secure TLS connection to tunnel...
+2019-06-17 20:15:59.950 [16320] [EVDNS] Added nameserver 10.31.1.1:53 as 0405ECA0
+2019-06-17 20:15:59.952 [16320] [EVDNS] Added nameserver 10.31.1.2:53 as 0405CF78
+2019-06-17 20:15:59.954 [16320] [EVDNS] Added nameserver 10.10.4.65:53 as 0405D0B0
+2019-06-17 20:15:59.958 [16320] [EVDNS] Added nameserver 10.10.4.66:53 as 0405D628
+2019-06-17 20:15:59.961 [16320] MAIN connecting to maki756.miso.saucelabs.com - maki756.miso.saucelabs.com:443
+2019-06-17 20:16:00.168 [16320] Selenium listener started on port 4445.
+2019-06-17 20:16:00.626 [16320] MAIN connecting to KGP server maki756.miso.saucelabs.com took 2337 ms
+2019-06-17 20:16:01.727 [16320] PROXY 127.0.0.1:24619 (127.0.0.1) -> HEAD http://localhost:8888/debug/vars (268 bytes)
+2019-06-17 20:16:01.730 [16320] PROXY resolved 'localhost' to '127.0.0.1:8888'
+2019-06-17 20:16:02.068 [16320] PROXY 127.0.0.1:24619 (127.0.0.1) -> GET http://localhost:8888/debug/vars (267 bytes)
+2019-06-17 20:16:03.174 [16320] [32;1mSauce Connect is up, you may start your tests.
+[0m2019-06-17 20:20:45.256 [16320] Remote tunnel VM has been terminated by user request. Shutting down.
+2019-06-17 20:20:45.256 [16320] Cleaning up.
+2019-06-17 20:20:45.256 [16320] Removing tunnel a530635126e24de399ee8105867a1dc9.
+2019-06-17 20:20:45.257 [16320] Waiting for any active jobs using this tunnel to finish.
+2019-06-17 20:20:45.258 [16320] Press CTRL-C again to shut down immediately.
+2019-06-17 20:20:45.258 [16320] Note: if you do this, tests that are still running will fail.
+2019-06-17 20:20:46.689 [16320] MAIN connecting to maki756.miso.saucelabs.com - maki756.miso.saucelabs.com:443
+2019-06-17 20:20:47.307 [16320] MAIN connecting to KGP server maki756.miso.saucelabs.com took 2386 ms
+2019-06-17 20:20:47.983 [16320] All jobs using the tunnel have finished.
+2019-06-17 20:20:47.983 [16320] Waiting for the connection to terminate...
+2019-06-17 20:20:47.984 [16320] SC Status: 1 after 1 tries
+2019-06-17 20:20:48.984 [16320] SC Status: 3 after 2 tries
+2019-06-17 20:20:48.984 [16320] Connection closed (8).
+2019-06-17 20:20:48.984 [16320] Goodbye.
